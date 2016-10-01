@@ -1,0 +1,26 @@
+title:            Yalov
+tagline:          'Alexander'
+description:      'Personal page'
+permalink: :title
+url:              https://yalov.github.io/
+baseurl:          /
+markdown:         kramdown
+highlighter:      pygments
+
+paginate:         3
+excerpt_separator: <!--more-->
+
+
+author:
+  name:           'Yalov Alexander'
+  email:            mailto://alexander.yalov@gmail.com
+
+
+github:
+  repo:           https://github.com/yalov/
+
+
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
