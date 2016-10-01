@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+{%include meta-tags-index.html%}
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -20,7 +22,10 @@ title: Home
        {{ post.excerpt }}
     {% endif %}
        <a href="{{ post.url }}">узнать больше...</a>
+
+
   </div>
+  <br><hr><br>
   {% endfor %}
 </div>
 

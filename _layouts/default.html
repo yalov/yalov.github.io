@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
     {% include sidebar.html %}
 
     <div class="content container">
-      {{ content }}
+        {{ content }}
+
+        <!-- Comments -->
+        {% if page.comments != false %}
+        {% include disqus_comments.html %}
+        {% endif %}
     </div>
 
-  </body>
+    <!-- script lightbox  -->
+    <script src="/lightbox2/js/lightbox-plus-jquery.min.js"></script>
+
+    <!-- Analitics -->
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+</body>
+
 </html>

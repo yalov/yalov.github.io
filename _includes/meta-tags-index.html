@@ -1,0 +1,68 @@
+<!-- meta-tags-index -->
+
+{% capture full_url %}
+{{page.url | replace:'/index.html','/' | prepend: site.url | prepend: site.baseurl | replace:'//','/' | replace:'//','/' | replace:'https:/','https://'}}
+{% endcapture %}
+
+{% capture meta_width %}
+{% if page.images.first.width %}
+  <meta property="og:image:width" content="{{ page.images.first.width }}" />
+{% else %}
+  <meta property="og:image:width" content="auto" />
+{% endif %}
+{% endcapture %}
+
+{% capture meta_height %}
+{% if page.images.first.height %}
+  <meta property="og:image:height" content="{{ page.images.first.height }}" />
+{% else %}
+  <meta property="og:image:height" content="auto" />
+{% endif %}
+{% endcapture %}
+
+<meta name="description" content="{{site.description | strip}}" />
+<link rel="canonical" href="{{full_url | strip}}" />
+<link rel="author" href="{{ site.author.name }}" />
+<link rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url | replace:'//','/' | replace:'//','/' | replace:'https:/','https://' }}">
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ site.title }}" />
+<meta property="og:site_name" content={{site.title}} />
+<meta property="og:description" content="{{site.description | strip}}" />
+<meta property="og:url" content="{{full_url | strip}}" />
+
+{% if page.images %}
+<meta property="og:image" content="{{ '/images/' | prepend: site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' }}{{ page.images.first.name }}" />
+{{meta_width | strip}}
+{{meta_height | strip}}
+{% endif %}
+
+
+<!-- ld-json-index -->
+<!-- Get the tag name for every tag on the site and set them to the `site_tags` variable. -->
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "{{site.title}}",
+        "headline": "{{site.description}}",
+        "description": "{{site.description}}",
+        "url": "{{site:url}}",
+        "keywords": "{{ site_tags}}",
+
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{site:url}}"
+        },
+
+        "author": {
+            "@type": "Person",
+            "name": "{{site.author.name}}",
+            "sameAs": [
+                "{{site.repository}}"
+            ]
+        }
+    }
+</script>

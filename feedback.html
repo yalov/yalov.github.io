@@ -1,0 +1,30 @@
+---
+layout: default
+title: Contact Me
+tag: sidebar_bottom
+---
+  <div class="container-form">
+    <form id="contact" action="" method="post">
+      <fieldset>
+        <input placeholder="Имя" type="text"   name="name" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="E-mail" type="email" name="_replyto" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Cообщение...." name="message" tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button type="submit" >Отправить</button>
+      </fieldset>
+
+      <input type="hidden" name="_subject" value="yalov.github.io" />
+      <input type="text" name="_gotcha" style="display:none" />
+      <input type="hidden" name="_next" value="{{ site.baseurl }}/feedback-thanks.html" />
+    </form>
+  </div>
+
+  <script>
+      var contactform =  document.getElementById('contact');
+      contactform.setAttribute('action', '//formspree.io/' + 'alexander' + '.' + 'yalov' + '@' + 'gmail' + '.' + 'com');
+  </script>

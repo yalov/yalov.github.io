@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /lightbox2/
+Disallow: /public/
