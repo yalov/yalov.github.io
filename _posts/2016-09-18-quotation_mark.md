@@ -30,12 +30,10 @@ U+00AB<br> _Left-Pointing Double Angle Quotation Mark_  | **«** | `AltGr` + `
 U+00BB<br> _Right-Pointing Double Angle Quotation Mark_ | **»** | `AltGr` + `>`          | Французские «кавычки-ёлочки». Стали традиционными кавычками в русском языке, использующимися при печати.
 U+0022<br> _Quotation Mark_                             | **"** |                        | Универсальная двойная кавычка, иногда называется машинописной или программистской. Находится на втором слое стандартной английской раскладки. Суррогат, который появился во времена печатных машинок, его использовали вместо всех двойных кавычек.
 
-
 Пример использования кавычек и внутренних кавычек:
 
 * Пушкин писал Дельвигу: «Жду „Цыганов“ и тотчас тисну». *(русский)* 
 * “Drugs and weapons still for sale on ‘dark net’”. *(английский)* 
 * „Mein Kampf“. *(немецкий)*
 
-
-## **Раскладка клавиатуры ЯРБУР v1.2 for Windows <br> [Download .zip](https://github.com/yalov/yarbur-keyboard-layouts/releases/download/1.2/Yarbur_v1.2.zip) или [Download .7z](https://github.com/yalov/yarbur-keyboard-layouts/releases/download/1.2/Yarbur_v1.2.7z)**
+### Скачать ЯРБУР v1.2 для Windows — **[.zip](https://github.com/yalov/yarbur-keyboard-layouts/releases/download/1.2/Yarbur_v1.2.zip)** или **[.7z](https://github.com/yalov/yarbur-keyboard-layouts/releases/download/1.2/Yarbur_v1.2.7z)** 
