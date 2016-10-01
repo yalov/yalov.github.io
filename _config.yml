@@ -1,25 +1,34 @@
 title:            Yalov
-tagline:          'Alexander'
 description:      'Personal page'
-permalink: :title
-url:              https://yalov.github.io/
-baseurl:          /
-markdown:         kramdown
-highlighter:      rouge
 
-paginate:         3
-excerpt_separator: <!--more-->
-
+repository: yalov/yalov.github.io
 
 author:
   name:           'Yalov Alexander'
 
+permalink: :year/:title
+url:              https://yalov.github.io
+baseurl:          ""
+markdown:         kramdown
+highlighter:      rouge
 
-github:
-  repo:           https://github.com/yalov/
+paginate:         3
+paginate_path: "/page/:num/"
+
+excerpt_separator: <!--more-->
+
+
+
+
+
+
+
 
 
 gems:
   - jekyll-paginate
-  - jekyll-gist
-
+#  - jekyll-seo-tag
+  - jekyll-hist
+  - jekyll-feed
+  - jekyll-sitemap
+#  - jekyll-redirect-from
