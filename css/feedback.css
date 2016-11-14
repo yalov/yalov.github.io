@@ -28,6 +28,12 @@ form {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
+#timer_form_id {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
 
 fieldset {
   border: medium none !important;
@@ -49,21 +55,17 @@ fieldset {
   padding: 10px;
 }
 
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
-#contact textarea:hover {
-  -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
-  transition: border-color 0.3s ease-in-out;
+
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
   border: 1px solid #aaa;
 }
 
-#contact textarea {
-  height: 100px;
-  resize: none;
-}
+
+
+
 
 #contact input[type="button"],
 #contact button {
@@ -93,6 +95,50 @@ fieldset {
   outline: 0;
   border: 1px solid #aaa;
 }
+
+
+#timer_form_id input[type="text"],
+#timer_form_id input[type="date"] {
+  width: 50%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  float:right;
+
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#timer_form_id input[type="button"],
+#timer_form_id button {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #202020;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+#timer_form_id input[type="button"]:hover,
+#timer_form_id button:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+#timer_form_id input[type="button"]:active,
+#timer_form_id button:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
 
 ::-webkit-input-placeholder {
   color: #888;

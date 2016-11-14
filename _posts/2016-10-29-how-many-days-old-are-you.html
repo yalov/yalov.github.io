@@ -1,0 +1,75 @@
+---
+layout: post
+
+title: Сколько вам дней?
+tag:
+  - sidebar
+
+summary: В вашей жизни слишком мало праздников, и дни рождения наскучили? Узнайте, сколько вам дней и празднуйте каждую «тысячу» или даже «сотню»,
+---
+
+ <div class="container-form">
+  <form id="timer_form_id" name="timerform">
+
+    <fieldset>
+       Дата рождения: <input type="date"   name="date1">
+    </fieldset>
+    <fieldset>
+       Сегодня: <input type="date"   name="date2">
+    </fieldset>
+
+    <fieldset>
+      <input type="button" name="B1" value="Посчитать" onclick="cal()">
+    </fieldset>
+
+    <fieldset name="answerf" hidden="true">
+      <span id="answer"></span>
+    </fieldset>
+
+  </form>
+</div>
+
+<script>
+    window.onload = function() {
+        var date = new Date();
+
+        var day = date.getDate();
+        var month = date.getMonth() + 1;
+        var year = date.getFullYear();
+        if (month < 10) month = "0" + month;
+        if (day < 10) day = "0" + day;
+        var today = year + "-" + month + "-" + day;
+
+        document.timerform.date2.value = today;
+    }
+
+    function cal() {
+        var date1 = new Date(document.timerform.date1.value);
+        var date2 = new Date(document.timerform.date2.value);
+
+        var t1 = date1.getTime();
+        var t2 = date2.getTime();
+
+        document.timerform.answerf.hidden = false;
+
+        if (t1 !== t1) {
+            document.getElementById('answer').innerHTML = "<font color='red'>Введите дату рождения</font>";
+
+        } else {
+          var ms = (t1 > t2) ? t1 - t2 : t2 - t1;
+          var days = Math.round(ms / 86400000);
+
+          var daysplural;
+          var remainder = Math.floor(days % 100 / 10);
+          if (remainder == 1) daysplural = "дней";
+          else {
+              remainder = days % 10;
+              if (remainder == 1) daysplural = "день";
+              else if (remainder < 5) daysplural = "дня";
+              else daysplural = "дней";
+          }
+
+            document.getElementById('answer').innerHTML = "Вам сегодня " + days + " " + daysplural;
+        }
+    }
+</script>
