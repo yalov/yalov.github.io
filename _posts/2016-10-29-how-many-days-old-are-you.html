@@ -29,6 +29,8 @@ summary: В вашей жизни слишком мало праздников, 
   </form>
 </div>
 
+<span id="debug"></span>
+
 <script>
     window.onload = function() {
         var date = new Date();
@@ -41,6 +43,10 @@ summary: В вашей жизни слишком мало праздников, 
         var today = year + "-" + month + "-" + day;
 
         document.timerform.date2.value = today;
+
+        document.getElementById('debug').innerHTML = $(window).width() / parseFloat($("body").css("font-size"));
+
+
     }
 
     function cal() {
@@ -54,22 +60,57 @@ summary: В вашей жизни слишком мало праздников, 
 
         if (t1 !== t1) {
             document.getElementById('answer').innerHTML = "<font color='red'>Введите дату рождения</font>";
-
         } else {
-          var ms = (t1 > t2) ? t1 - t2 : t2 - t1;
-          var days = Math.round(ms / 86400000);
-
-          var daysplural;
-          var remainder = Math.floor(days % 100 / 10);
-          if (remainder == 1) daysplural = "дней";
+          var ms = t2 - t1;
+          if (ms < 0)
+            document.getElementById('answer').innerHTML = "Вы ещё не родились. Будьте аккуратны.";
+          else if (ms == 0)
+            document.getElementById('answer').innerHTML = "Вы родились сегодня. Будьте аккуратны.";
           else {
-              remainder = days % 10;
-              if (remainder == 1) daysplural = "день";
-              else if (remainder < 5) daysplural = "дня";
-              else daysplural = "дней";
+
+            var days = Math.round(ms / 86400000);
+
+            var daysplural;
+            var remainder = Math.floor(days % 100 / 10);
+            if (remainder == 1) daysplural = "дней";
+            else {
+                remainder = days % 10;
+                if (remainder == 1) daysplural = "день";
+                else if (0 < remainder && remainder < 5  ) daysplural = "дня";
+                else daysplural = "дней";
+            }
+
+
+
+
+
+              var daysLeftTo1000 = 1000 - days % 1000 ;
+              var count1000 = Math.floor(days / 1000) ;
+              var date1000 = new Date(date2.getTime());
+              date1000.setDate(date1000.getDate() + daysLeftTo1000);
+
+              if (daysLeftTo1000 == 1000)
+              {
+                var daysLeftTo10000 = 10000 - days % 10000 ;
+                var count10000 = Math.floor(days / 10000) ;
+                var date10000 = new Date(date2.getTime());
+                date10000.setDate(date10000.getDate() + daysLeftTo10000);
+
+                document.getElementById('answer').innerHTML = "Вам сегодня ровно " + days + " " + daysplural + "!<br>"
+                + date10000.toLocaleDateString() +  "г. вам исполнится " +(count10000 +1)+ "0 000 дней." ;
+
+              }
+
+              else {
+                document.getElementById('answer').innerHTML = "Вам сегодня " + days + " " + daysplural + ".<br>"
+                + date1000.toLocaleDateString() +  "г. вам исполнится " +(count1000 +1)+ " 000 дней." ;
+              }
+
+
           }
 
-            document.getElementById('answer').innerHTML = "Вам сегодня " + days + " " + daysplural;
+
+
         }
     }
 </script>
