@@ -5,6 +5,21 @@ title: Home
 
 {%include meta-tags-index.html%}
 
+
+<script>
+
+    window.onresize = function(event) {
+      document.getElementById('debug').innerHTML = "font-size " + parseFloat($("body").css("font-size")) +" width em "+ $(window).width() / parseFloat($("body").css("font-size"));
+    }
+
+    window.onload = function() {
+      document.getElementById('debug').innerHTML = "font-size " + parseFloat($("body").css("font-size")) +" width em "+ $(window).width() / parseFloat($("body").css("font-size"));
+    }
+
+</script>
+
+<span id="debug"></span>
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">

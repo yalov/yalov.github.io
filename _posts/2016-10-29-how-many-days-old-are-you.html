@@ -29,9 +29,8 @@ summary: В вашей жизни слишком мало праздников, 
   </form>
 </div>
 
-<!-- <span id="debug"></span> -->
-
 <script>
+
     window.onload = function() {
         var date = new Date();
 
@@ -43,10 +42,6 @@ summary: В вашей жизни слишком мало праздников, 
         var today = year + "-" + month + "-" + day;
 
         document.timerform.date2.value = today;
-
-        document.getElementById('debug').innerHTML = $(window).width() / parseFloat($("body").css("font-size"));
-
-
     }
 
     function cal() {

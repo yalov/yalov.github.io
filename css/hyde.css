@@ -34,16 +34,8 @@
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
-@media (min-width: 48em) {
-  html {
-    font-size: 16px;
-  }
-}
-@media (min-width: 58em) {
-  html {
-    font-size: 20px;
-  }
-}
+
+
 
 
 /*
@@ -65,23 +57,63 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 11rem;
     text-align: left;
+    font-size: 0.6em;
   }
 }
 
-/* Sidebar links */
-.sidebar a {
-  color: #fff;
+
+@media (min-width: 60em) {
+  .sidebar {
+    width: 12rem;
+    font-size: 0.7em;
+  }
+}
+
+
+@media (min-width: 70em) {
+  .sidebar {
+    width: 14rem;
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 80em) {
+  .sidebar {
+    width: 16rem;
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 90em) {
+  .sidebar {
+    width: 18rem;
+    font-size: 1em;
+  }
+}
+
+
+
+.lead {
+  font-size: 1.5em;
 }
 
 /* About section */
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
+  margin-bottom: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 3.25em;
 }
+
+
+/* Sidebar links */
+.sidebar a {
+  color: #fff;
+}
+
 
 /* Sidebar nav */
 .sidebar-nav {
