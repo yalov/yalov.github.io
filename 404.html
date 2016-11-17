@@ -1,18 +1,73 @@
 ---
 layout: default
-title: "404: Page not found"
-permalink: 404.html
+title: "HTTP 404"
+permalink: 404.html  # this is for https://yalov.github.io/2016/ (https://stackoverflow.com/questions/20973662)
+
 ---
 
-<div class="page">
-  <h1 class="page-title">404: Page not found</h1>
-  <p class="lead">Not to worry. You can either head back to <a href="{% if site.baseurl == "" %} /{% endif %} {{ site.baseurl }}">homepage</a>, or sit there and listen to a goat scream like a human.</p>
+<script type="text/javascript">
+    var totalCount = 7;
+
+    function ChangeIt() {
+        var num = Math.ceil(Math.random() * totalCount);
+        document.body.background = '{{ site.baseurl }}/images/404/' + num + '.gif';
+        document.body.style.backgroundRepeat = "repeat"; // Background repeat
+    }
+    window.onload = ChangeIt;
+</script>
 
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
-<div class='embed-container'>
-<iframe src='https://www.youtube.com/embed/SIaFtAKnqBU?rel=0&showinfo=0&controls=0&iv_load_policy=3&loop=1&playlist=SIaFtAKnqBU&modestbranding=1&autoplay=1' frameborder='0' allowfullscreen></iframe>
+<style>
+    body {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        -webkit-font-smoothing: antialiased;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    form {
+
+        color: #777;
+        background: #4CAF50;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+        font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+    }
+
+    .container-form {
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #contact {
+        background: rgba(255, 255, 255, 0.7);
+        padding: 25px;
+        margin: 150px 0;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    }
+</style>
+
+
+<div class="container-form">
+    <form id="contact">
+        <h1>HTTP 404: Not Found</h1>
+        <p>This page doesn't seem to exist. You might have followed a bad link or mistyped the address.
+           Not to worry. You can <a href="{% if site.baseurl == " " %} /{% endif %} {{ site.baseurl }}">return to the home page</a>, or
+            sit there and procrastinate.</p>
+    </form>
 </div>
 
-
-</div>
+</html>
