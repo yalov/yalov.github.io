@@ -5,7 +5,7 @@ title: Сколько вам дней?
 tag:
   - sidebar
 
-summary: В вашей жизни слишком мало праздников, и дни рождения наскучили? Узнайте, сколько вам дней и празднуйте каждую «тысячу» или даже «сотню»,
+summary: Узнайте, сколько вам дней, и когда у вас будет ближайшая «тысяча». Вы сможете добавить праздник в Google Календарь,
 ---
 
  <div class="container-form">
@@ -22,8 +22,12 @@ summary: В вашей жизни слишком мало праздников, 
       <input type="button" name="B1" value="Посчитать" onclick="cal()">
     </fieldset>
 
-    <fieldset name="answerf" hidden="true">
+    <fieldset name="answerfieldset" hidden="true">
       <span id="answer"></span>
+    </fieldset>
+
+    <fieldset name="addtocalendarfieldset" hidden="true">
+      <input type="button" name="addtocalendar" value="Добавить в Google Календарь" onclick="window.open('')">
     </fieldset>
 
   </form>
@@ -51,7 +55,7 @@ summary: В вашей жизни слишком мало праздников, 
         var t1 = date1.getTime();
         var t2 = date2.getTime();
 
-        document.timerform.answerf.hidden = false;
+        document.timerform.answerfieldset.hidden = false;
 
         if (t1 !== t1) {
             document.getElementById('answer').innerHTML = "<font color='red'>Введите дату рождения</font>";
@@ -76,9 +80,6 @@ summary: В вашей жизни слишком мало праздников, 
             }
 
 
-
-
-
               var daysLeftTo1000 = 1000 - days % 1000 ;
               var count1000 = Math.floor(days / 1000) ;
               var date1000 = new Date(date2.getTime());
@@ -97,8 +98,24 @@ summary: В вашей жизни слишком мало праздников, 
               }
 
               else {
+                var date1001 = new Date(date1000.getTime());
+                date1001.setDate(date1001.getDate() + 1);
+
                 document.getElementById('answer').innerHTML = "Вам сегодня " + days + " " + daysplural + ".<br>"
-                + date1000.toLocaleDateString() +  "г. вам исполнится " +(count1000 +1)+ " 000 дней." ;
+                + date1000.toLocaleDateString() +  "г. вам исполнится " +(count1000 +1)+ " 000 дней. ";
+
+                var title = "Вам исполняется " +(count1000 +1)+ " 000 дней!" ;
+                var dates = date1000.toISOString().slice(0,10).replace(/-/g,"") + "/" + date1001.toISOString().slice(0,10).replace(/-/g,"");
+                var details = "Добавлено на {{site.url}}{{site.baseurl}}, "+ date2.toLocaleDateString() +  "г.";
+
+                var address = "https://calendar.google.com/calendar/render?action=TEMPLATE" +
+                  "&text=" + title +
+                  "&dates=" + dates +
+                  "&details=" + details;
+
+
+                document.timerform.addtocalendarfieldset.hidden = false;
+                document.timerform.addtocalendar.onclick = function(){ window.open(address); }
               }
 
 
