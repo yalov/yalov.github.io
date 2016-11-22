@@ -6,6 +6,15 @@
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+
+    <!-- metatags -->
+    {%if page.flag == "index"%}
+      {%include metatags-index.html%}
+    {%elsif page.id %}
+      {%include metatags.html%}
+    {% endif %}
+    <!-- /metatags -->
+
     <!-- title -->
     <title>
       {% if page.title == "Home" %}
@@ -34,7 +43,18 @@
     <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/favicon144.png">
 
+
+    <!-- script lightbox  -->
+    <script src="/lightbox2/js/lightbox-plus-jquery.min.js"></script>
+
     <!-- Begin Jekyll Feed -->
     {% feed_meta %}
+
+    <!-- Analitics -->
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% else %}
+    <!-- There is no Analitics, because jekyll.environment != 'production'  -->
+    {% endif %}
 
 </head>
