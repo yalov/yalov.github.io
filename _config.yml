@@ -3,6 +3,8 @@ description:      'Personal page'
 
 repository: yalov/yalov.github.io
 
+imgfolder: /images/
+
 author:
   name:           'Yalov Alexander'
   email:            mailto://alexander.yalov@gmail.com

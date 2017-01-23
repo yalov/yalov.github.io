@@ -7,12 +7,18 @@ tag:
   - кавычки
   - апостроф
 
+  #lightbox2:
+images:
+  - name: yarbur.png
+    thumb: yarbur.png
+    text: Раскладка клавиатуры ЯРБУР
+
+
 disqus_comments: true
 disqus_identifier: 7c2a20c0-7c8c-4705-91df-4db65659ffe9
 ---
 
-![yarbur.png](/images/yarbur.png)
-<br><br>
+{%include lightbox.html %}
 
 ## Про апострофы
 
