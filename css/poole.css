@@ -150,41 +150,41 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: "Liberation Mono", monospace;
 }
+
+
 code {
   padding: .25em .5em;
   font-size: 85%;
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  color: #383e41;
-  background-color: #f3f6fa;
+  color: #454545;
+  background-color: #f0f0f0;
   border-radius: 3px;
+  font-family: "Liberation Mono", monospace;
 }
 
-
+/*Большие листинги - pre*/
+/*code - и то и другое*/
 pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
-  font-size: .8rem;
+  font-size: 80%;
   line-height: 1.4;
-  white-space: pre;
+
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: normal;
   color: #567482;
-  font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  background-color: #f3f6fa;
-  border: solid 1px #dce6f0;
+  background-color: #f5f5f5;
+  border: solid 1px #d5d5d5;
 }
 pre code {
   padding: 0;
-  font-size: 100%;
-  color: #567482;
   background-color: transparent;
     word-break: normal;
-    white-space: pre;
+    white-space: pre-wrap;
     background: transparent;
 }
 

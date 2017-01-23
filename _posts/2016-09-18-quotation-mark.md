@@ -7,10 +7,16 @@ tag:
   - кавычки
   - апостроф
 
+  #lightbox2:
+images:
+  - name: yarbur.png
+    thumb: yarbur.png
+    text: Раскладка клавиатуры ЯРБУР
+
+
 ---
 
-![yarbur.png](/images/yarbur.png)
-<br><br>
+{%include lightbox.html %}
 
 ## Про апострофы
 
