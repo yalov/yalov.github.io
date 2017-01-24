@@ -1,0 +1,1367 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:-//calend.ru/belorus///NONSGML iCalcreator 2.6//
+VERSION:2.0
+X-WR-CALNAME:Calend.ru - Праздники Беларуси 2017
+X-WR-CALDESC:Calend.ru - Праздники Беларуси 2017
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+UID:20170110T093556CET-9035K1hDlA@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/293/
+DESCRIPTION:Новый год в Беларуси — это государственный праздник и выходной 
+ день. Он отмечается всеми жителями страны в ночь с 31 декабря на 1 января\
+ , и традиции его празднования очень схожи с традициями России и Украины и 
+ имеют давние корни.\n\nВ...
+DTSTART;VALUE=DATE:20170101
+RRULE:FREQ=YEARLY
+SUMMARY:Новый год
+URL:http://www.calend.ru/holidays/0/0/293/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9048xt523d@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/221/
+DESCRIPTION:В первое воскресенье января в Белоруссии отмечается профессиона
+ льный праздник — День банковских и финансовых работников. Он установлен Ук
+ азом Президента Республики Беларусь № 157 от 26 марта 1998 года.\n\n3 дека
+ бря 1921 года Совет...
+DTSTART;VALUE=DATE:20170101
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=1
+SUMMARY:День банковских и финансовых работников в Беларуси
+URL:http://www.calend.ru/holidays/0/0/221/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9059lw2VjR@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/220/
+DESCRIPTION:Указом Президента Республики Беларусь № 157 от 26 марта 1998 го
+ да ежегодно 5 января отмечается День работников социальной защиты.\n\nОказ
+ ание помощи пенсионерам и инвалидам\, малоимущим\, назначение и выплата со
+ циальных пенсий и пособий\,...
+DTSTART;VALUE=DATE:20170105
+RRULE:FREQ=YEARLY
+SUMMARY:День работников социальной защиты в Беларуси
+URL:http://www.calend.ru/holidays/0/0/220/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-90729CrtBs@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/2/
+DESCRIPTION:Православное Рождество в Беларуси является государственным праз
+ дником.\n\nРождественский сочельник\, или Навечерие Рождества Христова\, п
+ равославные верующие отмечают 6 января. Согласно традиции\, ужин в сочельн
+ ик щедрый\, но постный\,...
+DTSTART;VALUE=DATE:20170107
+RRULE:FREQ=YEARLY
+SUMMARY:Рождество Христово (православное Рождество)
+URL:http://www.calend.ru/holidays/0/0/2/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9083iV7nuo@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/5/
+DESCRIPTION:Традиция отмечать Старый Новый год в ночь с 13 на 14 января воз
+ никла после 1918 года\, когда было введено новое летоисчисление. А когда-т
+ о этот день приходился на 1 января.\n\nВечер перед Новым годом называется 
+ Щедрым вечером. Это...
+DTSTART;VALUE=DATE:20170114
+RRULE:FREQ=YEARLY
+SUMMARY:Старый Новый год
+URL:http://www.calend.ru/holidays/0/0/5/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9096BhBncL@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/171/
+DESCRIPTION:18-19 января - праздник Крещение (Вадохрышча)\, третья (постная
+ \, «водяная») кутья. Христианская религия связывает Крещение с крещением И
+ исуса Христа Иоанном Крестителем в реке Иордан. В церквях в этот день прои
+ сходит крещение воды\, которую берут из...
+DTSTART;VALUE=DATE:20170119
+RRULE:FREQ=YEARLY
+SUMMARY:Крещение Господне (Святое Богоявление)
+URL:http://www.calend.ru/holidays/0/0/171/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-91076iF7E0@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/223/
+DESCRIPTION:В Указе Президента Республики Беларусь № 157 от 26 марта 1998 г
+ ода «О государственных праздниках\, праздничных днях и памятных датах в Ре
+ спублике Беларусь» говорится\, что «в знак признания заслуг работников отд
+ ельных профессий\, отраслей хозяйства и...
+DTSTART;VALUE=DATE:20170119
+RRULE:FREQ=YEARLY
+SUMMARY:День спасателя Беларуси
+URL:http://www.calend.ru/holidays/0/0/223/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9118VNvmMz@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/3291/
+DESCRIPTION:День инженерных войск в Беларуси\, также как и в России\, отмеч
+ ается ежегодно 21 января. В Республике этот профессиональный праздник уста
+ новлен Указом Президента Республики № 157 от 26 марта 1998 года.\n\nСвою и
+ сторию инженерные войска...
+DTSTART;VALUE=DATE:20170121
+RRULE:FREQ=YEARLY
+SUMMARY:День инженерных войск Беларуси
+URL:http://www.calend.ru/holidays/0/0/3291/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9130zOdz62@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/9/
+DESCRIPTION:25 января традиционно считается праздником студентов. История э
+ того праздника как студенческого началась в 18 веке\, когда в 1755 году\, 
+ в день великомученицы Татианы\, российская императрица Елизавета Петровна 
+ подписала «Указ об учреждении в Москве...
+DTSTART;VALUE=DATE:20170125
+RRULE:FREQ=YEARLY
+SUMMARY:День студентов (Татьянин день)
+URL:http://www.calend.ru/holidays/0/0/9/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9141lJxnVJ@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/222/
+DESCRIPTION:Ежегодно в последнее воскресенье января в Беларуси отмечается Д
+ ень белорусской науки\, официально установленный в 1993 году. \n\nВедущим 
+ исследовательским и научным центром страны является Национальная академия 
+ наук Беларуси\, основанная в...
+DTSTART;VALUE=DATE:20170129
+RRULE:FREQ=YEARLY;BYDAY=5SU;BYMONTH=1
+SUMMARY:День белорусской науки
+URL:http://www.calend.ru/holidays/0/0/222/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9156bJMdV3@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/15/
+DESCRIPTION:По традиции 14 февраля в день святого Валентина влюбленные обме
+ ниваются «валентинками». \n\nОфициально День всех влюбленных существует уж
+ е больше 16 веков\, но праздники Любви известны еще со времен древних языч
+ еских культур. Например\,...
+DTSTART;VALUE=DATE:20170214
+RRULE:FREQ=YEARLY
+SUMMARY:День Святого Валентина (День всех влюбленных)
+URL:http://www.calend.ru/holidays/0/0/15/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9168UkZ6uX@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/1736/
+DESCRIPTION:Громницы (Грамнiцы) — зимний праздник\, пришедший к нам с языче
+ ских времен. В церковном календаре он отмечается 2 февраля у католиков\, и
+  15 февраля — у православных. Это очень древний праздник\, он уходит корня
+ ми во времена язычества\, в этот день...
+DTSTART;VALUE=DATE:20170215
+RRULE:FREQ=YEARLY
+SUMMARY:Громницы
+URL:http://www.calend.ru/holidays/0/0/1736/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9179v0IZFU@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/2719/
+DESCRIPTION:15 февраля в Республике Белоруссии отмечается День памяти воино
+ в-интернационалистов. В этот день в 1989 году последний советский солдат п
+ ерешел мост пограничной реки Амударья под Термезом — завершился вывод сове
+ тских войск из Афганистана. Война в...
+DTSTART;VALUE=DATE:20170215
+RRULE:FREQ=YEARLY
+SUMMARY:День памяти воинов-интернационалистов в Беларуси
+URL:http://www.calend.ru/holidays/0/0/2719/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9193lU6p27@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/1246/
+DESCRIPTION:Масленица была сначала древнеславянским языческим многодневным 
+ праздником «проводов зимы»\, которым отмечался переход к весенним земледел
+ ьческим работам. Позже христианская церковь включила Масленицу в число сво
+ их праздников\, которые предваряют...
+DTSTART;VALUE=DATE:20170220
+RDATE;VALUE=DATE:20130311,20140224,20150216,20160307,20170220,20180212,2019
+ 0304,20200224
+SUMMARY:Масленица — начало масленичной недели
+URL:http://www.calend.ru/holidays/0/0/1246/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9205o5OveN@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/1283/
+DESCRIPTION:21 февраля отмечают профессиональный праздник работники одной и
+ з старейших служб Беларуси\, занимающейся картографией и геодезией\, предс
+ тавить себе работу геологов и землеустроителей\, географов и историков без
+  которой невозможно. День работников...
+DTSTART;VALUE=DATE:20170221
+RRULE:FREQ=YEARLY
+SUMMARY:День работников землеустроительной и картографо-геодезической служб
+ ы Беларуси
+URL:http://www.calend.ru/holidays/0/0/1283/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9217JOnRnb@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/16/
+DESCRIPTION:День защитников Отечества и Вооруженных Сил Республики Беларусь
+  — самый «мужественный» праздник в году. Для одних — это памятная и торжес
+ твенная дата\, для других просто хороший повод собраться с друзьями. Так и
+ ли иначе\, но День защитников Отечества...
+DTSTART;VALUE=DATE:20170223
+RRULE:FREQ=YEARLY
+SUMMARY:День защитников Отечества и Вооруженных Сил Республики Беларусь
+URL:http://www.calend.ru/holidays/0/0/16/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9229n2EJGv@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/610/
+DESCRIPTION:В белорусской языческой традиции существует красивый и светлый 
+ праздник\, посвященный весне — «Гуканне вясны». Перевести название можно\,
+  как зазывание весны на землю. \n\nВ до христианские времена на территории
+  Беларуси господствовал...
+DTSTART;VALUE=DATE:20170301
+RRULE:FREQ=YEARLY
+SUMMARY:Праздник прихода весны
+URL:http://www.calend.ru/holidays/0/0/610/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-92433NUlOM@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/227/
+DESCRIPTION:4 марта — памятная дата в истории белорусской милиции. В этот д
+ ень личный состав Министерства внутренних дел отмечает свой профессиональн
+ ый праздник — День милиции\, официально утвержденный указом Президента Рес
+ публики Беларусь № 157 от 26 марта 1998...
+DTSTART;VALUE=DATE:20170304
+RRULE:FREQ=YEARLY
+SUMMARY:День милиции в Беларуси
+URL:http://www.calend.ru/holidays/0/0/227/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9257hIZMi1@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/18/
+DESCRIPTION:Этот праздник возник как день борьбы за права женщин. 8 марта 1
+ 857 года в Нью-Йорке собрались на манифестацию работницы швейных и обувных
+  фабрик. Они требовали установить 10-часовой рабочий день\, светлые и сухи
+ е рабочие помещения\, равную с мужчинами...
+DTSTART;VALUE=DATE:20170308
+RRULE:FREQ=YEARLY
+SUMMARY:День женщин
+URL:http://www.calend.ru/holidays/0/0/18/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9270IUCDaF@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/20/
+DESCRIPTION:Ежегодно 15 марта в республике отмечается День потребителя. Так
+ ое решение принято Указом Президента Республики Беларусь 2 февраля 2000 го
+ да № 35 «О внесении дополнений и изменений в Указ Президента Республики Бе
+ ларусь от 26 марта 1998 года №...
+DTSTART;VALUE=DATE:20170315
+RRULE:FREQ=YEARLY
+SUMMARY:День потребителя Беларуси
+URL:http://www.calend.ru/holidays/0/0/20/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9281bxUWag@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/228/
+DESCRIPTION:День Конституции в Беларуси — государственный праздник\, которы
+ й отмечается в Республике ежегодно 15 марта\, согласно Указу Президента Ре
+ спублики от 26 марта 1998 года №157. \n\nПервая Конституция Советской Соци
+ алистической Республики...
+DTSTART;VALUE=DATE:20170315
+RRULE:FREQ=YEARLY
+SUMMARY:День Конституции Республики Беларусь
+URL:http://www.calend.ru/holidays/0/0/228/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9292ztMv8s@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/1284/
+DESCRIPTION:18 марта в Белоруссии празднуют День внутренних войск — професс
+ иональный праздник охранников общественного порядка страны.\n\nНа территор
+ ии современной Беларуси всегда существовали в той или иной форме институты
+  охраны общественного...
+DTSTART;VALUE=DATE:20170318
+RRULE:FREQ=YEARLY
+SUMMARY:День внутренних войск Беларуси
+URL:http://www.calend.ru/holidays/0/0/1284/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9303c3Ob37@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/1625/
+DESCRIPTION:Праздник Сороки (Саракi) был одним из весенних праздников\, пос
+ вященных  встрече Дня весеннего солнцестояния\, которое было чуть ли не гл
+ авным событием в жизни наших предков-славян (по старому стилю оно приходил
+ ось как раз на эти числа). И буквально...
+DTSTART;VALUE=DATE:20170322
+RRULE:FREQ=YEARLY
+SUMMARY:Сороки
+URL:http://www.calend.ru/holidays/0/0/1625/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9315njjgZP@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/1900/
+DESCRIPTION:В соответствии с Указом Президента Республики Беларусь от 26 ма
+ рта 1998 года № 157 «О государственных праздниках\, праздничных днях и пам
+ ятных датах в Республике Беларусь» в четвертое воскресенье марта отмечаетс
+ я День работников бытового обслуживания...
+DTSTART;VALUE=DATE:20170326
+RRULE:FREQ=YEARLY;BYDAY=4SU;BYMONTH=3
+SUMMARY:День работников бытового обслуживания населения и жилищно-коммуналь
+ ного хозяйства Беларуси
+URL:http://www.calend.ru/holidays/0/0/1900/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9327vLjzvI@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/200/
+DESCRIPTION:2 апреля — День единения народов Беларуси и России. В этот день
+  в 1996 году был подписан Договор «Об образовании Сообщества России и Бело
+ руссии».\n\nСоюзное государство\, как записано в Договоре о его создании\,
+  — это светское\,...
+DTSTART;VALUE=DATE:20170402
+RRULE:FREQ=YEARLY
+SUMMARY:День единения народов Беларуси и России
+URL:http://www.calend.ru/holidays/0/0/200/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9339dxEG8i@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/137/
+DESCRIPTION:Этот праздник - День геолога - был установлен Указом президента
+  Республики Беларусь 21 февраля 1996 года. Этим была подчеркнута глубокая 
+ признательность и уважение всем тем\, кто непосредственно трудится у буров
+ ого станка\, гидрогеологической...
+DTSTART;VALUE=DATE:20170402
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=4
+SUMMARY:День геолога в Беларуси
+URL:http://www.calend.ru/holidays/0/0/137/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-93524vHsrk@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/173/
+DESCRIPTION:7 апреля - праздник Благовещения (Дабравешчанне\, Звеставанне).
+  Согласно с Евангелием от Луки в этот день архангел Гавриил поведал Марии 
+ о безгрешном зачатии. Праздник Благовещения особенно почитают женщины\, ко
+ торые видят в деве Марии идеал Матери\,...
+DTSTART;VALUE=DATE:20170407
+RRULE:FREQ=YEARLY
+SUMMARY:Благовещение Пресвятой Богородицы
+URL:http://www.calend.ru/holidays/0/0/173/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9363ThTUvu@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/3290/
+DESCRIPTION:8 апреля в Беларуси отмечается профессиональный праздник — День
+  сотрудников военных комиссариатов. \n\nСвою историю праздник ведёт с сове
+ тских времён. Декрет Советского правительства от 8 апреля 1918 года учреди
+ л местные аппараты по...
+DTSTART;VALUE=DATE:20170408
+RRULE:FREQ=YEARLY
+SUMMARY:День сотрудников военных комиссариатов в Беларуси
+URL:http://www.calend.ru/holidays/0/0/3290/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-93779c1dTH@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/183/
+DESCRIPTION:Этот праздник не имеет точной даты\, празднуется он в последнее
+  воскресение перед Пасхой. \n\nВ Вербное воскресенье каждый крестьянин шел
+  в церковь (костел) с большим пучком вербы и можжевельника\, где они освящ
+ ались. Поскольку этим...
+DTSTART;VALUE=DATE:20170409
+RDATE;VALUE=DATE:20050424,20060416,20070401,20080420,20090412,20100328,2011
+ 0417,20120408,20130428,20140413,20150405,20160424,20170409,20180401,201904
+ 21,20200412
+SUMMARY:Вход Господень в Иерусалим (Вербное Воскресенье)
+URL:http://www.calend.ru/holidays/0/0/183/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9389lb9zNn@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/2555/
+DESCRIPTION:День войск противовоздушной обороны в Беларуси был установлен У
+ казом президента Республики Беларусь № 157 в марте 1998 года\, но празднов
+ ать его начали еще в советское время. Президиум Верховного Совета СССР в 1
+ 975 году постановил: «за большие...
+DTSTART;VALUE=DATE:20170409
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=4
+SUMMARY:День войск противовоздушной обороны Беларуси
+URL:http://www.calend.ru/holidays/0/0/2555/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9404KVou9U@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/182/
+DESCRIPTION:Пасха — главное событие года для всех христиан и самый большой 
+ православный праздник. \n\nСлово «Пасха» пришло к нам из греческого языка 
+ и означает «прехождение»\, «избавление». В этот день мы торжествуем избавл
+ ение через Христа Спасителя...
+DTSTART;VALUE=DATE:20170416
+RDATE;VALUE=DATE:20050501,20060423,20070408,20080427,20090419,20100404,2011
+ 0424,20120415,20130505,20140420,20150412,20160501,20170416,20180408,201904
+ 28,20200419
+SUMMARY:Пасха
+URL:http://www.calend.ru/holidays/0/0/182/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-94199Sbuh7@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/317/
+DESCRIPTION:Пасха (католическая Пасха) – большой и важный праздник для всех
+  христиан\, установленный в честь воскресения Иисуса Христа\, – в Беларуси
+  является государственным праздником\, также как и Пасха по календарю прав
+ ославной конфессии. И это не удивительно...
+DTSTART;VALUE=DATE:20170416
+RDATE;VALUE=DATE:20110424,20120408,20130331,20140420,20150405,20160327,2017
+ 0416,20180401,20190421,20200412
+SUMMARY:Пасха у западных христиан
+URL:http://www.calend.ru/holidays/0/0/317/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9436DOm6cM@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/2871/
+DESCRIPTION:Международный фестиваль средневековой культуры и музыки «Белый 
+ Замок» – это один из старейших рыцарских фестивалей\, проводимых на постсо
+ ветском пространстве. Он проходит ежегодно в под Минском в деревне Остроши
+ цкий Городок на территории...
+DTSTART;VALUE=DATE:20170418
+RDATE;VALUE=DATE:20100817,20110819,20120817,20130315,20140314,20150418,2016
+ 0418,20170418
+SUMMARY:Фестиваль «Белый Замок»
+URL:http://www.calend.ru/holidays/0/0/2871/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9451urBAIM@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/1908/
+DESCRIPTION:Радуница (Радуніца) — весенний языческий праздник восточных сла
+ вян\, связанный с культом предков. После крещения его стали отмечать на Фо
+ миной неделе — в 1-е воскресенье после Пасхи\, либо в следующие за ним пон
+ едельник или вторник (последнее особенно...
+DTSTART;VALUE=DATE:20170425
+RDATE;VALUE=DATE:20100413,20110503,20120424,20130514,20140429,20150421,2016
+ 0510,20170425,20180417,20190507,20200428
+SUMMARY:Радуница
+URL:http://www.calend.ru/holidays/0/0/1908/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9463fKsIZ2@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/1755/
+DESCRIPTION:Эта дата стала особой не только для граждан Украины\, Беларуси\
+ , России\, но и для всего мира. Все цивилизованное человечество в этот ден
+ ь вспоминает о событиях на Чернобыльской АЭС\, о тех\, кто\, не жалея жизн
+ и и здоровья\, встал на борьбу с радиационной...
+DTSTART;VALUE=DATE:20170426
+RRULE:FREQ=YEARLY
+SUMMARY:День чернобыльской трагедии
+URL:http://www.calend.ru/holidays/0/0/1755/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-94755KWgei@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/37/
+DESCRIPTION:1 мая – один из самых странных всемирных праздников. Даже его р
+ одословная ведет свое начало с подавления чикагской городской полицией 1 м
+ ая 1886 года беспорядков\, вспыхнувших во время демонстрации местных рабоч
+ их. \n\n1 мая 1886 года...
+DTSTART;VALUE=DATE:20170501
+RRULE:FREQ=YEARLY
+SUMMARY:Праздник труда
+URL:http://www.calend.ru/holidays/0/0/37/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9489wfxVgV@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/236/
+DESCRIPTION:День печати ежегодно празднуется 5 мая согласно Указу Президент
+ а Республики Беларусь N 156 от 2 мая 1996 года «Об установлении в Республи
+ ке Беларусь праздника – Дня печати».\n\nЭта дата\, 5 мая\, ведет свою исто
+ рию от первого выхода...
+DTSTART;VALUE=DATE:20170505
+RRULE:FREQ=YEARLY
+SUMMARY:День печати в Беларуси
+URL:http://www.calend.ru/holidays/0/0/236/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9500WVh4s3@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/39/
+DESCRIPTION:Старшее поколение работников радио любит свой профессиональный 
+ праздник и считает «родным» День радио\, который отмечается 7 мая. В Белар
+ уси этот праздник установлен Указом Президента Республики № 157 от 26 март
+ а 1998 года и называется День...
+DTSTART;VALUE=DATE:20170507
+RRULE:FREQ=YEARLY
+SUMMARY:День работников радио\, телевидения и связи
+URL:http://www.calend.ru/holidays/0/0/39/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-95133zoKps@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/40/
+DESCRIPTION:День Победы в Беларуси — государственный праздник\, установленн
+ ый Указом Президента Республики Беларусь № 157 от 26 марта 1998 года.\n\nР
+ ади мира на Земле сложили свои головы на алтарь Отечества примерно 27 милл
+ ионов советских людей. В...
+DTSTART;VALUE=DATE:20170509
+RRULE:FREQ=YEARLY
+SUMMARY:День Победы
+URL:http://www.calend.ru/holidays/0/0/40/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-952423pt0C@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/233/
+DESCRIPTION:Второе воскресенье мая — День Государственного герба Республики
+  Беларусь и Государственного флага Республики Беларусь. Этот государственн
+ ый праздник отмечается в стране ежегодно в соответствии с Указом Президент
+ а Республики Беларусь № 157 от 26...
+DTSTART;VALUE=DATE:20170514
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=5
+SUMMARY:День Государственного герба и Государственного флага Республики Бел
+ арусь
+URL:http://www.calend.ru/holidays/0/0/233/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9536PgoBp7@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/43/
+DESCRIPTION:Этот день широко отмечается и в Беларуси: проводятся благотвори
+ тельные вечера для опекунских семей с детьми\, встречи супружеских пар\, и
+ меющих большой опыт семейной жизни\, праздничные мероприятия для ребят из 
+ многодетных и малообеспеченных семей\,...
+DTSTART;VALUE=DATE:20170515
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день семьи
+URL:http://www.calend.ru/holidays/0/0/43/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9547ba3Mss@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/140/
+DESCRIPTION:Май — это месяц солнца и надежд. Последнее воскресенье этого ме
+ сяца – самый радостный и замечательный праздник для всех преподавателей и 
+ студентов факультета химии. \n\nВ каждом университете есть химический факу
+ льтет с обязательным Днем...
+DTSTART;VALUE=DATE:20170528
+RRULE:FREQ=YEARLY;BYDAY=5SU;BYMONTH=5
+SUMMARY:День химика
+URL:http://www.calend.ru/holidays/0/0/140/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9558UmGxrS@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/3295/
+DESCRIPTION:28 мая в Беларуси отмечается славный праздник — День погранични
+ ка. \n\nПограничные войска выполняют почетную обязанность\, охраняя внешни
+ е рубежи государства\, и это еще раз доказывает законность существования д
+ анного праздника\, который...
+DTSTART;VALUE=DATE:20170528
+RRULE:FREQ=YEARLY
+SUMMARY:День пограничника в Беларуси
+URL:http://www.calend.ru/holidays/0/0/3295/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9572pwM6wI@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/185/
+DESCRIPTION:Сёмуха — это завершающий весенний праздник\, совпадающий с церк
+ овным праздником — Днем Святой Троицы (50-й день после Пасхи).\n\nНа Семух
+ у было принято украшать дома веточками березы\, клена\, дуба. Жители город
+ ов  в этот день устраивали...
+DTSTART;VALUE=DATE:20170604
+RDATE;VALUE=DATE:20050619,20060611,20070527,20080615,20090607,20100523,2011
+ 0612,20120603,20130623,20140608,20150531,20160619,20170604,20180527,201906
+ 16,20200607
+SUMMARY:Сёмуха
+URL:http://www.calend.ru/holidays/0/0/185/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-95863Kjix3@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/549/
+DESCRIPTION:Указом Президента Беларуси в стране этот национальный праздник 
+ назначен на 5 июня. Он совпадает с датой празднования Всемирного дня окруж
+ ающей среды (World Environment Day)\, который учрежден Генеральной Ассамбл
+ еей ООН в 1972 году. \n\nЗа...
+DTSTART;VALUE=DATE:20170605
+RRULE:FREQ=YEARLY
+SUMMARY:День охраны окружающей среды Беларуси
+URL:http://www.calend.ru/holidays/0/0/549/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9597VsXg9s@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/142/
+DESCRIPTION:День работников легкой промышленности Беларуси — профессиональн
+ ый праздник работников и ветеранов отрасли легкой промышленности. Именно б
+ лагодаря им население областей и городов Беларуси имеет возможность приобр
+ етать качественную продукцию местного...
+DTSTART;VALUE=DATE:20170611
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=6
+SUMMARY:День работников легкой промышленности Беларуси
+URL:http://www.calend.ru/holidays/0/0/142/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9607OZkgFt@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/143/
+DESCRIPTION:В этот день все медики Беларуси отмечают свой профессиональный 
+ праздник — День медицинского работника.\n\nВрачевание испокон веков считал
+ ось одной из самых почитаемых и ответственных профессий. Повседневная забо
+ та о здоровье населения\,...
+DTSTART;VALUE=DATE:20170618
+RRULE:FREQ=YEARLY;BYDAY=3SU;BYMONTH=6
+SUMMARY:День медицинского работника
+URL:http://www.calend.ru/holidays/0/0/143/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9618IUuUBV@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/55/
+DESCRIPTION:22 июня в Беларуси отмечается скорбная дата — День всенародной 
+ памяти жертв Великой Отечественной войны. \n\nНа рассвете 22 июня 1941 год
+ а фашистская Германия\, вероломно нарушив договор о ненападении\, начала в
+ ойну против Советского...
+DTSTART;VALUE=DATE:20170622
+RRULE:FREQ=YEARLY
+SUMMARY:День всенародной памяти жертв Великой Отечественной войны
+URL:http://www.calend.ru/holidays/0/0/55/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9629EVtxum@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/3207/
+DESCRIPTION:Ежегодно в последнее воскресенье июня Беларусь отмечает День мо
+ лодежи — праздник творчества и вдохновения\, энергии и задора\, познания и
+  самоутверждения\, любви и романтики.\n\nВ Беларуси молодежная политика да
+ вно стала одним из...
+DTSTART;VALUE=DATE:20170625
+RRULE:FREQ=YEARLY;BYDAY=5SU;BYMONTH=6
+SUMMARY:День молодежи в Беларуси
+URL:http://www.calend.ru/holidays/0/0/3207/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9641bRwLk6@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/247/
+DESCRIPTION:Ежегодно 26 июня в Белоруссии отмечается День работников прокур
+ атуры.\n\n26 июня 1922 года на третьей сессии ЦИК Белорусской ССР\, с цель
+ ю осуществления надзора за соблюдением законов и в интересах «правильной п
+ остановки» борьбы с...
+DTSTART;VALUE=DATE:20170626
+RRULE:FREQ=YEARLY
+SUMMARY:День работников прокуратуры Беларуси
+URL:http://www.calend.ru/holidays/0/0/247/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9652SU4DGA@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/248/
+DESCRIPTION:Ежегодно 30 июня\, начиная с 2000 года\, в Республике Беларусь 
+ отмечается государственный праздник — День экономиста. Он установлен Указо
+ м Президента Республики Беларусь № 35 от 2 февраля 2000 года.\n\nВ 1920 го
+ ду постановлением Совета...
+DTSTART;VALUE=DATE:20170630
+RRULE:FREQ=YEARLY
+SUMMARY:День экономиста в Беларуси
+URL:http://www.calend.ru/holidays/0/0/248/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-96653Dne68@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/145/
+DESCRIPTION:В первое воскресенье июля в Беларуси отмечается День работников
+  водного транспорта. \n\nВиновников торжества в стране\, правда\, всего ок
+ оло трех тысяч\, но\, несмотря на малую численность\, в экономике Беларуси
+  отрасль в последнее время...
+DTSTART;VALUE=DATE:20170702
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=7
+SUMMARY:День работников водного транспорта в Беларуси
+URL:http://www.calend.ru/holidays/0/0/145/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9677icU44J@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/253/
+DESCRIPTION:День Независимости Республики Беларусь (День Республики) — глав
+ ный праздник белорусской государственности\, отмечаемый ежегодно 3 июля. 
+ \n\n3 июля 1944 года произошло также освобождение столицы Белоруссии\, Мин
+ ска\, от немецко-фашистских...
+DTSTART;VALUE=DATE:20170703
+RRULE:FREQ=YEARLY
+SUMMARY:День Независимости Республики Беларусь (День Республики)
+URL:http://www.calend.ru/holidays/0/0/253/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9689TvTJ0c@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/206/
+DESCRIPTION:В ночь с 6 на 7 июля (у католиков — с 23 на 24 июня) отмечалось
+  Купалье (Купалле\, Ян\, Иван)\, которое являлось своеобразной кульминацие
+ й летних событий в народной жизни.\n\nИван Купала является одним из самых 
+ почитаемых праздников у...
+DTSTART;VALUE=DATE:20170707
+RRULE:FREQ=YEARLY
+SUMMARY:Иван Купала
+URL:http://www.calend.ru/holidays/0/0/206/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9700Nz6kov@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/250/
+DESCRIPTION:Ежегодно во второе воскресенье июля в Белоруссии отмечается про
+ фессиональный праздник - День работников налоговых органов Республики\, ус
+ тановленный указом президента в марте 1998 года.\n\nГосударственная налого
+ вая служба в стране была...
+DTSTART;VALUE=DATE:20170709
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=7
+SUMMARY:День работников налоговых органов Беларуси
+URL:http://www.calend.ru/holidays/0/0/250/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-97104nzU17@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/148/
+DESCRIPTION:По Указу президента Республики Беларусь № 157 от 26 марта 1998 
+ года «О государственных праздниках\, праздничных днях и памятных датах в Р
+ еспублике Беларусь» День металлурга в Беларуси отмечается ежегодно в треть
+ е воскресенье...
+DTSTART;VALUE=DATE:20170716
+RRULE:FREQ=YEARLY;BYDAY=3SU;BYMONTH=7
+SUMMARY:День металлурга
+URL:http://www.calend.ru/holidays/0/0/148/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9724pzlBJr@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/2502/
+DESCRIPTION:Зажинки (Зажынкі) — один из древнейших земледельческих праздник
+ ов. По одним источникам он праздновался 21 июля в день Прокопия Жатвенника
+  (Прокопа Жнеца). Считалось\, что «Прокоп летний — жней и жатвенник\, жатв
+ у начинает». По другим — 29 июля в день...
+DTSTART;VALUE=DATE:20170721
+RRULE:FREQ=YEARLY
+SUMMARY:Зажинки
+URL:http://www.calend.ru/holidays/0/0/2502/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9737mxxfJp@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/254/
+DESCRIPTION:Ежегодно 25 июля в Белоруссии отмечается профессиональный празд
+ ник - День пожарной службы\, сотрудники которой ценой своего здоровья\, а 
+ порой и жизни\, ежегодно спасают от пожаров тысячи людей и единиц имуществ
+ а.\n\nОснованием для выбора...
+DTSTART;VALUE=DATE:20170725
+RRULE:FREQ=YEARLY
+SUMMARY:День пожарной службы в Беларуси
+URL:http://www.calend.ru/holidays/0/0/254/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9749DtncZa@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/2802/
+DESCRIPTION:День работников торговли отмечается в Белоруссии ежегодно в пос
+ леднее воскресенье июля. До 1998 года этот профессиональный праздник отмеч
+ ался в Республике как День работников торговли\, бытового обслуживания нас
+ еления и жилищно-коммунального...
+DTSTART;VALUE=DATE:20170730
+RRULE:FREQ=YEARLY;BYDAY=5SU;BYMONTH=7
+SUMMARY:День работников торговли в Беларуси
+URL:http://www.calend.ru/holidays/0/0/2802/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9761zxCuW9@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/3306/
+DESCRIPTION:Как и в России\, ежегодно 2 августа в Беларуси отмечается добле
+ стный праздник — День десантников и сил специальных операций Вооруженных С
+ ил Республики Беларусь\, утвержденный Указом Президента № 397 от 30 июля 2
+ 010 года. Свою историю он также ведёт с...
+DTSTART;VALUE=DATE:20170802
+RRULE:FREQ=YEARLY
+SUMMARY:День десантников и сил специальных операций Беларуси
+URL:http://www.calend.ru/holidays/0/0/3306/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-97735vJuph@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/151/
+DESCRIPTION:Ежегодно в первое воскресенье августа свой профессиональный пра
+ здник — День железнодорожника — отмечают труженики стальных магистралей Бе
+ ларуси. Этот праздник связан именно с началом строительства и развитием же
+ лезных дорог\, появлением новой...
+DTSTART;VALUE=DATE:20170806
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=8
+SUMMARY:День железнодорожника Беларуси
+URL:http://www.calend.ru/holidays/0/0/151/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9784aPoZlJ@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/153/
+DESCRIPTION:Ежегодно во второе воскресенье августа в Беларуси отмечается Де
+ нь строителя.\n\nВ последние годы все чаще звучат слова об огромном\, неоц
+ енимом вкладе строительного комплекса Республики Беларусь в решение програ
+ ммы жилищного...
+DTSTART;VALUE=DATE:20170813
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=8
+SUMMARY:День строителя
+URL:http://www.calend.ru/holidays/0/0/153/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9798J4mvWh@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/2985/
+DESCRIPTION:Ежегодно в третье воскресенье августа отмечают свой праздник во
+ еннослужащие одного из важнейших подразделений Вооруженных сил Беларуси. Д
+ ень Военно-воздушных сил празднуют сотрудники не только ВВС\, но и войск п
+ ротивовоздушной обороны Республики....
+DTSTART;VALUE=DATE:20170820
+RRULE:FREQ=YEARLY;BYDAY=3SU;BYMONTH=8
+SUMMARY:День Военно-воздушных сил Республики Беларусь
+URL:http://www.calend.ru/holidays/0/0/2985/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9809wuZXo8@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/2605/
+DESCRIPTION:Ежегодно 23 августа в Республике Беларусь отмечается День работ
+ ников государственной статистики. \n\nВ этот день\, в 1920 году\, Военно-р
+ еволюционный комитет Беларуси принял постановление о создании Центрального
+  статистического бюро. В...
+DTSTART;VALUE=DATE:20170823
+RRULE:FREQ=YEARLY
+SUMMARY:День работников государственной статистики Беларуси
+URL:http://www.calend.ru/holidays/0/0/2605/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-98208lZ54s@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/70/
+DESCRIPTION:Это праздник первого звонка. Это самый долгожданный день для те
+ х\, кто впервые переступит школьный порог. В этот день все дороги ведут к 
+ школе. Нарядные ученики\, взволнованные родители и учителя. \n\nДень знани
+ й — это увертюра ко всему...
+DTSTART;VALUE=DATE:20170901
+RRULE:FREQ=YEARLY
+SUMMARY:День знаний
+URL:http://www.calend.ru/holidays/0/0/70/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9831UXD9vV@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/156/
+DESCRIPTION:День работников нефтяной и газовой промышленности отмечается в 
+ Беларуси в первое воскресенье сентября.\n\nНефть и газ являлись и являются
+  ключевыми видами сырья\, их добыча является стратегически важной отраслью
+  республиканской экономики....
+DTSTART;VALUE=DATE:20170903
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=9
+SUMMARY:День работников нефтяной\, газовой и топливной промышленности
+URL:http://www.calend.ru/holidays/0/0/156/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9842RHpTcD@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/335/
+DESCRIPTION:День белорусской письменности является национальным праздником 
+ в Республике и отмечается ежегодно в первое воскресенье сентября.\n\nКонце
+ пция праздника предусматривает показ нерушимого единства белорусского печа
+ тного слова с историей...
+DTSTART;VALUE=DATE:20170903
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=9
+SUMMARY:День белорусской письменности
+URL:http://www.calend.ru/holidays/0/0/335/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-98543H0sF1@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/3314/
+DESCRIPTION:Ежегодно во второе воскресенье сентября в Беларуси отмечается Д
+ ень танкиста. Он установлен в июле 1946 года в ознаменование выдающихся за
+ слуг бронетанковых и механизированных войск в Великой Отечественной войне\
+ , самоотверженного труда...
+DTSTART;VALUE=DATE:20170910
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=9
+SUMMARY:День танкиста в Беларуси
+URL:http://www.calend.ru/holidays/0/0/3314/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9865ankeND@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/2964/
+DESCRIPTION:Каждый год 15 сентября все библиотекари Беларуси — а с ними и м
+ ногие читатели — отмечают профессиональный праздник. День библиотек (Дзень
+  бібліятэк) появился в стране в 2001 году по Указу Президента Республики Б
+ еларусь от 8 сентября 2001 года\, а...
+DTSTART;VALUE=DATE:20170915
+RRULE:FREQ=YEARLY
+SUMMARY:День библиотек Республики Беларусь
+URL:http://www.calend.ru/holidays/0/0/2964/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9877t5IwvE@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/1713/
+DESCRIPTION:В третье воскресенье сентября отмечается профессиональный празд
+ ник людей\, которые своим благородным трудом приумножают наши лесные богат
+ ства и способствуют их рациональному использованию.\n\nЛес – наше самое бо
+ льшое природное богатство\,...
+DTSTART;VALUE=DATE:20170917
+RRULE:FREQ=YEARLY;BYDAY=3SU;BYMONTH=9
+SUMMARY:День работника леса
+URL:http://www.calend.ru/holidays/0/0/1713/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9889LIRrna@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/340/
+DESCRIPTION:Особенность географического положения Белоруссии\, заключающаяс
+ я в отсутствии выхода к морю\, а также границы с пятью странами издревле с
+ пособствовали развитию и укреплению в стране таможенных правил и норм.\n\n
+ Закономерно\, что в 1996...
+DTSTART;VALUE=DATE:20170920
+RRULE:FREQ=YEARLY
+SUMMARY:День таможенника Беларуси
+URL:http://www.calend.ru/holidays/0/0/340/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9901c2lIWS@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/159/
+DESCRIPTION:Ежегодно в последнее воскресенье сентября в Беларуси по традици
+ и отмечается День машиностроителя. Дата профессионального праздника работн
+ иков машиностроения закреплена Указом Президиума Верховного Совета СССР от
+  1 октября 1980 года № 3018-Х «О...
+DTSTART;VALUE=DATE:20170924
+RRULE:FREQ=YEARLY;BYDAY=5SU;BYMONTH=9
+SUMMARY:День машиностроителя в Беларуси
+URL:http://www.calend.ru/holidays/0/0/159/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-99124DzUcU@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/79/
+DESCRIPTION:Пожилым людям в Беларуси со стороны государства уделяется больш
+ ое внимание. В стране создана масштабная система социальной защиты пожилых
+  людей. Она включает предоставление различных льгот и гарантий\, повышений
+  пенсий\, социальное обслуживание и...
+DTSTART;VALUE=DATE:20171001
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день пожилых людей в Беларуси
+URL:http://www.calend.ru/holidays/0/0/79/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9923bX8mTs@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/1854/
+DESCRIPTION:Первое воскресенье октября в Беларуси — это день Учителя! Для к
+ аждого представителя профессии\, связанной с обучением\, этот праздник — о
+ дин из наиболее значимых и торжественных. Этот профессиональный праздник о
+ бозначен в Указе президента Республики...
+DTSTART;VALUE=DATE:20171001
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=10
+SUMMARY:День учителя
+URL:http://www.calend.ru/holidays/0/0/1854/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9934WxucK4@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/2607/
+DESCRIPTION:6 октября ежегодно в Беларуси отмечается День архивиста\, учреж
+ денный в честь годовщины основания первого централизованного государственн
+ ого архива на территории современной Республики Беларусь — Витебского цент
+ рального архива древних актовых книг\,...
+DTSTART;VALUE=DATE:20171006
+RRULE:FREQ=YEARLY
+SUMMARY:День архивиста Беларуси
+URL:http://www.calend.ru/holidays/0/0/2607/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9945g8H186@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/342/
+DESCRIPTION:Ежегодно во второе воскресенье октября в Беларуси отмечается Де
+ нь работников культуры. К этому профессиональному празднику причастны боле
+ е 65 тысяч белорусов — актеры и поэты\, писатели и художники\, музыканты\,
+  работники музеев и выставочных залов\,...
+DTSTART;VALUE=DATE:20171008
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=10
+SUMMARY:День работников культуры Беларуси
+URL:http://www.calend.ru/holidays/0/0/342/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-99560kghfR@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/1475/
+DESCRIPTION:Покров – это название народного праздника\, которое православна
+ я церковь объясняла буквально: покров (покрывало Богородицы). \n\nЭтот пра
+ здник был установлен в середине 10 века. По легенде\, однажды на рассвете 
+ святой Андрей увидел...
+DTSTART;VALUE=DATE:20171014
+RRULE:FREQ=YEARLY
+SUMMARY:Покров Пресвятой Богородицы
+URL:http://www.calend.ru/holidays/0/0/1475/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-99673dBL0D@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/585/
+DESCRIPTION:14 октября – Всемирный день стандартизации. Именно в этот день 
+ в 1946 году на конференции национальных организаций по стандартизации из 2
+ 5 стран была учреждена Международная организация по стандартизации — ISO (
+ от греческого слова isos — равный)....
+DTSTART;VALUE=DATE:20171014
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день стандартизации
+URL:http://www.calend.ru/holidays/0/0/585/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-9979RugK9s@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/345/
+DESCRIPTION:В середине осени — 14 октября — Беларусь отмечает День матери\,
+  дата празднования которого приурочена к великому православному празднику 
+ - Покрову Пресвятой Богородицы.\n\nЗачастую слишком поздно мы замечаем\, ч
+ то все\, чего мы добились в...
+DTSTART;VALUE=DATE:20171014
+RRULE:FREQ=YEARLY
+SUMMARY:День матери в Беларуси
+URL:http://www.calend.ru/holidays/0/0/345/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093556CET-99894gRu6T@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/347/
+DESCRIPTION:Ежегодно 15 октября в Беларуси отмечается День работников фарма
+ цевтической и микробиологической промышленности\, установленный Указом Пре
+ зидента Республики Беларусь №157 от 26 марта 1998 года.\n\nПосле обретения
+  Республикой независимости...
+DTSTART;VALUE=DATE:20171015
+RRULE:FREQ=YEARLY
+SUMMARY:День работников фармацевтической и микробиологической промышленност
+ и Беларуси
+URL:http://www.calend.ru/holidays/0/0/347/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-0001j3LNnu@calend.ru/belorus/
+DTSTAMP:20170110T083556Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/348/
+DESCRIPTION:Праздник мельников отмечался жителями Беларуси\, которые хоть к
+ ак-то причастны к данной профессии\, 25 октября (раньше\, по старому стилю
+ \, он отмечался 12 октября). \n\nИздавна работа мельника уважалась и чтила
+ сь. Ведь в деревне без...
+DTSTART;VALUE=DATE:20171025
+RRULE:FREQ=YEARLY
+SUMMARY:Праздник мельников Беларуси
+URL:http://www.calend.ru/holidays/0/0/348/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-00129Hc2b0@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/164/
+DESCRIPTION:В соответствии с Указом Президента Республики Беларусь № 438 от
+  20 октября 1995 года «Об установлении праздника — Дня автомобилиста» День
+  автомобилиста отмечается ежегодно в последнее воскресенье октября. Этот д
+ ень стал всенародным признанием заслуг...
+DTSTART;VALUE=DATE:20171029
+RRULE:FREQ=YEARLY;BYDAY=5SU;BYMONTH=10
+SUMMARY:День автомобилиста и дорожника Республики Беларусь
+URL:http://www.calend.ru/holidays/0/0/164/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-0024aj9Cb2@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/2503/
+DESCRIPTION:Ежегодно 2 ноября в Беларуси отмечается День памяти\, установле
+ нный Указом Президента Республики Беларусь № 157 от 26 марта 1998 года. В 
+ народе этот день называют Осенние Деды (Восеньскiя Дзяды)\, который правос
+ лавные отмечали на третьей неделе после...
+DTSTART;VALUE=DATE:20171102
+RRULE:FREQ=YEARLY
+SUMMARY:День памяти (Осенние Деды) в Беларуси
+URL:http://www.calend.ru/holidays/0/0/2503/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-0037c84rci@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/349/
+DESCRIPTION:Профессиональный праздник — День работников гражданской авиации
+  — отмечается в Беларуси ежегодно каждое первое воскресенье ноября. Праздн
+ ик утвержден официально и посвящен важнейшей задаче гражданской авиации — 
+ безопасности полетов\, которая...
+DTSTART;VALUE=DATE:20171105
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+SUMMARY:День работников гражданской авиации в Беларуси
+URL:http://www.calend.ru/holidays/0/0/349/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-0049Wrv4ER@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/2971/
+DESCRIPTION:Дата свершения Великой Октябрьской социалистической революции с
+  1918 года отмечалась в СССР как государственный праздник в течение двух д
+ ней\, 7 и 8 ноября. \n\nВ России праздник постепенно утратил свое значение
+ . Хронология событий...
+DTSTART;VALUE=DATE:20171107
+RRULE:FREQ=YEARLY
+SUMMARY:День Октябрьской революции в Республике Беларусь
+URL:http://www.calend.ru/holidays/0/0/2971/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-0062J19vdD@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/2305/
+DESCRIPTION:14 ноября в Беларуси отмечается народный праздник Кузьмы — покр
+ овителя кузнецов. Поэтому этот день называют еще и профессиональным праздн
+ иком этих мастеров — Днем кузнеца. \n\nКузнечное дело — это одно из старин
+ ных и самых уважаемых...
+DTSTART;VALUE=DATE:20171114
+RRULE:FREQ=YEARLY
+SUMMARY:День кузнеца в Беларуси
+URL:http://www.calend.ru/holidays/0/0/2305/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-00738AoGhH@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/1545/
+DESCRIPTION:Ежегодно 17 ноября более четырехсот тысяч белорусских студентов
+  отмечают свой день — День студента. Этот молодежный праздник в Республике
+  приурочен к Международному дню студентов\, который отмечается сегодня во 
+ многих странах...
+DTSTART;VALUE=DATE:20171117
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день студента в Беларуси
+URL:http://www.calend.ru/holidays/0/0/1545/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-0085CGThWE@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/3273/
+DESCRIPTION:Ежегодно в третье воскресенье ноября в Беларуси отмечается проф
+ ессиональный праздник – День работников сельского хозяйства и перерабатыва
+ ющей промышленности агропромышленного комплекса (АПК)\, установленный Указ
+ ом Президента Республики Беларусь 10...
+DTSTART;VALUE=DATE:20171119
+RRULE:FREQ=YEARLY;BYDAY=3SU;BYMONTH=11
+SUMMARY:День работников сельского хозяйства и перерабатывающей промышленнос
+ ти в Беларуси
+URL:http://www.calend.ru/holidays/0/0/3273/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-0097OBLLeu@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/3276/
+DESCRIPTION:19 ноября в Беларуси отмечают День ракетных войск и артиллерии.
+  Этот профессиональный праздник отмечается на основании указа Президента Б
+ еларуси от 5 августа 1996 года как памятный день\, установленный в знак пр
+ изнания заслуг военных специалистов в...
+DTSTART;VALUE=DATE:20171119
+RRULE:FREQ=YEARLY
+SUMMARY:День ракетных войск и артиллерии в Беларуси
+URL:http://www.calend.ru/holidays/0/0/3276/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-0107tgPmVC@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/1726/
+DESCRIPTION:С Пилиповки начинается шестинедельный предрождественский пост\,
+  который закончится 7 января. В это время нельзя есть скоромной пищи\, уст
+ раивать свадьбы. \n\nРаньше говорили: «В Пилиповку день до полудня». Девуш
+ ки ходили на вечерки\, ткали....
+DTSTART;VALUE=DATE:20171128
+RRULE:FREQ=YEARLY
+SUMMARY:Пилиповка
+URL:http://www.calend.ru/holidays/0/0/1726/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-0119n47HKX@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/114/
+DESCRIPTION:В 1992 году в конце Десятилетия инвалидов Организации Объединен
+ ных Наций (1983—1992) Генеральная Ассамблея ООН своей резолюцией №47/3 про
+ возгласила 3 декабря Международным днем инвалидов (International Day of Pe
+ rsons with Disabilities)\, с целью...
+DTSTART;VALUE=DATE:20171203
+RRULE:FREQ=YEARLY
+SUMMARY:День инвалидов Республики Беларусь
+URL:http://www.calend.ru/holidays/0/0/114/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-0130v1XWEZ@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/2565/
+DESCRIPTION:Ежегодно в первое воскресенье декабря в Беларуси отмечается Ден
+ ь юриста в соответствии с Указом Президента Республики Беларусь от 26 март
+ а 1998 года № 157 «О государственных праздниках\, праздничных днях и памят
+ ных датах в Республике...
+DTSTART;VALUE=DATE:20171203
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=12
+SUMMARY:День юриста в Беларуси
+URL:http://www.calend.ru/holidays/0/0/2565/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-0142EFNVIF@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/354/
+DESCRIPTION:17 декабря в Беларуси отмечается День белорусского кино. Этот п
+ рофессиональный праздник республиканских кинематографистов был установлен 
+ указом Президента в 1994 году.\n\nДата для праздника выбрана не случайно. 
+ Именно 17 декабря 1924...
+DTSTART;VALUE=DATE:20171217
+RRULE:FREQ=YEARLY
+SUMMARY:День белорусского кино
+URL:http://www.calend.ru/holidays/0/0/354/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-0154jj6cj1@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/121/
+DESCRIPTION:20 декабря 1917 года Совет народных комиссаров принял постановл
+ ение об образовании Всероссийской чрезвычайной комиссии. С первых дней сво
+ его существования ЧК защищала суверенитет и территориальную целостность го
+ сударства\, вела борьбу с...
+DTSTART;VALUE=DATE:20171220
+RRULE:FREQ=YEARLY
+SUMMARY:День сотрудника органов государственной безопасности в Беларуси
+URL:http://www.calend.ru/holidays/0/0/121/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-0165NK3Dxn@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/122/
+DESCRIPTION:День энергетика — это профессиональный праздник всех работников
+  промышленности\, охватывающей выработку\, передачу и сбыт потребителям эл
+ ектрической и тепловой энергии. В Беларуси он отмечается в один из самых к
+ оротких световых дней в году — 22...
+DTSTART;VALUE=DATE:20171222
+RRULE:FREQ=YEARLY
+SUMMARY:День энергетика в Беларуси
+URL:http://www.calend.ru/holidays/0/0/122/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093557CET-01787Nzvmc@calend.ru/belorus/
+DTSTAMP:20170110T083557Z
+CATEGORIES:Праздники Беларуси
+COMMENT:http://www.calend.ru/holidays/0/0/123/
+DESCRIPTION:Рождество Христово (католическое Рождество) в Беларуси является
+  государственным праздником\, также как и православное Рождество. И это не
+  удивительно – ведь по данным католической церкви в Беларуси\, к ней относ
+ ятся около 15% верующего населения...
+DTSTART;VALUE=DATE:20171225
+RRULE:FREQ=YEARLY
+SUMMARY:Католическое Рождество
+URL:http://www.calend.ru/holidays/0/0/123/
+END:VEVENT
+END:VCALENDAR

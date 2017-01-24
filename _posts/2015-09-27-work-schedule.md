@@ -1,11 +1,17 @@
 ---
 layout: post
 title: Work Schedule
+
+link_on_sidebar: true
+
 tag:
-  - sidebar
   - qt
   - С++
   - календарь
+
+category: 
+  - tools
+  - soft
 
 disqus_comments: true
 disqus_identifier: a987fd82-75c4-49e6-8647-c5f40cf5ad64

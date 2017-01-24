@@ -1,10 +1,22 @@
 ---
 layout: post
 title: "Eyes' Thanks"
+
+link_on_sidebar: true
+
 tag:
-  - sidebar
   - qt
   - С++
+
+category: 
+  - tools
+  - soft
+
+sidebar: true
+
+buttons:
+  - name: v0.98.0.7z
+    url: https://bitbucket.org/flart/eyes-thanks/downloads/EyesThanks_v0.98.0.7z
 
 disqus_comments: true
 disqus_identifier: fde3ee99-1e9a-4781-8568-9d36d1ac76ca

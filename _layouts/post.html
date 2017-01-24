@@ -1,10 +1,18 @@
----
-layout: default
+--- 
+layout: default 
 ---
 
 
 <div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_long_string  }}</span>
-  {{ content }}
+
+
+  <h1 class="post-title">{{ page.title }}
+    <p class="btns-title">
+      {% for btn in page.buttons %}<a href="{{btn.url}}" class="btn-title">{{btn.name}}</a>{% endfor%}
+    </p>
+  </h1>
+  <p class="post-date">{{ page.date | date_to_long_string }}</p>
+  <div class="clearboth">
+    {{ content }}
+  </div>
 </div>

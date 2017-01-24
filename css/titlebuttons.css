@@ -1,0 +1,72 @@
+.btn-title {
+  vertical-align: middle;
+  /*float: right;*/
+  margin-left: 2rem;
+  
+  font-size: 1rem; 
+  font-weight:normal;         
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
+
+.btn-title:link {    text-decoration: none;  } 
+  .btn-title:visited { text-decoration: none; } 
+  .btn-title:active { 
+    	position:relative;
+    	top:1px;
+      text-decoration: none; 
+
+      }
+
+  .btn-title:hover {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.3);
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .btn-title + .btn-title {
+    margin-left: 1rem; }
+  @media screen and (min-width: 64em) {
+    .btn-title {
+      padding: 0.65rem 1rem; } }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    .btn-title {
+      padding: 0.5rem 0.9rem;
+      font-size: 0.9rem; } }
+  @media screen and (max-width: 42em) {
+    .btn-title {
+      display: block;
+      width: 100%;
+      padding: 0.65rem;
+      font-size: 0.9rem; }
+      .btn-title + .btn-title {
+        margin-top: 1rem;
+        margin-left: 0; } }
+
+
+
+.btns-title
+{
+    /*margin-left: auto;*/
+    /*margin-right: 0;*/
+      float: right;
+      border-bottom: 2rem;
+}
+
+ /*For text after buttons */
+.clearboth{
+    clear: both;
+}
+
+
+
+
+

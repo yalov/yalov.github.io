@@ -1,0 +1,3528 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:-//calend.ru/wholeworld///NONSGML iCalcreator 2.6//
+VERSION:2.0
+X-WR-CALNAME:Calend.ru - Международные праздники 2017
+X-WR-CALDESC:Calend.ru - Международные праздники 2017
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+UID:20170110T093553CET-5380VwG1rf@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/293/
+DESCRIPTION:Этот яркий и веселый праздник — Новый год — отмечается по всему
+  миру в ночь с 31 декабря на 1 января по-разному\, однако\, везде он любим
+  и ожидаем. Начиная с первых чисел декабря в городах\, селах\, в каждом ко
+ ллективе и каждой семье чувствуется...
+DTSTART;VALUE=DATE:20170101
+RRULE:FREQ=YEARLY
+SUMMARY:Новый год
+URL:http://www.calend.ru/holidays/0/0/293/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-54006rcjPd@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3187/
+DESCRIPTION:3 января в мире отмечается необычный праздник — эта дата считае
+ тся Днем рождения соломинки для коктейлей (Drinking Straw Day). \n\nСоломи
+ нка — это приспособление в виде трубочки\, предназначенное для втягивания 
+ любых напитков в рот\, с...
+DTSTART;VALUE=DATE:20170103
+RRULE:FREQ=YEARLY
+SUMMARY:День рождения соломинки для коктейлей
+URL:http://www.calend.ru/holidays/0/0/3187/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5444JF5JmU@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3057/
+DESCRIPTION:О сколько нам открытий чудных\nГотовят просвещенья дух\,\nИ опы
+ т\, сын ошибок трудных\,\nИ гений\, парадоксов друг\,\nИ случай\, бог изоб
+ ретатель...\nА.С. Пушкин\n\nНеслучайно в первые дни нового года...
+DTSTART;VALUE=DATE:20170104
+RRULE:FREQ=YEARLY
+SUMMARY:День Ньютона
+URL:http://www.calend.ru/holidays/0/0/3057/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5468t0Ek5w@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1804/
+DESCRIPTION:11 января можно без преувеличения назвать одной из самых «вежли
+ вых» дат в году — сегодня отмечается Международный день «спасибо» (Interna
+ tional Thank You Day). \n\nВсе мы прекрасно осознаем значение хороших мане
+ р\, их необходимость в...
+DTSTART;VALUE=DATE:20170111
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день «спасибо»
+URL:http://www.calend.ru/holidays/0/0/1804/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5494g3d9R7@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3105/
+DESCRIPTION:В 2012 году в мире появилась еще одна хорошая традиция. Начиная
+  с зимы 2012 года\, в один из воскресных дней января по инициативе Междуна
+ родной федерации лыжного спорта (FIS) отмечается новый праздник — Всемирны
+ й день снега (World Snow Day). Другое...
+DTSTART;VALUE=DATE:20170115
+RDATE;VALUE=DATE:20130120,20140119,20150118,20160117,20170115
+SUMMARY:Всемирный день снега (Международный день зимних видов спорта)
+URL:http://www.calend.ru/holidays/0/0/3105/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-55225HjjCK@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3062/
+DESCRIPTION:Ежегодно в третье воскресенье января\, по инициативе ООН\, в ми
+ ре отмечается Всемирный день религии (World Religion Day). Свою историю да
+ нный праздник ведет с 1950 года\, когда национальный орган управления Веры
+  Бахаи в США учредил его с целью...
+DTSTART;VALUE=DATE:20170115
+RRULE:FREQ=YEARLY;BYDAY=3SU;BYMONTH=1
+SUMMARY:Всемирный день религии
+URL:http://www.calend.ru/holidays/0/0/3062/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-55492k8EES@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2974/
+DESCRIPTION:Imagine there's no countries\nIt isn't hard to do\nNothing to k
+ ill or die for\nAnd no religion too\nImagine all the people living life in
+  peace...\n\nСегодня\, 16 января\, из колонок и наушников настоящих...
+DTSTART;VALUE=DATE:20170116
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день «The Beatles»
+URL:http://www.calend.ru/holidays/0/0/2974/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5562RLcgS4@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3204/
+DESCRIPTION:16 января все заливщики льда – и профессиональные\, работающие 
+ на больших ледовых аренах\, и любители\, заливающие катки во дворах для де
+ творы\, – отмечают свой профессиональный праздник. \n\nЭта дата для него б
+ ыла выбрана не случайно –...
+DTSTART;VALUE=DATE:20170116
+RRULE:FREQ=YEARLY
+SUMMARY:День Ледовара
+URL:http://www.calend.ru/holidays/0/0/3204/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5576vv1p2g@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3061/
+DESCRIPTION:Сначала вопрос: Знаете ли вы\, что объединяет водные лыжи\, мех
+ овые наушники\, фруктовое мороженое на палочке и шрифт Брайля? Да\, все эт
+ и очевидные сегодня предметы были изобретены детьми.\n\nЕжегодно более 500
+  тысяч детей и подростков...
+DTSTART;VALUE=DATE:20170117
+RRULE:FREQ=YEARLY
+SUMMARY:День детских изобретений
+URL:http://www.calend.ru/holidays/0/0/3061/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5590TePkn7@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/7/
+DESCRIPTION:21 января во всем мире отмечается один из самых необычных празд
+ ников — Международный день объятий (International Hug Day). Он был основан
+  в США в 1986 году под названием Национального дня объятий (National Huggi
+ ng Day)\, а затем стремительно...
+DTSTART;VALUE=DATE:20170121
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день объятий
+URL:http://www.calend.ru/holidays/0/0/7/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-56072G3ipU@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3063/
+DESCRIPTION:Растущая с каждым годом популярность компьютеров\, электронной 
+ почты и электронных блокнотов\, СМС\, наборов стикеров с напечатанными фра
+ зами-подсказками\, а также других средств быстрого общения постепенно увод
+ ит современного человека от возможности...
+DTSTART;VALUE=DATE:20170123
+RRULE:FREQ=YEARLY
+SUMMARY:День ручного письма (День почерка)
+URL:http://www.calend.ru/holidays/0/0/3063/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5624VuOU2l@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3224/
+DESCRIPTION:24 января отмечается «сладкий» праздник – Международный день эс
+ кимо. Дата для его учреждения была выбрана потому\, что именно в этот день
+  в 1922 году владелец магазина сладостей в городе Онава (штат Айова\, США)
+  Христиан Нельсон получил патент на...
+DTSTART;VALUE=DATE:20170124
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день эскимо
+URL:http://www.calend.ru/holidays/0/0/3224/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5638S9Cvpc@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/10/
+DESCRIPTION:Ежегодно 26 января во всем мире отмечается Международный день т
+ аможенника (International Customs Day) — профессиональный праздник всех ра
+ ботников таможенных служб планеты. \n\nВ ноябре 1952 года вступила в силу 
+ Конвенция об образовании...
+DTSTART;VALUE=DATE:20170126
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день таможенника
+URL:http://www.calend.ru/holidays/0/0/10/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5652AnJszR@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3066/
+DESCRIPTION:28 января отмечается Международный день защиты персональных дан
+ ных (Data Protection Day). Это праздник был учрежден для того\, чтобы поль
+ зователи сети не забывали о соблюдении правил поведения в интернете\, кото
+ рые помогают обезопасить их виртуальную...
+DTSTART;VALUE=DATE:20170128
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день защиты персональных данных
+URL:http://www.calend.ru/holidays/0/0/3066/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5666nDuU4W@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3053/
+DESCRIPTION:День мобилизации против угрозы ядерной войны отмечается во всем
+  мире в годовщину принятия Делийской декларации\, основной целью которой я
+ вляется призыв к прекращению гонки ядерных вооружений\, сокращению и после
+ дующей постепенной ликвидации ядерных...
+DTSTART;VALUE=DATE:20170129
+RRULE:FREQ=YEARLY
+SUMMARY:День мобилизации против угрозы ядерной войны
+URL:http://www.calend.ru/holidays/0/0/3053/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5682iZDnUp@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3190/
+DESCRIPTION:Как известно\, в череде праздничных дат есть такой праздник\, к
+ ак День интернета\, но не стоит обходить вниманием и еще один\, хоть и вес
+ ьма необычный праздник\, – Международный День БЕЗ интернета (International
+  Internet-Free Day). Он отмечается мировым...
+DTSTART;VALUE=DATE:20170129
+RRULE:FREQ=YEARLY;BYDAY=5SU;BYMONTH=1
+SUMMARY:Международный день БЕЗ интернета
+URL:http://www.calend.ru/holidays/0/0/3190/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5698unDKn1@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1868/
+DESCRIPTION:Мероприятия\, проводимые ежегодно 2 февраля во Всемирный день в
+ одно-болотных угодий (World Wetlands Day)\, призваны обратить внимание общ
+ ественности и Правительств различных стран мира на ценность водно-болотных
+  угодий для поддержания устойчивого...
+DTSTART;VALUE=DATE:20170202
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день водно-болотных угодий
+URL:http://www.calend.ru/holidays/0/0/1868/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5711RKuOgW@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1319/
+DESCRIPTION:Международный день бармена (International Bartender's Day) — пр
+ офессиональный праздник\, который отмечается во многих странах 6 февраля. 
+ \n\nДата праздника выбрана не случайно - 6 февраля отмечается День святого
+  Аманда (St. Amand или...
+DTSTART;VALUE=DATE:20170206
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день бармена
+URL:http://www.calend.ru/holidays/0/0/1319/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-572686S9dN@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1857/
+DESCRIPTION:Традиция отмечать 9 февраля Международный день стоматолога  (ан
+ гл. International Day of dentist) постепенно становится популярной во мног
+ их странах. \n\nМожно предположить\, что имеются веские причины на то\, чт
+ обы отмечать...
+DTSTART;VALUE=DATE:20170209
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день стоматолога
+URL:http://www.calend.ru/holidays/0/0/1857/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5739HDuREk@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/14/
+DESCRIPTION:11 февраля в международном календаре обозначен как Всемирный де
+ нь больного (World Day of the Sick). Это мероприятие задумано\, скорее\, к
+ ак некий социальный шаг\, направленный на поддержку людей\, попавших в печ
+ альную категорию...
+DTSTART;VALUE=DATE:20170211
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день больного
+URL:http://www.calend.ru/holidays/0/0/14/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5752aFPvUe@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2888/
+DESCRIPTION:Примечательно\, что практически накануне Дня святого Валентина 
+ — 12 февраля — отмечается этот профессиональный праздник — Международный д
+ ень брачных агентств (International Day of Marriage Agencies). \n\nПраздни
+ к появился на Украине — он...
+DTSTART;VALUE=DATE:20170212
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день брачных агентств
+URL:http://www.calend.ru/holidays/0/0/2888/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5764xZ49ji@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2924/
+DESCRIPTION:Всемирный день радио — молодой праздник\, впервые его отметили 
+ только в 2012 году. А решение о его проведении ЮНЕСКО приняла в 2011-м. Да
+ та проведения выбрана не случайно — именно 13 февраля 1946 года впервые вы
+ шло в эфир «Радио ООН»\, станция...
+DTSTART;VALUE=DATE:20170213
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день радио
+URL:http://www.calend.ru/holidays/0/0/2924/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5782HoE7FD@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/15/
+DESCRIPTION:14 февраля во многих странах мира отмечается День святого Вален
+ тина или День всех влюбленных.\n\nСчитается\, что День святого Валентина с
+ уществует уже более 16 веков\, но праздники Любви известны с еще более ран
+ них времен — со времен...
+DTSTART;VALUE=DATE:20170214
+RRULE:FREQ=YEARLY
+SUMMARY:День святого Валентина (День всех влюбленных)
+URL:http://www.calend.ru/holidays/0/0/15/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5794USpgkO@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2369/
+DESCRIPTION:14 февраля — неофициальный\, но широко отмечаемый в профессиона
+ льном мире День компьютерщика. 14 февраля 1946 года научному миру и всем з
+ аинтересованным был продемонстрирован первый реально работающий электронны
+ й компьютер ENIAC I (Electrical...
+DTSTART;VALUE=DATE:20170214
+RRULE:FREQ=YEARLY
+SUMMARY:День компьютерщика
+URL:http://www.calend.ru/holidays/0/0/2369/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5808U3jAUX@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3071/
+DESCRIPTION:День детей\, больных раком (International Childhood Cancer Day)
+ \, отмечают 15 февраля ежегодно многие страны планеты. Эта дата впервые по
+ явилась в календаре в 2001 году по инициативе Всемирной конфедерации родит
+ елей детей\, больных раком (ICCCPO).
+DTSTART;VALUE=DATE:20170215
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день детей\, больных раком
+URL:http://www.calend.ru/holidays/0/0/3071/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5823gk6dG0@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/927/
+DESCRIPTION:День спонтанного проявления доброты (Random Acts of Kindness Da
+ y)\, отмечаемый по всему миру ежегодно 17 февраля\, — одна из недавних ини
+ циатив международных благотворительных организаций. Этот праздник ведет св
+ ою историю из США\, но сегодня уже имеет...
+DTSTART;VALUE=DATE:20170217
+RRULE:FREQ=YEARLY
+SUMMARY:День спонтанного проявления доброты
+URL:http://www.calend.ru/holidays/0/0/927/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5839ju8AtG@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3054/
+DESCRIPTION:Во всем мире 19 февраля отмечается Всемирный день защиты морски
+ х млекопитающих или День китов. Причем эта экологическая дата считается дн
+ ем защиты не только китов\, но и всех морских млекопитающих и разных други
+ х живых существ\, обитающих в морях и...
+DTSTART;VALUE=DATE:20170219
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день защиты морских млекопитающих (День кита)
+URL:http://www.calend.ru/holidays/0/0/3054/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-58512wWpLh@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2994/
+DESCRIPTION:Ежегодно 21 февраля многие города мира — особенно те из них\, к
+ оторые являются центрами туризма\, — отмечают Всемирный день экскурсовода.
+ \n\n Когда появилась эта профессия\, точно сказать нельзя\, но очевидно\, 
+ что она связана с развитием...
+DTSTART;VALUE=DATE:20170221
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день экскурсовода
+URL:http://www.calend.ru/holidays/0/0/2994/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5865eAUuUK@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/922/
+DESCRIPTION:22 февраля 1990 года правительство Англии опубликовало «Хартию 
+ жертв преступлений» (Victim's Charter: Statement of the Rights of Victims 
+ of Crime). С тех пор во всем цивилизованном и демократическом мире 22 февр
+ аля неофициально отмечают День...
+DTSTART;VALUE=DATE:20170222
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день поддержки жертв преступлений
+URL:http://www.calend.ru/holidays/0/0/922/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5878jtfd5N@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3286/
+DESCRIPTION:26 февраля отмечается весьма оригинальный праздник – День нетор
+ опливости (или День медлительности)\, который к настоящему времени уже при
+ обрёл «статус» международного дня.\n\nИдея учреждения такого праздника при
+ надлежит итальянцам. Именно...
+DTSTART;VALUE=DATE:20170226
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день неторопливости
+URL:http://www.calend.ru/holidays/0/0/3286/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5892Vv6Lrn@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3082/
+DESCRIPTION:Ежегодно 27 февраля в мире отмечается Международный день полярн
+ ого медведя (International Polar Bear Day) или\, в более привычном русском
+  варианте\, День белого медведя. Основной целью проведения Дня является ра
+ спространение информации о полярных...
+DTSTART;VALUE=DATE:20170227
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день полярного медведя
+URL:http://www.calend.ru/holidays/0/0/3082/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5906vFwBWt@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3070/
+DESCRIPTION:По инициативе европейской организации по изучению редких болезн
+ ей EURORDIS самый редкий день в году — 29 февраля — официально получил ста
+ тус Международного дня редких заболеваний (Rare Disease Day). В невисокосн
+ ые годы праздник отмечается 28...
+DTSTART;VALUE=DATE:20170228
+RDATE;VALUE=DATE:20130228,20140228,20150228,20160229,20170228,20180228,2019
+ 0228,20200229
+SUMMARY:Международный день редких заболеваний
+URL:http://www.calend.ru/holidays/0/0/3070/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5920nMnZjw@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/943/
+DESCRIPTION:Марди Гра (Mardi Gras) — в дословном переводе с французского эт
+ о звучное словосочетание означает «жирный вторник» или даже «скоромный вто
+ рник» (англ. Shrove Tuesday). Праздник отмечается во многих странах мира в
+ о вторник\, перед Великим католическим...
+DTSTART;VALUE=DATE:20170228
+RDATE;VALUE=DATE:20110308,20120221,20130212,20140304,20150217,20160209,2017
+ 0228,20180213,20190305,20200225
+SUMMARY:Марди Гра — «Жирный вторник»
+URL:http://www.calend.ru/holidays/0/0/943/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5933oVfMOl@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/17/
+DESCRIPTION:Ежегодно 1 марта отмечается Всемирный день гражданской обороны 
+ (World Civil Defence Day). В 1931 году по инициативе нескольких государств
+  французский генерал медицинской службы Жорж Сен-Поль основал в Париже «Ас
+ социацию Женевских зон» — «зон...
+DTSTART;VALUE=DATE:20170301
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день гражданской обороны
+URL:http://www.calend.ru/holidays/0/0/17/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5954ekOTXg@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3231/
+DESCRIPTION:Ежегодно 2 марта в мире отмечается один из необычных праздников
+  – Международный день спички. Почему эта дата была выбрана для его учрежде
+ ния – сведения разнятся. Однако\, в чем сходятся мнения – что спички на пр
+ отяжении многих десятилетий были одной...
+DTSTART;VALUE=DATE:20170302
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день спички
+URL:http://www.calend.ru/holidays/0/0/3231/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-59703UlhbI@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/446/
+DESCRIPTION:Всемирный день писателя (World Day of the writer) отмечается пр
+ актически во всех странах ежегодно 3 марта. Полное название этого праздник
+ а Всемирный день мира для писателя\, он был учрежден по решению 48-го конг
+ ресса Международного ПЕН-клуба...
+DTSTART;VALUE=DATE:20170303
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день писателя
+URL:http://www.calend.ru/holidays/0/0/446/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5983LDCv2U@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3085/
+DESCRIPTION:Всемирная организация здравоохранения (ВОЗ) учредила специальны
+ й день\, посвященный охране здоровья уха и слуха. Ежегодно 3 марта отмечае
+ тся Международный день охраны здоровья уха и слуха (International Day for 
+ Ear and...
+DTSTART;VALUE=DATE:20170303
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день охраны здоровья уха и слуха
+URL:http://www.calend.ru/holidays/0/0/3085/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-5997afsxsO@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/118/
+DESCRIPTION:Международный день детского телевидения и радиовещания (Interna
+ tional Children's Day of Broadcasting) — один из самых светлых и добрых пр
+ аздников. Он призывает не забывать о маленьких и самых неравнодушных телез
+ рителях. \n\nЕжегодно в...
+DTSTART;VALUE=DATE:20170305
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=3
+SUMMARY:Международный день детского телевидения и радиовещания
+URL:http://www.calend.ru/holidays/0/0/118/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6010K9wDG2@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2893/
+DESCRIPTION:Только малой части человечества удается избежать проблем больны
+ х зубов\, больных десен\, неправильного прикуса. Основную же часть населен
+ ия Земли хотя бы один раз в жизни постигла участь посидеть в кресле зубног
+ о врача. К счастью\, наука и технология...
+DTSTART;VALUE=DATE:20170306
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день зубного врача
+URL:http://www.calend.ru/holidays/0/0/2893/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6027Nd0zEA@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/18/
+DESCRIPTION:Любимые женщины приходят к нам веснами\, \nОни неожиданны\, как
+  дождь или снег. \nЛюбимые женщины приходят к нам звездами\, \nКогда откры
+ ваем мы одну среди всех.\n«Любимые женщины»\, \nмузыка С.С. Туликова\, сло
+ ва М.С....
+DTSTART;VALUE=DATE:20170308
+RRULE:FREQ=YEARLY
+SUMMARY:Международный женский день
+URL:http://www.calend.ru/holidays/0/0/18/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-60405ieLmV@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1512/
+DESCRIPTION:Всемирный день ди-джея (World DJ Day) — это скорее не официальн
+ ый праздник\, а важная благотворительная акция\, которая проводится с 2002
+  года от имени Международной клубной индустрии. Каждый год во всем мире пр
+ оводится неделя благотворительных акций...
+DTSTART;VALUE=DATE:20170309
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день ди-джея
+URL:http://www.calend.ru/holidays/0/0/1512/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6054HNpuXu@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/388/
+DESCRIPTION:День Содружества наций (Commonwealth Day) — ежегодный праздник 
+ 53 стран-участниц международного сообщества Содружество наций (до 1947 год
+ а — Британское Содружество наций)\, ассоциации независимых государств\, ра
+ нее входивших в Британскую империю\,...
+DTSTART;VALUE=DATE:20170313
+RRULE:FREQ=YEARLY;BYDAY=2MO;BYMONTH=3
+SUMMARY:День Содружества наций
+URL:http://www.calend.ru/holidays/0/0/388/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6068xgvIUb@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1914/
+DESCRIPTION:14 марта во многих странах отмечается Международный день рек (I
+ nternational Day for Rivers)\, ранее имевший название Международный день б
+ орьбы против плотин\, за реки\, воду и жизнь (International Day of Action 
+ Against Dams and for Rivers\, Water and...
+DTSTART;VALUE=DATE:20170314
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день рек (Международный день действий против плотин)
+URL:http://www.calend.ru/holidays/0/0/1914/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6084e0EbSK@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1919/
+DESCRIPTION:Сегодня в мире отмечается один из самых необычных праздников — 
+ Международный день числа «Пи» (International &#960\; Day). Впервые День бы
+ л отмечен в 1988 году в научно-популярном музее Эксплораториум в Сан-Франц
+ иско (San Francisco Exploratorium)\, а...
+DTSTART;VALUE=DATE:20170314
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день числа «Пи»
+URL:http://www.calend.ru/holidays/0/0/1919/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6099bxAfN1@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/20/
+DESCRIPTION:Покупатель (потребитель) всегда прав!\nПопулярная поговорка\n\n
+ \nЕжегодно 15 марта международная общественность отмечает Всемирный день з
+ ащиты прав потребителей (World Consumer Rights Day)\, проведение которого 
+ решением...
+DTSTART;VALUE=DATE:20170315
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день защиты прав потребителей
+URL:http://www.calend.ru/holidays/0/0/20/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6114MIK7mV@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3055/
+DESCRIPTION:Международный день защиты бельков отмечается ежегодно 15 марта 
+ во многих странах мира\, он был установлен по инициативе Международного Фо
+ нда Защиты Животных IFAW.\n\nБельки – детеныши гренландского тюленя – явля
+ ются объектом охоты уже...
+DTSTART;VALUE=DATE:20170315
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день защиты бельков
+URL:http://www.calend.ru/holidays/0/0/3055/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6129RS27wi@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2721/
+DESCRIPTION:Впервые Всемирный день сна (World Sleep Day) был проведен 14 ма
+ рта 2008 года и с тех пор проводится ежегодно\, в пятницу второй полной не
+ дели марта\, в рамках проекта Всемирной организации здравоохранения (ВОЗ) 
+ по проблемам сна и здоровья. Каждый год...
+DTSTART;VALUE=DATE:20170317
+RDATE;VALUE=DATE:20110318,20120316,20130315,20140314,20150313,20160318,2017
+ 0317
+SUMMARY:Всемирный день сна
+URL:http://www.calend.ru/holidays/0/0/2721/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6143JBnBfR@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/964/
+DESCRIPTION:День Парижской коммуны отмечается трудящимися мира в ознаменова
+ ние победы 18 марта 1871 года первой пролетарской революции. Решение отмеч
+ ать 18 марта как первую успешную попытку рабочих захватить политическую вл
+ асть было принято 20 февраля 1872...
+DTSTART;VALUE=DATE:20170318
+RRULE:FREQ=YEARLY
+SUMMARY:День Парижской коммуны
+URL:http://www.calend.ru/holidays/0/0/964/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6158cVnATV@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1924/
+DESCRIPTION:Международный день планетариев (Day of Planetaria) отмечается е
+ жегодно во многих странах мира. Этот праздник имеет европейские «корни»\, 
+ впервые он был проведен в Италии в 1990 году по инициативе Ассоциации итал
+ ьянских планетариев....
+DTSTART;VALUE=DATE:20170319
+RDATE;VALUE=DATE:20070318,20080316,20090315,20100321,20110320,20120318,2013
+ 0317,20140316,20150315,20160313,20170319,20180318
+SUMMARY:Международный день планетариев
+URL:http://www.calend.ru/holidays/0/0/1924/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6170PDrPpv@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3046/
+DESCRIPTION:В мире существует много праздников\, которые люди отмечают\, ис
+ ходя из своей принадлежности к той или иной социальной группе — День пенси
+ онера\, День босса\, День влюбленных\, День предпринимателя… Недавно этот 
+ список пополнился еще одним праздником —...
+DTSTART;VALUE=DATE:20170319
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день клиента
+URL:http://www.calend.ru/holidays/0/0/3046/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6187khkbIo@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3058/
+DESCRIPTION:Во всем мире 20 марта\, по инициативе ООН\, празднуется День Зе
+ мли (англ. Earth Day). Причем в календаре международных праздников существ
+ ует два Дня Земли – сегодняшний отмечается в День весеннего равноденствия\
+ , а второй – 22 апреля. Первый имеет...
+DTSTART;VALUE=DATE:20170320
+RRULE:FREQ=YEARLY
+SUMMARY:День Земли
+URL:http://www.calend.ru/holidays/0/0/3058/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6201h5i5AS@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1176/
+DESCRIPTION:Весеннее равноденствие (Vernal Equinox) — одно из уникальнейших
+  явлений природы\, суть которого\, говоря научным языком\, сводится к тому
+ \, что «в момент равноденствия центр Солнца в своем видимом движении по эк
+ липтике пересекает небесный экватор». В...
+DTSTART;VALUE=DATE:20170320
+RDATE;VALUE=DATE:20080320,20090320,20100320,20110320,20120320,20130320,2014
+ 0320,20150320,20160320,20170320,20180320,20190320,20200320
+SUMMARY:День весеннего равноденствия
+URL:http://www.calend.ru/holidays/0/0/1176/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6220RJ9jBp@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1923/
+DESCRIPTION:Международный день астрологии (International Astrology Day)\, е
+ жегодно отмечаемый учеными-астрологами и энтузиастами\, 20 или 21 марта (и
+ ногда 19 марта) — проводится точно в День весеннего равноденствия. Этот де
+ нь уникального природного явления...
+DTSTART;VALUE=DATE:20170320
+RDATE;VALUE=DATE:20100320,20110320,20120320,20130320,20140320,20150320,2016
+ 0320,20170320
+SUMMARY:Международный день астрологии
+URL:http://www.calend.ru/holidays/0/0/1923/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6234ahK5x8@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2998/
+DESCRIPTION:Международный день без мяса (International Day Without Meat) мн
+ огие страны отмечают с 1985 года. В этот день\, 20 марта\, магазины и рест
+ ораны отказываются от продажи мяса\, а активисты пропагандируют вегетариан
+ ство\, а также идеи сострадания животным и...
+DTSTART;VALUE=DATE:20170320
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день без мяса
+URL:http://www.calend.ru/holidays/0/0/2998/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6247mKa63n@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/24/
+DESCRIPTION:В 1999 году на 30-й сессии генеральной конференции ЮНЕСКО было 
+ решено ежегодно отмечать Всемирный день поэзии (World Poetry Day) 21 марта
+ . Первый Всемирный день поэзии прошел в Париже\, где находится штаб-кварти
+ ра ЮНЕСКО. \n \n«Поэзия\, —...
+DTSTART;VALUE=DATE:20170321
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день поэзии
+URL:http://www.calend.ru/holidays/0/0/24/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-62611PVSiE@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1925/
+DESCRIPTION:Идея отмечать во всем мире Международный день кукольника (Inter
+ national Day of Puppetry)\, или Международный день театра кукол (World Pup
+ petry Day)\, пришла известному деятелю кукольного театра Дживада Золфагари
+ хо из Ирана. В 2000 году на XVIII...
+DTSTART;VALUE=DATE:20170321
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день кукольника
+URL:http://www.calend.ru/holidays/0/0/1925/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6275panRwH@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/449/
+DESCRIPTION:Решение о ежегодном праздновании Дня Балтийского моря (Baltic S
+ ea Day) было принято в 1986 году на 17-м заседании Хельсинкской Конвенции.
+  А дата 22 марта выбрана в связи с тем\, что в этот день в 1974 году была 
+ подписана сама эта конвенция\, и потому\,...
+DTSTART;VALUE=DATE:20170322
+RRULE:FREQ=YEARLY
+SUMMARY:День Балтийского моря
+URL:http://www.calend.ru/holidays/0/0/449/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6286iTcEVO@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3021/
+DESCRIPTION:22 марта таксисты всего мира отмечают свой профессиональный пра
+ здник — Международный день таксиста. Именно в этот день в 1907 году на ули
+ цах Лондона появились первые автомобили\, оснащенные специальными счетчика
+ ми. Лондонские извозчики назвали...
+DTSTART;VALUE=DATE:20170322
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день таксиста
+URL:http://www.calend.ru/holidays/0/0/3021/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-63045MmuJr@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3060/
+DESCRIPTION:Время проведения Часа Земли в 2017 году — 25 марта с 20:30 до 2
+ 1:30 по местному времени.\n\nЧас Земли (Earth Hour) — это глобальная ежего
+ дная международная акция\, организованная Всемирным фондом дикой природы (
+ World Wide Fund for Nature\,...
+DTSTART;VALUE=DATE:20170325
+RDATE;VALUE=DATE:20130323,20140329,20150328,20160319,20170325
+SUMMARY:Час Земли
+URL:http://www.calend.ru/holidays/0/0/3060/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6319KAHR28@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3138/
+DESCRIPTION:Однажды девятилетняя девочка Кессиди Меган (Cassidy Megan)\, ст
+ радающая от эпилепсии\, решила показать другим людям\, что она ничем не от
+ личается от них. За свои девять лет ребенок уже успел ощутить на себе неко
+ торое пренебрежение со стороны взрослых и...
+DTSTART;VALUE=DATE:20170326
+RRULE:FREQ=YEARLY
+SUMMARY:Фиолетовый день (День больных эпилепсией)
+URL:http://www.calend.ru/holidays/0/0/3138/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-63330bDD6n@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/26/
+DESCRIPTION:Всемирный день театра (World Theatre Day) установлен в 1961 год
+ у IX конгрессом Международного института театра (International Theatre Ins
+ titute\, ITI) и ежегодно 27 марта отмечается Центрами ITI и международными
+  театральными обществами. Традиционно...
+DTSTART;VALUE=DATE:20170327
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день театра
+URL:http://www.calend.ru/holidays/0/0/26/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6347bGUsgv@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2897/
+DESCRIPTION:Международный день резервного копирования (англ. World Backup D
+ ay) или День бэкапа (от англ. backup) проводится ежегодно 31 марта.\n\nРез
+ ервное копирование — это создание копии данных на носителе (жёстком диске\
+ , флеш-карте\, CD-диске и...
+DTSTART;VALUE=DATE:20170331
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день резервного копирования (День бэкапа)
+URL:http://www.calend.ru/holidays/0/0/2897/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6359htVusS@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/28/
+DESCRIPTION:День дурака (April Fools' Day или All Fool's Day) или День смех
+ а — это международный праздник\, отмечаемый во всем мире 1 апреля. В этот 
+ день принято разыгрывать родных\, друзей и просто знакомых\, или подшучива
+ ть над ними.\n\nОткуда именно...
+DTSTART;VALUE=DATE:20170401
+RRULE:FREQ=YEARLY
+SUMMARY:День смеха (День дурака)
+URL:http://www.calend.ru/holidays/0/0/28/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6374J7m7VU@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3036/
+DESCRIPTION:Ежегодно 1 апреля вся планета отмечает Международный день птиц 
+ (International Bird Day) — интернациональный экологический праздник. Он во
+ зник в США в 1894 году. Вскоре праздник\, получивший популярность благодар
+ я СМИ\, начал массово проводиться во...
+DTSTART;VALUE=DATE:20170401
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день птиц
+URL:http://www.calend.ru/holidays/0/0/3036/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6391vFvodc@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/30/
+DESCRIPTION:Цветущие  розовые кусты\nзаглядывали с крыши в открытое окошко\
+ ;\nтут же стояли их  детские стульчики.\nКай с Гердой сели каждый на свой
+ \nи взяли друг друга за  руки. \nХолодное\, пустынное великолепие \nчертог
+ ов...
+DTSTART;VALUE=DATE:20170402
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день детской книги
+URL:http://www.calend.ru/holidays/0/0/30/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6402uitWmp@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3101/
+DESCRIPTION:4 апреля отмечается неофициальный профессиональный праздник — Д
+ ень веб-мастера (или Вебмастера). Дата этого праздника выбрана неслучайно:
+  если присмотреться\, можно заметить\, что цифры 4.04 очень напоминают по 
+ своему написанию ошибку 404 («Страница...
+DTSTART;VALUE=DATE:20170404
+RRULE:FREQ=YEARLY
+SUMMARY:День веб-мастера
+URL:http://www.calend.ru/holidays/0/0/3101/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6416U5F08p@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3232/
+DESCRIPTION:Ежегодно 4 апреля\, начиная с 2003 года\, отмечается необычный 
+ праздник – Всемирный день крысы (World rat day)\, созданный для привлечени
+ я внимания к этому неординарному животному и призванный объединить любител
+ ей декоративных крыс по всему...
+DTSTART;VALUE=DATE:20170404
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день крысы
+URL:http://www.calend.ru/holidays/0/0/3232/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6434mSVSHp@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3292/
+DESCRIPTION:Всемирный день настольного тенниса (Word Table Tennis Day) ещё 
+ очень молодой праздник – впервые он отмечался 6 апреля 2015 года. Но это н
+ е помешало ему сразу стать популярным практически во всём мире. \n\nИнициа
+ торами учреждения новой...
+DTSTART;VALUE=DATE:20170406
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день настольного тенниса
+URL:http://www.calend.ru/holidays/0/0/3292/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-64472G1U3P@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/31/
+DESCRIPTION:Международный день цыган (International Roma (Gypsy) Day)\, кот
+ орый отмечается ежегодно 8 апреля представителями этой нации по всему миру
+ \, был учрежден на первом Всемирном цыганском конгрессе\, состоявшемся в Л
+ ондоне 8 апреля 1971 года и собравшем...
+DTSTART;VALUE=DATE:20170408
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день цыган
+URL:http://www.calend.ru/holidays/0/0/31/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6463Lu49V8@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2899/
+DESCRIPTION:Международный день движения сопротивления отмечается ежегодно 1
+ 0 апреля и посвящен всем\, кто противодействовал фашистам во время Второй 
+ мировой войны (1939-1945) на территориях\, оккупированных войсками Третьег
+ о рейха. \n\nДвижение...
+DTSTART;VALUE=DATE:20170410
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день движения сопротивления
+URL:http://www.calend.ru/holidays/0/0/2899/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6477wVfMv6@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1007/
+DESCRIPTION:11 апреля во всем мире отмечается памятная дата — Международный
+  день освобождения узников фашистских концлагерей (International Day of Fa
+ scist Concentration Camps Prisoners Liberation). Она установлена в память 
+ об интернациональном восстании узников...
+DTSTART;VALUE=DATE:20170411
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день освобождения узников фашистских концлагерей
+URL:http://www.calend.ru/holidays/0/0/1007/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6492EivPEU@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/32/
+DESCRIPTION:12 апреля весь мир отмечает День авиации и космонавтики — памят
+ ную дату\, посвященную первому полету человека в космос. Это особенный ден
+ ь — день триумфа науки и всех тех\, кто сегодня трудится в космической отр
+ асли. Как праздник — День космонавтики —...
+DTSTART;VALUE=DATE:20170412
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день авиации и космонавтики (Международный день полета че
+ ловека в космос)
+URL:http://www.calend.ru/holidays/0/0/32/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6506dADVGN@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2901/
+DESCRIPTION:Всемирный день рок-н-ролла (World Rock-n-roll Day) — праздник е
+ диномышленников\, для которых рок-н-ролл стал не только музыкой\, а стилем
+  и образом жизни. \n\nПраздник отмечается ежегодно 13 апреля\, хотя истори
+ ческое событие\, послужившее...
+DTSTART;VALUE=DATE:20170413
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день рок-н-ролла
+URL:http://www.calend.ru/holidays/0/0/2901/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6528ZwaewI@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3235/
+DESCRIPTION:«Культура» в переводе с санскритского дословно означает «почита
+ ние света»\, выражающее стремление к познанию прекрасного\, идеалам и само
+ совершенствованию. Изучать культуру\, помнить о ней и оберегать её необход
+ имо постоянно. Ведь именно...
+DTSTART;VALUE=DATE:20170415
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день культуры
+URL:http://www.calend.ru/holidays/0/0/3235/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6546fSWEPa@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3064/
+DESCRIPTION:Ежегодно 15 апреля во многих странах мира отмечается День эколо
+ гических знаний. Он ведет свою историю с 1992 года\, когда на Конференции 
+ ООН в Рио-де-Жанейро\, где обсуждались проблемы окружающей среды\, было по
+ дчеркнуто огромное значение...
+DTSTART;VALUE=DATE:20170415
+RRULE:FREQ=YEARLY
+SUMMARY:День экологических знаний
+URL:http://www.calend.ru/holidays/0/0/3064/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-65658pBjxw@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3236/
+DESCRIPTION:Ежегодно в третью субботу апреля всё мировое цирковое сообществ
+ о и любители этого удивительного искусства отмечают необыкновенно весёлый 
+ праздник – Международный день цирка (World Circus Day). Он учрежден не тол
+ ько с целью показать цирк во всем его...
+DTSTART;VALUE=DATE:20170415
+RRULE:FREQ=YEARLY;BYDAY=3SA;BYMONTH=4
+SUMMARY:Международный день цирка
+URL:http://www.calend.ru/holidays/0/0/3236/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6579sJpbvp@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2598/
+DESCRIPTION:Ежегодно 17 апреля многие страны присоединяются к акции Всемирн
+ ой федерации гемофилии (World Federation of Hemophilia\, WFH) и Всемирной 
+ организации здравоохранения (ВОЗ) и отмечают Всемирный день гемофилии (Wor
+ ld Hemophilia...
+DTSTART;VALUE=DATE:20170417
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день гемофилии
+URL:http://www.calend.ru/holidays/0/0/2598/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-65942plZJN@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/537/
+DESCRIPTION:Девизом Международного дня памятников и исторических мест (Inte
+ rnational Day for Monuments and Sites) стали слова: «Сохраним нашу историч
+ ескую родину».\n\nЭтот День установлен в 1982 году Ассамблеей Международно
+ го совета по вопросам...
+DTSTART;VALUE=DATE:20170418
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день памятников и исторических мест
+URL:http://www.calend.ru/holidays/0/0/537/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6609wBNHxs@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2689/
+DESCRIPTION:Ежегодно 18 апреля большой отряд энтузиастов-радиолюбителей во 
+ всём мире отмечает свой «профессиональный» праздник — Всемирный день радио
+ любителя (World Amateur Radio Day). \n\nОбщества\, секции\, кружки радиолю
+ бителей в России также...
+DTSTART;VALUE=DATE:20170418
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день радиолюбителя
+URL:http://www.calend.ru/holidays/0/0/2689/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-66240ip3sw@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3065/
+DESCRIPTION:…Пробирается медведь \nСквозь лесной валежник. \nСтали птицы пе
+ сни петь\, \nИ расцвел подснежник!\nС. Я. Маршак\, сказка «Двенадцать меся
+ цев»\n\n\nЕжегодно 19 апреля во многих странах мира отмечается уже...
+DTSTART;VALUE=DATE:20170419
+RRULE:FREQ=YEARLY
+SUMMARY:День подснежника
+URL:http://www.calend.ru/holidays/0/0/3065/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6638vVSBVz@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3086/
+DESCRIPTION:Всемирная неделя иммунизации (World Immunization Week) проводит
+ ся во второй половине апреля по инициативе Всемирной организации здравоохр
+ анения (ВОЗ). Изначально это мероприятие называлось Европейской неделей им
+ мунизации и охватывало\,...
+DTSTART;VALUE=DATE:20170423
+RDATE;VALUE=DATE:20130424,20140424,20150424,20160424,20170423
+SUMMARY:Всемирная неделя иммунизации
+URL:http://www.calend.ru/holidays/0/0/3086/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6655vFUBvC@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/539/
+DESCRIPTION:По решению Всемирной федерации демократической молодежи ежегодн
+ о 24 апреля отмечается Международный день солидарности молодежи (Internati
+ onal Day of Youth Solidarity ). Впервые праздник был отмечен в 1957 году. 
+ \n\nЭтот памятный день...
+DTSTART;VALUE=DATE:20170424
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день солидарности молодежи
+URL:http://www.calend.ru/holidays/0/0/539/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6670BrrfV8@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3068/
+DESCRIPTION:24 апреля в календаре экологических дат отмечен как Всемирный д
+ ень защиты лабораторных животных\, который был учрежден Международной Ассо
+ циацией против болезненных экспериментов на животных (ИнтерНИЧ) в 1979 год
+ у и поддержан ООН. Первоначально он...
+DTSTART;VALUE=DATE:20170424
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день защиты лабораторных животных
+URL:http://www.calend.ru/holidays/0/0/3068/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6682MJISeA@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3202/
+DESCRIPTION:Ежегодно 25 апреля в разных странах мира отмечается необычный п
+ раздник – Международный День ДНК.\n\nТакая дата была выбрана в память о то
+ м\, что 25 апреля 1953 года в журнале Nature Джеймс Уотсон и Фрэнсис Крик 
+ совместно с Морисом...
+DTSTART;VALUE=DATE:20170425
+RRULE:FREQ=YEARLY
+SUMMARY:Международный День ДНК
+URL:http://www.calend.ru/holidays/0/0/3202/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6698c3EaRX@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/724/
+DESCRIPTION:Международный день секретаря (Secretary's Day) или в более офиц
+ иальном варианте День профессиональных административных работников (Admini
+ strative Professionals Day) начали отмечать в США в 1952 году\, благодаря 
+ усилиям нью-йоркского публициста Гарри...
+DTSTART;VALUE=DATE:20170426
+RDATE;VALUE=DATE:20080423,20090422,20100421,20110420,20120425,20130424,2014
+ 0423,20150422,20160420,20170426
+SUMMARY:Международный день секретаря
+URL:http://www.calend.ru/holidays/0/0/724/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6712OhMVue@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1755/
+DESCRIPTION:26 апреля 1986 года Чернобыльская АЭС — первенец атомной энерге
+ тики Украины — стала символом крупнейшей в истории человечества техногенно
+ й катастрофы. \n\nВ результате аварии на ЧАЭС был полностью разрушен атомн
+ ый реактор\, в окружающую...
+DTSTART;VALUE=DATE:20170426
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день памяти жертв радиационных аварий и катастроф
+URL:http://www.calend.ru/holidays/0/0/1755/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-67251xUPTf@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/34/
+DESCRIPTION:29 апреля по всему миру отмечается Международный (Всемирный) де
+ нь танца (International (World) Dance Day). Этот праздник\, посвященный вс
+ ем стилям танца\, начали отмечать с 1982 года по решению ЮНЕСКО в день рож
+ дения французского балетмейстера...
+DTSTART;VALUE=DATE:20170429
+RRULE:FREQ=YEARLY
+SUMMARY:Международный (Всемирный) день танца
+URL:http://www.calend.ru/holidays/0/0/34/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6740o6Nv99@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/202/
+DESCRIPTION:Старт Дню астрономии (Astronomy Day) был дан в 1973 году в Кали
+ форнии. Президент Астрономической Ассоциации Северной Калифорнии Д.Бергер 
+ (Doug Berger) решил\, что не стоит агитировать людей проделывать большие р
+ асстояния\, чтобы посетить дни открытых...
+DTSTART;VALUE=DATE:20170429
+RDATE;VALUE=DATE:20110507,20120428,20130420,20140510,20150425,20160514,2017
+ 0429,20180421,20190511,20200502
+SUMMARY:День астрономии
+URL:http://www.calend.ru/holidays/0/0/202/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6754fxo0vr@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/536/
+DESCRIPTION:Можно сказать\, что Всемирный день Тай-цзи и Цигун (World Tai C
+ hi and Qigong Day) стал поистине всемирным в 1999 году. Однако\, первый пу
+ бличный показ\, послуживший вдохновителем развития глобальных мероприятий\
+ , состоялся в 1998 году в Канзасе штата...
+DTSTART;VALUE=DATE:20170429
+RRULE:FREQ=YEARLY;BYDAY=5SA;BYMONTH=4
+SUMMARY:Всемирный день Тай-цзи и Цигун
+URL:http://www.calend.ru/holidays/0/0/536/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6767Or5RUM@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3144/
+DESCRIPTION:Ежегодно в последнюю субботу апреля во многих странах мира отме
+ чается Международный день ветеринарного врача (World Veterinary Day)\, кот
+ орый был учреждён Всемирной ветеринарной ассоциацией (World Veterinary Ass
+ ociation\, WVA) в 2000 году.\n
+DTSTART;VALUE=DATE:20170429
+RRULE:FREQ=YEARLY;BYDAY=5SA;BYMONTH=4
+SUMMARY:Международный день ветеринарного врача
+URL:http://www.calend.ru/holidays/0/0/3144/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6781xEW9hn@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3088/
+DESCRIPTION:Первый Международный день джаза (International Jazz Day) прошел
+  в 2012 году. О введении новой даты в календарь и установления её празднов
+ ания на 30 апреля Генеральная конференция ЮНЕСКО объявила в ноябре 2011 го
+ да. В качестве основной цели этого...
+DTSTART;VALUE=DATE:20170430
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день джаза
+URL:http://www.calend.ru/holidays/0/0/3088/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6793oVfJ78@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/540/
+DESCRIPTION:Всемирный день породненных городов проводится ежегодно в послед
+ нее воскресенье апреля по решению Всемирной федерации породненных городов 
+ (World Federation of United Cities)\, основанной в 1957 году.\n\nВсемирная
+  федерация породненных...
+DTSTART;VALUE=DATE:20170430
+RRULE:FREQ=YEARLY;BYDAY=5SU;BYMONTH=4
+SUMMARY:Всемирный день породненных городов
+URL:http://www.calend.ru/holidays/0/0/540/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6805PczvLZ@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/37/
+DESCRIPTION:1 мая во многих странах мира отмечается международный праздник 
+ - День труда\, который изначально носил название День международной солида
+ рности трудящихся.\n\n1 мая 1886 года американские рабочие организовали за
+ бастовку\, выдвинув...
+DTSTART;VALUE=DATE:20170501
+RRULE:FREQ=YEARLY
+SUMMARY:Праздник труда (День труда)
+URL:http://www.calend.ru/holidays/0/0/37/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6817sC2G6v@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2023/
+DESCRIPTION:Солнце — ближайшая к Земле звезда\, все другие находятся от нас
+  неизмеримо дальше. Например\, ближайшая к нам звезда Проксима из системы 
+ aльфа Центавра находится на расстоянии 4\,22 световых лет от Солнца. \n\nД
+ ля Земли Солнце — мощный...
+DTSTART;VALUE=DATE:20170503
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день Солнца
+URL:http://www.calend.ru/holidays/0/0/2023/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-68311sU0Wz@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1556/
+DESCRIPTION:5 мая мировое сообщество отмечает Международный день борьбы за 
+ права инвалидов. \n\nСвою историю эта дата ведет с 1992 года\, когда 5 мая
+  люди с ограниченными возможностями одновременно в 17 европейских странах 
+ провели день борьбы за...
+DTSTART;VALUE=DATE:20170505
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день борьбы за права инвалидов
+URL:http://www.calend.ru/holidays/0/0/1556/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6843AjlFWT@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3042/
+DESCRIPTION:Сегодня свой профессиональный праздник отмечают люди\, благодар
+ я заботливым рукам которых многие из нас появились на свет. Уже более двух
+  десятилетий подряд 5 мая считается Международным днем акушерки (Internati
+ onal Midwives' Day)....
+DTSTART;VALUE=DATE:20170505
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день акушерки
+URL:http://www.calend.ru/holidays/0/0/3042/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6858vMLI5T@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/203/
+DESCRIPTION:Всемирный День Красного Креста и Красного полумесяца (World Red
+  Cross and Red Crescent Day) отмечается ежегодно 8 мая и учрежден в честь 
+ швейцарского бизнесмена\, общественного деятеля и гуманиста Жана Анри Дюна
+ на (Jean Henri Dunant\, 8 мая 1828 — 30...
+DTSTART;VALUE=DATE:20170508
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный День Красного Креста и Красного Полумесяца
+URL:http://www.calend.ru/holidays/0/0/203/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6873vvPWMU@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/40/
+DESCRIPTION:Война всегда начинается внезапно\, хотя спустя поколение для ис
+ ториков она покажется неизбежной. В 1941 году началась самая страшная\, са
+ мая близкая\, самая дорогая — Великая Отечественная война. Говорят\, без о
+ громных потерь нацистов было не...
+DTSTART;VALUE=DATE:20170509
+RRULE:FREQ=YEARLY
+SUMMARY:День Победы
+URL:http://www.calend.ru/holidays/0/0/40/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6886dv1wHW@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/41/
+DESCRIPTION:Ежегодно 12 мая отмечается Международный день медицинской сестр
+ ы (International Nurses Day). Другими словами\, сегодня есть повод еще раз
+  поблагодарить и поздравить представительниц одной из самых гуманных профе
+ ссий.\n\nМедицинские сестры...
+DTSTART;VALUE=DATE:20170512
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день медицинской сестры
+URL:http://www.calend.ru/holidays/0/0/41/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6898Lns1P1@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3114/
+DESCRIPTION:12 мая Россия и страны бывшего СССР отмечают День экологическог
+ о образования. Праздник\, цель которого – актуализация экологических знани
+ й во всех науках и всех сферах человеческой деятельности\, был учрежден в 
+ 1991 году. \n\nВ этот день в...
+DTSTART;VALUE=DATE:20170512
+RRULE:FREQ=YEARLY
+SUMMARY:День экологического образования
+URL:http://www.calend.ru/holidays/0/0/3114/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6912gxiGpb@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2610/
+DESCRIPTION:Всемирный день справедливой торговли (World Fair Trade Day) еже
+ годно отмечается во вторую субботу мая\, а май считается месяцем справедли
+ вой торговли.\n\nЭтот День\, проводимый под руководством Всемирной организ
+ ации справедливой торговли...
+DTSTART;VALUE=DATE:20170513
+RRULE:FREQ=YEARLY;BYDAY=2SA;BYMONTH=5
+SUMMARY:Всемирный день справедливой торговли
+URL:http://www.calend.ru/holidays/0/0/2610/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6925HhvBER@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3115/
+DESCRIPTION:15 мая мир отмечает Международный день климата. Учреждение этог
+ о неофициального экологического праздника стало ответом на призыв метеорол
+ огов защищать климат как важный ресурс\, влияющий на благосостояние нынешн
+ их и будущих поколений....
+DTSTART;VALUE=DATE:20170515
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день климата
+URL:http://www.calend.ru/holidays/0/0/3115/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6939oaaVOH@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3047/
+DESCRIPTION:Полное название сегодняшнего праздника — Международный день отк
+ азника от военной службы по убеждениям совести (англ. The International Co
+ nscientious Objectors' Day). Отказники — это те люди\, которые по моральны
+ м или религиозным соображениям...
+DTSTART;VALUE=DATE:20170515
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день отказника
+URL:http://www.calend.ru/holidays/0/0/3047/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6953uLAUI7@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2904/
+DESCRIPTION:Перефразируя известные слова\, сегодня можно сказать: если биог
+ рафии кто-то пишет\, значит\, их кто-то читает. И сегодня именно тот день\
+ , когда стоит перечитать биографию любимого писателя\, артиста или познако
+ миться с жизнеописанием давно интересующего...
+DTSTART;VALUE=DATE:20170516
+RRULE:FREQ=YEARLY
+SUMMARY:День биографов
+URL:http://www.calend.ru/holidays/0/0/2904/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6966voxTnt@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2436/
+DESCRIPTION:Термин «гомофобия» (Homophobia: от греческого homоs — одинаковы
+ й и phоbos — страх\, боязнь) появился относительно недавно — в 1972 году. 
+ До этого явление\, которое сегодня принято называть гомофобией\, было обще
+ ственной нормой. Для обозначения...
+DTSTART;VALUE=DATE:20170517
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день борьбы с гомофобией
+URL:http://www.calend.ru/holidays/0/0/2436/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6980RRCXDn@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/45/
+DESCRIPTION:Ежегодно 18 мая музейные работники всего мира отмечают свой про
+ фессиональный праздник. И\, конечно\, те из нас\, кто с нетерпением ожидае
+ т очередного похода в краеведческий музей своего города или встречи с рари
+ тетными экспонатами Эрмитажа или Лувра\,...
+DTSTART;VALUE=DATE:20170518
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день музеев
+URL:http://www.calend.ru/holidays/0/0/45/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-6994ZtDKjU@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3238/
+DESCRIPTION:18 мая 2015 года жители планеты впервые отметили необычную дату
+  – День Розовой Пантеры (Pink Panther Day) – новый праздник\, учреждённый 
+ в Королевстве Любви (сообществе друзей\, членами которого являются музыкан
+ ты\, кулинары и другие увлеченные...
+DTSTART;VALUE=DATE:20170518
+RRULE:FREQ=YEARLY
+SUMMARY:День Розовой Пантеры
+URL:http://www.calend.ru/holidays/0/0/3238/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7008zLjU1c@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/892/
+DESCRIPTION:Всемирный день метрологии (World Metrology Day) ежегодно отмеча
+ ется 20 мая. День выбран в ознаменование подписания 20 мая 1875 года в Пар
+ иже\, на международной дипломатической конференции\, знаменитой «Метрическ
+ ой Конвенции» (Metre Convention)\, на...
+DTSTART;VALUE=DATE:20170520
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день метрологии
+URL:http://www.calend.ru/holidays/0/0/892/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7022uTIoLJ@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3090/
+DESCRIPTION:Ежегодно в третье воскресенье мая принято вспоминать людей\, ум
+ ерших от СПИДа. Это делается в том числе и для того\, чтобы привлечь внима
+ ние мировой общественности к проблемам больных СПИДом и носителей ВИЧ-инфе
+ кции\, а также к распространению этого...
+DTSTART;VALUE=DATE:20170521
+RRULE:FREQ=YEARLY;BYDAY=3SU;BYMONTH=5
+SUMMARY:Всемирный день памяти жертв СПИДа
+URL:http://www.calend.ru/holidays/0/0/3090/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7035fFumFx@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3043/
+DESCRIPTION:Сегодня\, 23 мая\, во многих странах отмечается Всемирный день 
+ черепахи (World Turtle Day) — животного\, символизирующего мудрость\, бога
+ тство и долголетие. \n\nЭтот необычный праздник зародился в 2000 году по и
+ нициативе Американского...
+DTSTART;VALUE=DATE:20170523
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день черепахи
+URL:http://www.calend.ru/holidays/0/0/3043/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-70482oXM1E@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2041/
+DESCRIPTION:Европейский день парков (The European Day of Parks\, EDoP) был 
+ учрежден Федерацией ЕВРОПАРК (EUROPARК Federation) — европейской организац
+ ией\, которая объединяет охраняемые природные территории в тридцати шести 
+ европейских странах. Проведенный впервые...
+DTSTART;VALUE=DATE:20170524
+RRULE:FREQ=YEARLY
+SUMMARY:Европейский день парков
+URL:http://www.calend.ru/holidays/0/0/2041/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7064AWxbLm@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3205/
+DESCRIPTION:Для многих стран мира 25 мая – это Международный День пропавших
+  детей (International Missing Children’s Day). Эта дата ведет свою историю
+  из США\, а символом Дня является изображение синей незабудки.\n\nВ этот д
+ ень в 1979 году по дороге...
+DTSTART;VALUE=DATE:20170525
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день пропавших детей
+URL:http://www.calend.ru/holidays/0/0/3205/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7078WSrhkR@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3240/
+DESCRIPTION:Каждый год 25 мая во многих странах мира поклонниками творчеств
+ а известного британского писателя Дугласа Адамса отмечается День полотенца
+  (Towel Day). В течении целого дня они носят повсюду с собой полотенце\, н
+ е расставаясь с ним ни на минуту\, таким...
+DTSTART;VALUE=DATE:20170525
+RRULE:FREQ=YEARLY
+SUMMARY:День полотенца
+URL:http://www.calend.ru/holidays/0/0/3240/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7089wvt2Ru@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2973/
+DESCRIPTION:Ежегодно 25 мая во всех странах отмечается Всемирный день щитов
+ идной железы (World Thyroid Day). \n\nДата вошла в календарь в 2009 году\,
+  когда Европейская тироидная ассоциация (European Thyroid Association — эт
+ а организация занимается...
+DTSTART;VALUE=DATE:20170525
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день щитовидной железы
+URL:http://www.calend.ru/holidays/0/0/2973/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7102PFJ6Up@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2694/
+DESCRIPTION:Как теперь не веселиться\, как грустить от разных бед — в нашем
+  доме поселился замечательный сосед...\n\nСоседи есть у всех — у людей\, у
+  животных\, у стран\, у планет... И чтобы не забывать о том\, что все мы ж
+ ивем близко и\, в сущности\,...
+DTSTART;VALUE=DATE:20170526
+RRULE:FREQ=YEARLY;BYDAY=5FR;BYMONTH=5
+SUMMARY:Европейский день соседей
+URL:http://www.calend.ru/holidays/0/0/2694/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7114KV1jX9@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1880/
+DESCRIPTION:В 2002 году Генеральная Ассамблея ООН своей Резолюцией № A/RES/
+ 57/129 объявила 29 мая Международным днем миротворцев (International Day o
+ f United Nations Peacekeepers). В последние годы было принято решение отме
+ чать его проведением мероприятий\,...
+DTSTART;VALUE=DATE:20170529
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день миротворцев ООН
+URL:http://www.calend.ru/holidays/0/0/1880/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7126miTM5R@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2065/
+DESCRIPTION:Самая яркая\, самая заметная и самая светлоголовая часть челове
+ чества наконец-то обрела свой собственный долгожданный и заслуженный празд
+ ник. Может быть потому\, что права белокурых дам\, как они гневно утвержда
+ ют\, незаслуженно попираются буквально по...
+DTSTART;VALUE=DATE:20170531
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день блондинок
+URL:http://www.calend.ru/holidays/0/0/2065/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7139EwTV6i@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/51/
+DESCRIPTION:Если сегодня природа подарила теплый солнечный день\, то станов
+ ится радостно вдвойне — потому что в первый день лета во многих странах от
+ мечается Международный день детей (International Children's Day). Этот пра
+ здник многим россиянам знаком как...
+DTSTART;VALUE=DATE:20170601
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день детей (День защиты детей)
+URL:http://www.calend.ru/holidays/0/0/51/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-71535MzD3w@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3074/
+DESCRIPTION:«Пейте\, дети\, молоко\, будете здоровы!» — эта фраза в полной 
+ мере относится к 1 июня — дате\, когда весь мир отмечает не только Междуна
+ родный день защиты детей\, но и Всемирный день молока (World Milk Day). \n
+ \nВпервые этот праздник...
+DTSTART;VALUE=DATE:20170601
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день молока
+URL:http://www.calend.ru/holidays/0/0/3074/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7164eveFJx@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3120/
+DESCRIPTION:Есть на нашей планете и такой праздник\, как Международный день
+  очистки водоёмов (англ. International Cleanup Day). Главное событие этого
+  дня – масштабный субботник. \n\nОн с 1995 года проводится во многих стран
+ ах мира под эгидой PADI –...
+DTSTART;VALUE=DATE:20170604
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=6
+SUMMARY:Международный день очистки водоемов
+URL:http://www.calend.ru/holidays/0/0/3120/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7177RpXJNF@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1378/
+DESCRIPTION:Друг — это одна душа\, живущая в двух телах.\nАристотель\n\n\nВ
+ се народы во все времена почитали дружбу величайшей социальной и нравствен
+ ной ценностью. Но\, как правило\, «подлинная дружба» неизменно считалась к
+ райне...
+DTSTART;VALUE=DATE:20170609
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день друзей
+URL:http://www.calend.ru/holidays/0/0/1378/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7193TXOVuE@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2618/
+DESCRIPTION:Международный день аккредитации (International Accreditation Da
+ y) был учрежден 9 июня 2008 года Генассамблеей ILAC и IAF. \n\nОснованием 
+ празднику послужила глобальная инициатива\, поддержанная общим решением Ме
+ ждународного Форума по...
+DTSTART;VALUE=DATE:20170609
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день аккредитации
+URL:http://www.calend.ru/holidays/0/0/2618/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7205Iz39ll@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3244/
+DESCRIPTION:Международный день архивов (International Archives Day)\, отмеч
+ аемый ежегодно 9 июня\, был учрежден Международным советом архивов (МСА\, 
+ International Council on Archives\, ICA) в ноябре 2007 года на Генеральной
+  ассамблее в Квебеке (Канада). \n
+DTSTART;VALUE=DATE:20170609
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день архивов
+URL:http://www.calend.ru/holidays/0/0/3244/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7220lRAvTd@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2908/
+DESCRIPTION:В одну из суббот июня\, начиная с 2005 года\, в мире отмечается
+  необычный праздник — Всемирный день вязания на публике (World Wide Knit i
+ n Public Day). \n\nЭмблема Дня Проходит он тоже необычно\, но вполне в соо
+ тветствии со своим названием:...
+DTSTART;VALUE=DATE:20170610
+RDATE;VALUE=DATE:20160618,20170610
+SUMMARY:Всемирный день вязания на публике
+URL:http://www.calend.ru/holidays/0/0/2908/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-72319gZfio@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/142/
+DESCRIPTION:День работников легкой промышленности в России и некоторых друг
+ их странах-бывших советских республиках по традиции отмечается каждое втор
+ ое воскресенье июня. Этот праздник\, существующий уже более 30 лет\, был у
+ чрежден Указом Президиума Верховного...
+DTSTART;VALUE=DATE:20170611
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=6
+SUMMARY:День работников легкой промышленности
+URL:http://www.calend.ru/holidays/0/0/142/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7242c8oVxi@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3038/
+DESCRIPTION:Ежегодно 14 июня интернет-сообщество отмечает Международный ден
+ ь блоггера (блогера). Идея проведения этого праздника родилась в 2004 году
+ . Сразу 500 человек из более чем 40 стран\, объединившись\, решили\, что и
+ м нужен свой день — своего рода символ...
+DTSTART;VALUE=DATE:20170614
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день блоггера
+URL:http://www.calend.ru/holidays/0/0/3038/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7255LpR5R6@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3154/
+DESCRIPTION:15 июня на нашей планете отмечается Всемирный день ветра (Globa
+ l Wind Day). Инициаторами создания столь необычного на первый взгляд празд
+ ника стали Европейская ассоциация ветроэнергетики и Всемирный совет по эне
+ ргии ветра. Цель его проведения —...
+DTSTART;VALUE=DATE:20170615
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день ветра
+URL:http://www.calend.ru/holidays/0/0/3154/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7269uddSEt@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2771/
+DESCRIPTION:Ежегодно 16 июня по инициативе Организации африканского единств
+ а (Organization of African Unity) в мире отмечается Международный день афр
+ иканского ребенка (International Day of the African Child). \n\nВпервые пр
+ аздник был отмечен в 1991...
+DTSTART;VALUE=DATE:20170616
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день африканского ребенка (День защиты детей Африки)
+URL:http://www.calend.ru/holidays/0/0/2771/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7282sp6LFk@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3092/
+DESCRIPTION:Традиция отмечать Всемирный день мотоциклиста появилась 22 июля
+  1992 года\, когда сразу в нескольких странах энтузиасты\, оставив автомоб
+ или в гаражах\, отправились на работу на мотоциклах и скутерах. Изначально
+  день так и назывался — Ride to Work Day\,...
+DTSTART;VALUE=DATE:20170619
+RRULE:FREQ=YEARLY;BYDAY=3MO;BYMONTH=6
+SUMMARY:Всемирный день мотоциклиста
+URL:http://www.calend.ru/holidays/0/0/3092/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7296Z0Ej0x@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2999/
+DESCRIPTION:Сегодня\, 20 июня\, защитники животных призывают обратить внима
+ ние на проблемы слонов — самых величественных животных современности. Впер
+ вые Всемирный день защиты слонов в зоопарках (International Day of Action 
+ for Elephants in Zoos\, IDAEZ) был...
+DTSTART;VALUE=DATE:20170620
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день защиты слонов в зоопарках
+URL:http://www.calend.ru/holidays/0/0/2999/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7309xdvFXF@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2462/
+DESCRIPTION:С недавних пор скейтеры обрели свой официальный праздник: 21 ию
+ ня во всем мире отмечается Международный день скейтбординга (Go Skateboard
+ ing Day)!\n\nСкейтбординг (англ. skateboarding)\, если говорить просто\, -
+  катание на скейтборде -...
+DTSTART;VALUE=DATE:20170621
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день скейтбординга
+URL:http://www.calend.ru/holidays/0/0/2462/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7322puUTU8@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2099/
+DESCRIPTION:Ежегодно 23 июня во всем мире отмечается Международный Олимпийс
+ кий день (International Olympic Day)\, в память о возрождении олимпийского
+  движения в его современном виде. \n\nИдея об установлении специального пр
+ аздничного дня\,...
+DTSTART;VALUE=DATE:20170623
+RRULE:FREQ=YEARLY
+SUMMARY:Международный Олимпийский день
+URL:http://www.calend.ru/holidays/0/0/2099/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7335uvhR4a@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/551/
+DESCRIPTION:Сегодня\, 25 июня\, славяне всего мира\, а это около 270 миллио
+ нов человек\, отмечают День дружбы и единения славян.\n\nЭтот праздник был
+  учреждён в 90-х годах 20 века и был создан для того\, чтобы разные ветви 
+ славянских народов помнили о...
+DTSTART;VALUE=DATE:20170625
+RRULE:FREQ=YEARLY
+SUMMARY:День дружбы и единения славян
+URL:http://www.calend.ru/holidays/0/0/551/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7348zHk5Ui@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/57/
+DESCRIPTION:Начиная с 1985 года\, ежегодно 27 июня отмечается Всемирный ден
+ ь рыболовства. Праздник установлен решением Международной конференции по р
+ егулированию и развитию рыболовства\, состоявшейся в июле 1984 года в Риме
+ .\n\nРыбалка — одно из самых...
+DTSTART;VALUE=DATE:20170627
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день рыболовства
+URL:http://www.calend.ru/holidays/0/0/57/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7360AzPG4U@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3080/
+DESCRIPTION:Ежегодно в первую субботу июля\, начиная с 2003 года\, отмечает
+ ся Международный день Днепра — экологический праздник\, посвящённый одной 
+ из самых спокойных и величавых равнинных рек\, которая занимает третье мес
+ то в Европе по длине и площади бассейна...
+DTSTART;VALUE=DATE:20170701
+RRULE:FREQ=YEARLY;BYDAY=1SA;BYMONTH=7
+SUMMARY:Международный день Днепра
+URL:http://www.calend.ru/holidays/0/0/3080/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7372KwO73V@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/58/
+DESCRIPTION:Международный день спортивного журналиста (World Sports Journal
+ ists Day) отмечается во многих странах мира ежегодно 2 июля\, начиная с 19
+ 95 года\, по инициативе Международной ассоциации спортивной прессы. \n\nОс
+ нованием для установления...
+DTSTART;VALUE=DATE:20170702
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день спортивного журналиста
+URL:http://www.calend.ru/holidays/0/0/58/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7385d5zDxe@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3016/
+DESCRIPTION:Во всем мире 2 июля отмечают как День НЛО (World UFO Day) или Д
+ ень уфолога. Этот праздник посвящен тем\, кто изучает явления\, которые не
+  имеют логического объяснения\, и объекты\, которым приписывается внеземно
+ е происхождение. Термин «уфология»...
+DTSTART;VALUE=DATE:20170702
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день НЛО (День уфолога)
+URL:http://www.calend.ru/holidays/0/0/3016/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-739913UUbU@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/905/
+DESCRIPTION:Ну\, целуй меня\, целуй\,\nХоть до крови\, хоть до боли.\nНе в 
+ ладу с холодной волей\nКипяток сердечных струй.\nСергей Есенин\n\n\nСегодн
+ я все желающие могут «обмениваться своими душами» на полных правах —...
+DTSTART;VALUE=DATE:20170706
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день поцелуя
+URL:http://www.calend.ru/holidays/0/0/905/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7411mmN2FO@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/206/
+DESCRIPTION:Смотри\, Петро\, ты поспел как раз в пору:\nзавтра Ивана Купала
+ . Одну только эту ночь\nв году и цветет папоротник. Не прозевай!\nН.В. Гог
+ оль «Вечер накануне Ивана Купала»\n\n\nИван Купала (иванова ночь\, иванов.
+ ..
+DTSTART;VALUE=DATE:20170707
+RRULE:FREQ=YEARLY
+SUMMARY:Иван Купала
+URL:http://www.calend.ru/holidays/0/0/206/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7425ZaZvbM@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2485/
+DESCRIPTION:Ежегодно 11 июля любители сладкого отмечают Всемирный день шоко
+ лада (World Chocolate Day). День шоколада был придуман и впервые проведён 
+ французами в 1995 году. \n\nЕсть мнение\, что первыми научились делать шок
+ олад ацтеки. Они называли...
+DTSTART;VALUE=DATE:20170711
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день шоколада
+URL:http://www.calend.ru/holidays/0/0/2485/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7438vRtA8e@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2920/
+DESCRIPTION:Ежегодно 12 июля свой профессиональный праздник — Всемирный ден
+ ь бортпроводника гражданской авиации — отмечают представители одной из сам
+ ых романтичных специальностей в мире\, больше известные нам как стюарды и 
+ стюардессы. \n\nМожет...
+DTSTART;VALUE=DATE:20170712
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день бортпроводника гражданской авиации
+URL:http://www.calend.ru/holidays/0/0/2920/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7449bucTif@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/61/
+DESCRIPTION:Уже много лет\, начиная с 1966 года\, во всем мире 20 июля отме
+ чают Международный день шахмат (International Chess Day). Этот праздник пр
+ оводится по решению ФИДЕ — Всемирной шахматной федерации (World Chess Fede
+ ration\, FIDE)\, основанной в 1924...
+DTSTART;VALUE=DATE:20170720
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день шахмат
+URL:http://www.calend.ru/holidays/0/0/61/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7468CaN3ni@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3209/
+DESCRIPTION:20 июля отмечается интересный и пока еще молодой праздник – Меж
+ дународный День Торта (International Cake Day)\, посвящённый дружбе и миру
+  между людьми\, странами\, народами. Он проходит под девизом «I CAKE YOU»\
+ , что значит – «Я приду к тебе с тортом»\,...
+DTSTART;VALUE=DATE:20170720
+RRULE:FREQ=YEARLY
+SUMMARY:Международный День Торта
+URL:http://www.calend.ru/holidays/0/0/3209/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7481zH84kU@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2366/
+DESCRIPTION:Ежегодно 23 июля наша планета отмечает Всемирный день китов и д
+ ельфинов (World Whale and Dolphin Day). Этот праздник был учрежден в 1986 
+ году\, когда Международная китобойная комиссия (International Whaling Comm
+ ission: IWC)\, после 200 лет...
+DTSTART;VALUE=DATE:20170723
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день китов и дельфинов
+URL:http://www.calend.ru/holidays/0/0/2366/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7494VBfUXt@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3139/
+DESCRIPTION:Ежегодно 26 июля поклонники первого в мире искусственного языка
+  отмечают День эсперанто. Эту знаковую систему создал окулист Людвиг Марко
+ вич Заменгоф (Ludwig Zamenhof). Он родился в Белостоке — сейчас этот город
+  расположен на территории Польши\, а в...
+DTSTART;VALUE=DATE:20170726
+RRULE:FREQ=YEARLY
+SUMMARY:День эсперанто
+URL:http://www.calend.ru/holidays/0/0/3139/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-750714v4V1@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/136/
+DESCRIPTION:Каждый год\, в последнюю пятницу июля\, администраторы корпорат
+ ивных и домашних сетей\, баз данных\, почтовых систем\, программных компле
+ ксов и другие «бойцы невидимого фронта» отмечают свой профессиональный пра
+ здник — День системного администратора....
+DTSTART;VALUE=DATE:20170728
+RRULE:FREQ=YEARLY;BYDAY=5FR;BYMONTH=7
+SUMMARY:День системного администратора
+URL:http://www.calend.ru/holidays/0/0/136/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7521ttxv9j@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3089/
+DESCRIPTION:Ежегодно 28 июля во многих странах проводится Всемирный день бо
+ рьбы с гепатитом (World Hepatitis Day). Датой для его учреждения стал день
+  рождения американского врача Баруха Самюэля Блумберга\, лауреата Нобелевс
+ кой премии\, открывшего вирус гепатита...
+DTSTART;VALUE=DATE:20170728
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день борьбы с гепатитом
+URL:http://www.calend.ru/holidays/0/0/3089/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7534BUBGDC@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3160/
+DESCRIPTION:Ежегодно 29 июля во всем мире отмечается Международный день тиг
+ ра (International Tiger Day). Этот праздник был учрежден в 2010 году на Ме
+ ждународном форуме «Тигриный саммит» в Санкт-Петербурге по проблемам сохра
+ нения популяции этого хищного...
+DTSTART;VALUE=DATE:20170729
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день тигра
+URL:http://www.calend.ru/holidays/0/0/3160/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7550D99X7v@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3250/
+DESCRIPTION:Пиво – это один из наиболее популярных алкогольных напитков в м
+ ире\, он ведёт свою историю из глубины веков\, имеет тысячи рецептов и мил
+ лионы поклонников во всех уголках планеты. Поэтому неудивительно\, что в ч
+ есть него повсеместно устраивается...
+DTSTART;VALUE=DATE:20170804
+RRULE:FREQ=YEARLY;BYDAY=1FR;BYMONTH=8
+SUMMARY:Международный день пива
+URL:http://www.calend.ru/holidays/0/0/3250/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7566mdbhhw@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2733/
+DESCRIPTION:Эдинбургский международный фестиваль искусств (The Edinburgh In
+ ternational Festival) – один из крупнейших в мире фестивалей сценических и
+ скусств. Он проходит в столице Шотландии ежегодно в августе и длится почти
+  месяц. \n\nЭдинбургский...
+DTSTART;VALUE=DATE:20170804
+RDATE;VALUE=DATE:20110812,20120809,20130809,20140808,20150807,20160805,2017
+ 0804
+SUMMARY:Эдинбургский международный фестиваль искусств
+URL:http://www.calend.ru/holidays/0/0/2733/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7580S1ThRu@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2851/
+DESCRIPTION:Международный день светофора отмечается 5 августа в честь событ
+ ия\, произошедшего в 1914 году. В этот день в американском городе Кливленд
+ е появился первый предшественник современных устройств. Он имел красный и 
+ зеленый фонари\, а при переключении...
+DTSTART;VALUE=DATE:20170805
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день светофора
+URL:http://www.calend.ru/holidays/0/0/2851/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7592omNTCP@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/572/
+DESCRIPTION:«Врачи мира за мир» — это международный день\, который был пред
+ ложен организацией «Врачи мира за предотвращение ядерной угрозы». Он отмеч
+ ается в годовщину страшной трагедии — дня бомбардировки японского города Х
+ иросима (Hiroshima) 6 августа 1945...
+DTSTART;VALUE=DATE:20170806
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день «Врачи мира за мир»
+URL:http://www.calend.ru/holidays/0/0/572/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7603VPcdSI@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2953/
+DESCRIPTION:6 августа — День памяти жертв атомной бомбардировки японского г
+ орода Хиросимы.\n\nЕжегодно в этот день проходят многочисленные акции анар
+ хистов во многих странах мира. В Соединенных Штатах Америки также проводят
+ ся акции протеста\,...
+DTSTART;VALUE=DATE:20170806
+RRULE:FREQ=YEARLY
+SUMMARY:День памяти жертв атомной бомбардировки Хиросимы
+URL:http://www.calend.ru/holidays/0/0/2953/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7618SO1sIk@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3039/
+DESCRIPTION:8 августа в мире отмечается Международный день альпинизма или Д
+ ень альпиниста — праздник\, который не знает границ\, объединяя всех насто
+ ящих мужчин и твердых духом женщин.\n\nПоявлением этого праздника мы обяза
+ ны двум...
+DTSTART;VALUE=DATE:20170808
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день альпинизма (День альпиниста)
+URL:http://www.calend.ru/holidays/0/0/3039/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7633zp783j@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3251/
+DESCRIPTION:Праздники\, посвященные этим пушистым питомцам\, есть во многих
+  странах. Например\, в нашей стране День кошек отмечается 1 марта\, в Поль
+ ше – 17 февраля\, в Японии – 22 февраля\, а в США их чествуют 29 октября. 
+ Эти дни появились в разное время и на...
+DTSTART;VALUE=DATE:20170808
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день кошек
+URL:http://www.calend.ru/holidays/0/0/3251/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7646pnrdOb@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/67/
+DESCRIPTION:«Стали все подходить и смотреть: блоха действительно была на вс
+ е ноги подкована на настоящие подковы\, а левша доложил\, что и это еще не
+  все удивительное.\n— Если бы\, — говорит\, — был лучше мелкоскоп\, которы
+ й в пять миллионов увеличивает\, так...
+DTSTART;VALUE=DATE:20170813
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день левшей
+URL:http://www.calend.ru/holidays/0/0/67/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7657Ehuluf@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/68/
+DESCRIPTION:Несмотря на то\, что история Дня археолога не связана с какими-
+ либо событиями и открытиями\, и сам праздник не является ни государственны
+ м\, ни национальным\, археологи России\, Белоруссии\, Казахстана и Украины
+  отмечают свой профессиональный праздник 15...
+DTSTART;VALUE=DATE:20170815
+RRULE:FREQ=YEARLY
+SUMMARY:День археолога
+URL:http://www.calend.ru/holidays/0/0/68/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7672VagPZI@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3252/
+DESCRIPTION:Фотография – это уникальное явление\, ведь на фотоснимках можно
+  запечатлеть происходящие события\, интересные моменты\, красивые места\, 
+ любимые лица\, моменты\, которые никогда больше не повторятся… Благодаря и
+ м\, можно вернуться в прошлое\, ведь...
+DTSTART;VALUE=DATE:20170819
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день фотографии
+URL:http://www.calend.ru/holidays/0/0/3252/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7686L4S8hC@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2980/
+DESCRIPTION:Моральный прогресс нации можно измерить тем\,\nкак эта нация от
+ носится к животным.\nМахатма Ганди\n\n\nВ третью субботу августа отмечаетс
+ я Всемирный день бездомных животных (International Homeless Animals Day)..
+ ..
+DTSTART;VALUE=DATE:20170819
+RRULE:FREQ=YEARLY;BYDAY=3SA;BYMONTH=8
+SUMMARY:Всемирный день бездомных животных
+URL:http://www.calend.ru/holidays/0/0/2980/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7698aAGHrh@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3124/
+DESCRIPTION:В последние полные выходные августа в мире отмечается один из с
+ амых необычных природоохранных праздников – Ночь летучих мышей (Internatio
+ nal Bat Night). Главная его цель – привлечь внимание общественности к проб
+ лемам рукокрылых и их охране\, а также...
+DTSTART;VALUE=DATE:20170826
+RRULE:FREQ=YEARLY;BYDAY=5SA;BYMONTH=8
+SUMMARY:Международная ночь летучих мышей
+URL:http://www.calend.ru/holidays/0/0/3124/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-77103WvPas@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3020/
+DESCRIPTION:Идея праздновать День блога (Blog Day) 31 августа появилась в 2
+ 005 году\, когда активные пользователи LiveJournal усмотрели в слове blog 
+ цифры — 3108. Поэтому и датой праздника установили 31 августа (31.08). \n
+ \nИнициаторы Дня блога...
+DTSTART;VALUE=DATE:20170831
+RRULE:FREQ=YEARLY
+SUMMARY:День блога
+URL:http://www.calend.ru/holidays/0/0/3020/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7721kBdKFg@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/70/
+DESCRIPTION:Буквы разные писать\nТонким пёрышком в тетрадь\nУчат в школе\, 
+ учат в школе\,\nУчат в школе.\nВычитать и умножать\,\nМалышей не обижать\n
+ Учат в школе\, учат в школе\,\nУчат в школе.\n\nПесня «Чему...
+DTSTART;VALUE=DATE:20170901
+RRULE:FREQ=YEARLY
+SUMMARY:День знаний
+URL:http://www.calend.ru/holidays/0/0/70/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7732Z6lcoz@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/576/
+DESCRIPTION:Международный день солидарности журналистов (International Day 
+ of Journalists' Solidarity) был учрежден в 1958 году в Бухаресте\, на 4 ко
+ нгрессе международной организации журналистов. По замыслу депутатов конгре
+ сса\, в это день журналисты всех стран и...
+DTSTART;VALUE=DATE:20170908
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день солидарности журналистов
+URL:http://www.calend.ru/holidays/0/0/576/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7744BG4G0u@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/73/
+DESCRIPTION:Красота присуща всему здоровому...\nОна есть гармония\, в ней з
+ алог успокоения\;\nона воплощает человеку и человечеству идеалы.\nЕсли в н
+ ароде сохраняется идеал красоты\nи потребность её\, значит\, есть и...
+DTSTART;VALUE=DATE:20170909
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день красоты
+URL:http://www.calend.ru/holidays/0/0/73/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7757asLnZ6@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3171/
+DESCRIPTION:Ежегодно\, начиная с 2000 года\, во вторую субботу сентября во 
+ многих странах отмечается Всемирный день оказания первой медицинской помощ
+ и (World First Aid Day). Инициаторами его проведения выступили национальны
+ е организации – члены Международного...
+DTSTART;VALUE=DATE:20170909
+RRULE:FREQ=YEARLY;BYDAY=2SA;BYMONTH=9
+SUMMARY:Всемирный день оказания первой медицинской помощи
+URL:http://www.calend.ru/holidays/0/0/3171/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7768VovwGz@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3125/
+DESCRIPTION:Первый месяц осени богат на экологические праздники. Так\, во в
+ торое воскресенье сентября наша планета отмечает Всемирный день журавля. 
+ \n\nПервые предки этих красивых птиц появились еще во времена динозавров\,
+  около 40–60 миллионов лет...
+DTSTART;VALUE=DATE:20170910
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=9
+SUMMARY:Всемирный день журавля
+URL:http://www.calend.ru/holidays/0/0/3125/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7779mXAOtI@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2160/
+DESCRIPTION:День памяти жертв фашизма — это день памяти десятков миллионов 
+ людей\, погибших в результате гигантского\, нечеловеческого эксперимента. 
+ Это миллионы солдат\, которых фашистские лидеры столкнули друг с другом\, 
+ но ещё больше — мирных жителей\, которые...
+DTSTART;VALUE=DATE:20170910
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=9
+SUMMARY:День памяти жертв фашизма
+URL:http://www.calend.ru/holidays/0/0/2160/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7794bZUAfZ@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3215/
+DESCRIPTION:День сока – популярный\, хоть и молодой\, праздник\, который уж
+ е отмечают в разных странах мира. Его основная цель – популяризация соков 
+ как полезного и вкусного напитка и важной составляющей ежедневного рациона
+  человека. Символ праздника –...
+DTSTART;VALUE=DATE:20170916
+RRULE:FREQ=YEARLY;BYDAY=3SA;BYMONTH=9
+SUMMARY:Международный День сока в России
+URL:http://www.calend.ru/holidays/0/0/3215/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-780601LTE8@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2225/
+DESCRIPTION:Каждый год 19 сентября отмечается необычный праздник — День рож
+ дения дружелюбного электронного символа — День рождения «Смайлика».\n\n19 
+ сентября 1982 года профессор Университета Карнеги-Меллона Скотт Фалман (Sc
+ ott E. Fahlman) впервые...
+DTSTART;VALUE=DATE:20170919
+RRULE:FREQ=YEARLY
+SUMMARY:День рождения «Смайлика»
+URL:http://www.calend.ru/holidays/0/0/2225/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7822KRVOS5@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2218/
+DESCRIPTION:Международный день подражания пиратам (International Talk Like 
+ A Pirate Day)\, или Международный день «Говори как пират»\, отмечается еже
+ годно 19 сентября в более 40 странах. Это очень веселый праздник\, когда л
+ юди подражают разговору пиратов\, а...
+DTSTART;VALUE=DATE:20170919
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день подражания пиратам
+URL:http://www.calend.ru/holidays/0/0/2218/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7834dU05VP@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2681/
+DESCRIPTION:Ежегодно\, начиная с 2010 года\, 21 сентября отмечается Всемирн
+ ый день русского единения. Пока это неофициальный праздник\, но идею отмеч
+ ать День поддержали представители русской диаспоры и любители русской куль
+ туры уже из 24...
+DTSTART;VALUE=DATE:20170921
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день русского единения
+URL:http://www.calend.ru/holidays/0/0/2681/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7847wdlLtL@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3253/
+DESCRIPTION:Ежегодно 21 сентября во всём мире отмечается Международный день
+  распространения информации о болезни Альцгеймера (World Alzheimer's Day).
+  Он был учрежден в 1994 году по инициативе организаций\, занимающихся иссл
+ едованиями этого заболевания и поиском...
+DTSTART;VALUE=DATE:20170921
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день распространения информации о болезни Альцгеймера
+URL:http://www.calend.ru/holidays/0/0/3253/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-78587GxkGj@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3126/
+DESCRIPTION:Акцию «Очистим планету от мусора»\, получившую впоследствии ста
+ тус всемирной\, впервые провели в сентябре 1993 года жители Австралии – он
+ и массово вышли на очистку океанских пляжей. Постепенно к акции присоедини
+ лись другие страны\, и на сегодняшний...
+DTSTART;VALUE=DATE:20170921
+RRULE:FREQ=YEARLY
+SUMMARY:Неделя Всемирной акции «Мы чистим мир» («Очистим планету от мусора»
+ )
+URL:http://www.calend.ru/holidays/0/0/3126/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7869rB08Gi@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2540/
+DESCRIPTION:Всемирный день без автомобиля (World Carfree Day)\, ежегодно от
+ мечаемый 22 сентября во многих странах\, проводится с целью пропаганды иде
+ и пешего и велосипедного способов передвижения и использования общественно
+ го транспорта. Главный девиз Дня: «Город...
+DTSTART;VALUE=DATE:20170922
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день без автомобиля
+URL:http://www.calend.ru/holidays/0/0/2540/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7884obS0wv@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3255/
+DESCRIPTION:22 сентября во многих странах отмечается один из экологических 
+ праздников – Всемирный день защиты слонов (World Day of elephants)\, котор
+ ый был установлен по инициативе природоохранных организаций\, экологов и н
+ еравнодушных людей\, обеспокоенных...
+DTSTART;VALUE=DATE:20170922
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день защиты слонов
+URL:http://www.calend.ru/holidays/0/0/3255/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7897B2Zaic@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/75/
+DESCRIPTION:Международный день глухих (International Deaf Day)\, отмечаемый
+  ежегодно в последнее воскресенье сентября\, был учрежден в 1951 году\, в 
+ честь создания Всемирной федерации глухонемых (World Federation of the Dea
+ f\, WFD). Он завершает последнюю полную...
+DTSTART;VALUE=DATE:20170924
+RRULE:FREQ=YEARLY;BYDAY=5SU;BYMONTH=9
+SUMMARY:Международный день глухих
+URL:http://www.calend.ru/holidays/0/0/75/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7909DzMfZL@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2963/
+DESCRIPTION:Ежегодно 24 сентября отмечается не совсем обычный праздник — Ме
+ ждународный день караванщика (International Day of caravan). Его отмечают 
+ каравановожатые и прочие участники транспортных колонн и судовых караванов
+ \, дальнобойщики\, команды торговых...
+DTSTART;VALUE=DATE:20170924
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день караванщика
+URL:http://www.calend.ru/holidays/0/0/2963/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7920Z3aMoU@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/159/
+DESCRIPTION:Машиностроение — это базовая отрасль экономики любой высокоразв
+ итой страны\, сердцевина индустрии\, важнейшая отрасль промышленности\, ее
+  промышленный и интеллектуальный потенциал.\n\nВ последнее воскресенье сен
+ тября свой профессиональный...
+DTSTART;VALUE=DATE:20170924
+RRULE:FREQ=YEARLY;BYDAY=5SU;BYMONTH=9
+SUMMARY:День машиностроителя
+URL:http://www.calend.ru/holidays/0/0/159/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7933rRteW6@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/757/
+DESCRIPTION:Ежегодно\, начиная с 2001 года\, 26 сентября отмечается Европей
+ ский день языков (European Day of Languages) с целью поддержания языкового
+  разнообразия\, двуязычия каждого европейца\, развития преподавания различ
+ ных языков в мире и их изучения. Он был...
+DTSTART;VALUE=DATE:20170926
+RRULE:FREQ=YEARLY
+SUMMARY:Европейский день языков
+URL:http://www.calend.ru/holidays/0/0/757/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-79468eeEs7@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2547/
+DESCRIPTION:26 сентября 2007 года по инициативе ряда организаций\, занимающ
+ ихся вопросами репродуктивного здоровья и проблемами планирования семьи\, 
+ впервые был отмечен Всемирный День контрацепции (World Contraception Day)\
+ , и с тех пор он проводится ежегодно.
+DTSTART;VALUE=DATE:20170926
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день контрацепции
+URL:http://www.calend.ru/holidays/0/0/2547/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7958LAU2J2@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/78/
+DESCRIPTION:Ежегодно 30 сентября во многих странах отмечается профессиональ
+ ный праздник устных и письменных переводчиков — Международный день перевод
+ чиков (International Translation Day).\n\n«Почтовые лошади прогресса» — во
+ т так образно Александр...
+DTSTART;VALUE=DATE:20170930
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день переводчика
+URL:http://www.calend.ru/holidays/0/0/78/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7970LVjGVh@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/80/
+DESCRIPTION:Международный день музыки (International Music Day)\, отмечаемы
+ й ежегодно 1 октября\, начиная с 1975 года\, был учрежден по инициативе Ме
+ ждународного музыкального совета (IMC) при ЮНЕСКО двумя годами ранее на 15
+ -й Генеральной ассамблее IMC в Лозанне....
+DTSTART;VALUE=DATE:20171001
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день музыки
+URL:http://www.calend.ru/holidays/0/0/80/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-79859SIwS7@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3257/
+DESCRIPTION:Каждый год 1 октября мировое сообщество отмечает Всемирный день
+  вегетарианства (World Vegetarian Day)\, учреждённый Североамериканским ве
+ гетарианским обществом (North American Vegetarian Society\, NAVS) в 1977 г
+ оду и через год поддержанный...
+DTSTART;VALUE=DATE:20171001
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день вегетарианства
+URL:http://www.calend.ru/holidays/0/0/3257/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-7996CJxoDH@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2965/
+DESCRIPTION:Международный день социального педагога\, который отмечается еж
+ егодно 2 октября\, — сравнительно молодой праздник. \n\nВ мае 2009 года в 
+ Копенгагене прошла XVII Международная конференция социальных педагогов. В 
+ этом мероприятии участвовали...
+DTSTART;VALUE=DATE:20171002
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день социального педагога
+URL:http://www.calend.ru/holidays/0/0/2965/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8009wlcuWE@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1484/
+DESCRIPTION:У архитекторов всего мира и ценителей архитектурных шедевров се
+ годня профессиональный международный праздник — Всемирный день архитектуры
+  (World Architecture Day)\, который они отмечают в первый понедельник октя
+ бря.\n\nЭтот праздник был...
+DTSTART;VALUE=DATE:20171002
+RRULE:FREQ=YEARLY;BYDAY=1MO;BYMONTH=10
+SUMMARY:Всемирный день архитектуры
+URL:http://www.calend.ru/holidays/0/0/1484/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-80241Z1VoH@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3260/
+DESCRIPTION:Ежегодно в первый понедельник октября во многих странах мира от
+ мечают Международный день врача (International Doctor’s Day)\, который счи
+ тается днём солидарности и активных действий врачей всего мира. Ведь главн
+ ая цель доктора любой национальности –...
+DTSTART;VALUE=DATE:20171002
+RRULE:FREQ=YEARLY;BYDAY=1MO;BYMONTH=10
+SUMMARY:Международный день врача
+URL:http://www.calend.ru/holidays/0/0/3260/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8037hMKsVw@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/81/
+DESCRIPTION:Всемирный день животных (World Animal Day)\, или Всемирный день
+  защиты животных\, отмечаемый во всем мире ежегодно 4 октября\, был учрежд
+ ен на Международном конгрессе сторонников движения в защиту природы\, прох
+ одившем в 1931 году во Флоренции (Италия)\,...
+DTSTART;VALUE=DATE:20171004
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день животных
+URL:http://www.calend.ru/holidays/0/0/81/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-80508vLHgW@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/720/
+DESCRIPTION:Ежегодно 6 октября во всем мире отмечают Всемирный день охраны 
+ мест обитаний — международный праздник\, призванный привлечь внимание чело
+ вечества к проблеме сохранения среды обитания фауны планеты Земля. Этот пр
+ аздник был учреждён в 1979 году в...
+DTSTART;VALUE=DATE:20171006
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день охраны мест обитаний
+URL:http://www.calend.ru/holidays/0/0/720/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8062jf1c5b@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2402/
+DESCRIPTION:Всемирный день улыбки (World Smile Day) отмечается ежегодно в п
+ ервую пятницу октября. Тем\, что этот замечательный праздник существует\, 
+ мир обязан художнику Харви Бэллу (Harvey Ball). В середине 20 века он жил 
+ в Америке. Ничем примечательным его...
+DTSTART;VALUE=DATE:20171006
+RRULE:FREQ=YEARLY;BYDAY=1FR;BYMONTH=10
+SUMMARY:Всемирный день улыбки
+URL:http://www.calend.ru/holidays/0/0/2402/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-80735tDkVg@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3127/
+DESCRIPTION:В первые выходные октября на нашей планете отмечаются Междунаро
+ дные дни наблюдения птиц. В это время сотни тысяч людей во всем мире отпра
+ вляются в леса\, парки\, на луга\, болота\, на морские и речные побережья\
+ , чтобы наблюдать за пернатыми в...
+DTSTART;VALUE=DATE:20171007
+RRULE:FREQ=YEARLY;BYDAY=1SA;BYMONTH=10
+SUMMARY:Международные дни наблюдения птиц
+URL:http://www.calend.ru/holidays/0/0/3127/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8086xVOU4E@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3263/
+DESCRIPTION:12 октября во многих странах отмечается Всемирный день борьбы с
+  артритом (World Arthritis Day)\, который проводится ежегодно по инициатив
+ е Всемирной организации здравоохранения (ВОЗ) с 1996 года (в России – с 20
+ 06-го). \n\nОсновные цели...
+DTSTART;VALUE=DATE:20171012
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день борьбы с артритом
+URL:http://www.calend.ru/holidays/0/0/3263/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8099V6TW8E@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2551/
+DESCRIPTION:Во многих странах мира во вторую пятницу октября отмечают Всеми
+ рный день яйца (World Egg Day) — праздник всех любителей яиц\, омлетов\, з
+ апеканок и глазуньи… \n\nНичего удивительного в этом нет. Ведь яйца[/URL] 
+ — самый универсальный...
+DTSTART;VALUE=DATE:20171013
+RRULE:FREQ=YEARLY;BYDAY=2FR;BYMONTH=10
+SUMMARY:Всемирный день яйца
+URL:http://www.calend.ru/holidays/0/0/2551/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-81116J0uWm@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/585/
+DESCRIPTION:Ежегодно 14 октября по всему миру отмечается День стандартов\, 
+ или Всемирный день стандартизации\, — международная дата\, призванная обра
+ тить внимание людей на важность действий\, связанных с созданием единых ст
+ андартов\, и отметить вклад десятков тысяч...
+DTSTART;VALUE=DATE:20171014
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день стандартов
+URL:http://www.calend.ru/holidays/0/0/585/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8127fXAfpd@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2552/
+DESCRIPTION:Международное сообщество обозначило на календарях немало знамен
+ ательных и памятных дат. В их числе — Международный день белой трости (Int
+ ernational White Cane Safety Day). Это — не праздник. Это — своеобразный з
+ нак беды\, напоминающий обществу о...
+DTSTART;VALUE=DATE:20171015
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день белой трости
+URL:http://www.calend.ru/holidays/0/0/2552/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8140ru5csT@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3044/
+DESCRIPTION:«Мойте руки перед едой!» — плакаты с такими призывами висели во
+  многих советских столовых\, напоминая посетителям о необходимом ритуале п
+ редобеденной гигиены. Со стен современных кафе и ресторанов строгие плакат
+ ы на нас не смотрят\, зато призыв «мыть...
+DTSTART;VALUE=DATE:20171015
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день мытья рук
+URL:http://www.calend.ru/holidays/0/0/3044/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8154eSBANw@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3323/
+DESCRIPTION:«Хлеб – всему голова» \nРусская пословица\n\nОдин из самых попу
+ лярных продуктов в мире\, без которого\, пожалуй\, не обходится ни один де
+ нь нашей жизни\, – это\, конечно же\, хлеб. Поэтому не удивительно\, что у
+  него и есть свой...
+DTSTART;VALUE=DATE:20171016
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день хлеба
+URL:http://www.calend.ru/holidays/0/0/3323/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8167v5nmVK@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2255/
+DESCRIPTION:Анестезия — потеря чувствительности нервов. Искусственная анест
+ езия применяется для обезболивания при хирургических операциях\, лечении з
+ убов\, травмах и т.д.\, а также в других областях медицины.\n\nИстория это
+ й области медицины началась в...
+DTSTART;VALUE=DATE:20171016
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день анестезии (День анестезиолога)
+URL:http://www.calend.ru/holidays/0/0/2255/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8178eo0FjT@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1503/
+DESCRIPTION:Ежегодно 16 октября во многих странах отмечается День Шефа или\
+ , как его еще называют\, Национальный день Босса (National Boss's Day) - п
+ рофессиональный праздник руководителей коллективов всех уровней.\n\nВ 1958
+  году Патриция Хароски...
+DTSTART;VALUE=DATE:20171016
+RRULE:FREQ=YEARLY
+SUMMARY:День Шефа (День Босса)
+URL:http://www.calend.ru/holidays/0/0/1503/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-81929hbGu6@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2874/
+DESCRIPTION:Не откладывайте на завтра то\, что можно сделать сегодня.\nБ.Фр
+ анклин\n\nЕжегодно в третий четверг октября работники всех видов потребите
+ льских кооперативов отмечают свой профессиональный праздник — Международны
+ й День...
+DTSTART;VALUE=DATE:20171019
+RRULE:FREQ=YEARLY;BYDAY=3TH;BYMONTH=10
+SUMMARY:Международный день кредитных союзов
+URL:http://www.calend.ru/holidays/0/0/2874/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8204DNgjo2@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2247/
+DESCRIPTION:20 октября 1961 года в Амстердаме была создана Международная фе
+ дерация ассоциаций авиационных диспетчеров (International Federation of Ai
+ r Traffic Controllers Associations\, IFATCA). Это событие явилось такой зн
+ ачимой вехой в истории развития...
+DTSTART;VALUE=DATE:20171020
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день авиадиспетчера
+URL:http://www.calend.ru/holidays/0/0/2247/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8218VUSulG@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2909/
+DESCRIPTION:Ежегодно 20 октября свой профессиональный праздник — День повар
+ а — отмечают повара и кулинары всего мира. Международная дата была учрежде
+ на в 2004 году по инициативе Всемирной ассоциации кулинарных сообществ. Эт
+ а организация\, кстати\, насчитывает ни...
+DTSTART;VALUE=DATE:20171020
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день повара
+URL:http://www.calend.ru/holidays/0/0/2909/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-82338vCpFh@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3325/
+DESCRIPTION:Ежегодно 20 октября отмечается Всемирный день борьбы с остеопор
+ озом (World Osteoporosis Day). Всемирная Организация Здравоохранения устан
+ овила эту дату ещё в 1997 году.\n \nЧто же это такое: «остеопороз»? Корни 
+ слова имеют греческое...
+DTSTART;VALUE=DATE:20171020
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день борьбы с остеопорозом
+URL:http://www.calend.ru/holidays/0/0/3325/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8246lxN0LT@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3302/
+DESCRIPTION:Каждое четвертое воскресенье октября в мире отмечается необычны
+ й\, но и\, несомненно\, любимейший праздник любого зятя – Международный де
+ нь тёщи (Mother-In-Law Day). Хотя он пока не имеет статуса официального\, 
+ но весьма популярен уже во многих странах....
+DTSTART;VALUE=DATE:20171022
+RRULE:FREQ=YEARLY;BYDAY=4SU;BYMONTH=10
+SUMMARY:Международный день тёщи
+URL:http://www.calend.ru/holidays/0/0/3302/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8258FNh2uf@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3077/
+DESCRIPTION:Ежегодно 22 октября\, начиная с 1998 года\, в мире отмечается М
+ еждународный день заикающихся людей (International Stuttering Awareness Da
+ y). Идея учреждения этой даты родилась при поддержке Международной ассоциа
+ ции заикающихся людей (International...
+DTSTART;VALUE=DATE:20171022
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день заикающихся людей
+URL:http://www.calend.ru/holidays/0/0/3077/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8271wszkav@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2976/
+DESCRIPTION:Международный день школьных библиотек (International School Lib
+ rary Day) отмечается во многих странах ежегодно в четвертый понедельник ок
+ тября\, начиная с 1999 года по инициативе ЮНЕСКО. Причём каждый год он пос
+ вящён определённой...
+DTSTART;VALUE=DATE:20171023
+RRULE:FREQ=YEARLY;BYDAY=4MO;BYMONTH=10
+SUMMARY:Международный день школьных библиотек
+URL:http://www.calend.ru/holidays/0/0/2976/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-828415XuVB@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3000/
+DESCRIPTION:«Научимся использовать бумагу рационально!» — таков основной те
+ зис международной «безбумажной» кампании\, которая ежегодно проходит осень
+ ю по всему миру. Традиционно она проводилась каждый четвертый четверг октя
+ бря\, но в 2015 году ряд стран перенесли...
+DTSTART;VALUE=DATE:20171026
+RRULE:FREQ=YEARLY;BYDAY=4TH;BYMONTH=10
+SUMMARY:Российский День без бумаги
+URL:http://www.calend.ru/holidays/0/0/3000/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8297gPSvVN@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2273/
+DESCRIPTION:Международный день анимации (International Animation Day)\, кот
+ орый отмечается ежегодно 28 октября\, был учрежден по инициативе французск
+ ого отделения Международной ассоциации анимационного кино (The Internation
+ al Animated Film Association\, ASIFA) в...
+DTSTART;VALUE=DATE:20171028
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день анимации
+URL:http://www.calend.ru/holidays/0/0/2273/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8311hB3c8W@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3027/
+DESCRIPTION:Ежегодно 29 октября во всем мире отмечается Всемирный день борь
+ бы с инсультом (World Stroke Day)\, который был установлен Всемирной орган
+ изацией по борьбе с инсультом (World Stroke Organization\, WSO) в 2006 год
+ у с целью призыва к срочным активным...
+DTSTART;VALUE=DATE:20171029
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день борьбы с инсультом
+URL:http://www.calend.ru/holidays/0/0/3027/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8324DZEU9U@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1728/
+DESCRIPTION:Тот\, кто рожден был у моря\, \nТот полюбил навсегда\nБелые мач
+ ты на рейде\,\nВ дымке морской города\,\nСвет маяка над волною\,\nЮжных но
+ чей забытье\,\nСамое синее в мире\nЧёрное море мое\,\nЧёрное море...
+DTSTART;VALUE=DATE:20171031
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день Черного моря
+URL:http://www.calend.ru/holidays/0/0/1728/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8336dIsVJH@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/852/
+DESCRIPTION:Международный день экономии (International Saving Day) отмечает
+ ся ежегодно 31 октября.\n\n27 октября 1924 года представители сберегательн
+ ых банков из 29 стран собрались в итальянском Милане на свой Первый междун
+ ародный конгресс...
+DTSTART;VALUE=DATE:20171031
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день экономии
+URL:http://www.calend.ru/holidays/0/0/852/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8349XJil5d@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1471/
+DESCRIPTION:Международный день вегана (World Vegan Day) — праздник\, появив
+ шийся 1 ноября 1994 года\, когда Веганское общество (Vegan Society) отмеча
+ ло свое 50-летие.\n\nСлово веган было образовано Дональдом Уотсоном (Donal
+ d Watson) из первых трех и...
+DTSTART;VALUE=DATE:20171101
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день вегана
+URL:http://www.calend.ru/holidays/0/0/1471/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8361cDbVzT@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/167/
+DESCRIPTION:Господа мужчины! Если женское население считает\, что ближайший
+  всплеск повышенного внимания к сильной половине человечества стоит проявл
+ ять не ранее\, чем 23 февраля\, то вы имеете полное право напомнить\, что 
+ есть и другая достойная дата. \n
+DTSTART;VALUE=DATE:20171104
+RRULE:FREQ=YEARLY;BYDAY=1SA;BYMONTH=11
+SUMMARY:Всемирный день мужчин
+URL:http://www.calend.ru/holidays/0/0/167/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8374pg8eGV@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/205/
+DESCRIPTION:Мы начинаем КВН!\n\nВ 2001 году 8 ноября Россия и некоторые стр
+ аны СНГ впервые в истории отметили Международный день КВН — неофициальный 
+ праздник всех\, кто каким-либо образом причастен к Клубу Весёлых и Находчи
+ вых (КВН). И с тех пор...
+DTSTART;VALUE=DATE:20171108
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день КВН
+URL:http://www.calend.ru/holidays/0/0/205/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8387upXOtR@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/891/
+DESCRIPTION:9 ноября во всем мире — Международный день против фашизма\, рас
+ изма и антисемитизма (International Day Against Fascism\, Racism and Antis
+ emitism). Он был установлен по инициативе Международной сети против расизм
+ а UNITED\, объединяющей более 500...
+DTSTART;VALUE=DATE:20171109
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день против фашизма\, расизма и антисемитизма
+URL:http://www.calend.ru/holidays/0/0/891/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-84005M447X@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3129/
+DESCRIPTION:«Мы выбираем будущее без радиации!» — под таким девизом ежегодн
+ о 9 ноября в мире проходит Международный день антиядерных акций. \n\nЭколо
+ ги и другие неравнодушные граждане устраивают в этот день в разных городах
+  пикеты\, демонстрации и...
+DTSTART;VALUE=DATE:20171109
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день антиядерных акций
+URL:http://www.calend.ru/holidays/0/0/3129/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8413s9Msj3@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/168/
+DESCRIPTION:Всемирный день качества (World Quality Day) — ежегодное меропри
+ ятие\, проводимое во многих странах мира во второй четверг ноября. Инициат
+ ором учреждения этого Дня является Европейская организация качества (ЕОК) 
+ (European Organization for Quality\,...
+DTSTART;VALUE=DATE:20171109
+RRULE:FREQ=YEARLY;BYDAY=2TH;BYMONTH=11
+SUMMARY:Всемирный день качества
+URL:http://www.calend.ru/holidays/0/0/168/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8425kc8uAo@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2553/
+DESCRIPTION:Всемирный день юзабилити (World Usability Day) был учрежден в 2
+ 005 году по инициативе Ассоциации Профессионалов Юзабилити. В этом же году
+  он был впервые отпразднован и с тех пор отмечается ежегодно во второй чет
+ верг ноября. \n\nЮзабилити...
+DTSTART;VALUE=DATE:20171109
+RRULE:FREQ=YEARLY;BYDAY=2TH;BYMONTH=11
+SUMMARY:Всемирный день юзабилити
+URL:http://www.calend.ru/holidays/0/0/2553/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-84381V6Vbj@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2661/
+DESCRIPTION:Ежегодно 10 ноября специалисты одной из точных профессий отмеча
+ ют профессиональный праздник — Международный день бухгалтерии (Internation
+ al Accounting Day). Этот праздник часто называют Днем бухгалтера (Accounta
+ nt's Day). Необходимость введения...
+DTSTART;VALUE=DATE:20171110
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день бухгалтерии (День бухгалтера)
+URL:http://www.calend.ru/holidays/0/0/2661/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8451uVSVoJ@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/592/
+DESCRIPTION:Ежегодно во всем мире молодежь широко отмечает свои праздничные
+  дни и события. Международный день молодежи отмечается 12 августа\, россий
+ ские юноши и девушки празднуют День молодежи России 27 июня.\n\n10 ноября 
+ отмечается Всемирный день...
+DTSTART;VALUE=DATE:20171110
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день молодежи
+URL:http://www.calend.ru/holidays/0/0/592/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8462Vl2UFU@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3265/
+DESCRIPTION:11 ноября отмечается необычный праздник – Всемирный день шопинг
+ а. Пока он ещё не очень известен\, но\, как только люди узнают об этом соб
+ ытии\, то быстро становятся в ряды его сторонников. Кем же и когда был впе
+ рвые организован этот любопытный праздник...
+DTSTART;VALUE=DATE:20171111
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день шопинга
+URL:http://www.calend.ru/holidays/0/0/3265/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8475j0tR6D@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3130/
+DESCRIPTION:11 ноября по инициативе международной экологической сети «Школь
+ ный проект по использованию ресурсов и энергии» (SPARE) объявлено Днем эне
+ ргосбережения (International Day of Energy Saving). \n\nРешение об учрежде
+ нии этого праздника было...
+DTSTART;VALUE=DATE:20171111
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день энергосбережения
+URL:http://www.calend.ru/holidays/0/0/3130/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8486GU1vu9@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3030/
+DESCRIPTION:Всемирный день борьбы с пневмонией (World Pneumonia Day)\, кото
+ рый отмечается ежегодно 12 ноября\, появился в календаре по инициативе Гло
+ бальной коалиции против детской пневмонии. Так называется объединение межд
+ ународных\, правительственных\,...
+DTSTART;VALUE=DATE:20171112
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день борьбы с пневмонией
+URL:http://www.calend.ru/holidays/0/0/3030/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8500thLNvU@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3272/
+DESCRIPTION:Очень доброй традицией для многих стран стало ежегодное праздно
+ вание 13 ноября Всемирного дня Доброты (World Kindness Day)\, датой для ко
+ торого был выбран день открытия в 1998 году в Токио 1-й конференции Всемир
+ ного движения доброты (World Kindness...
+DTSTART;VALUE=DATE:20171113
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день доброты
+URL:http://www.calend.ru/holidays/0/0/3272/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8516s2Ouof@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/99/
+DESCRIPTION:13 ноября 1745 года во Франции родился Валентин Гаюи (Valentin 
+ Ha&#252\;y) — известный педагог\, основавший в Париже и Петербурге несколь
+ ко школ и предприятий для слепых. По решению Всемирной организации здравоо
+ хранения именно эта дата стала основой...
+DTSTART;VALUE=DATE:20171113
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день слепых
+URL:http://www.calend.ru/holidays/0/0/99/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-85272ZVA0x@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3267/
+DESCRIPTION:Для многих взрослых людей воспоминания о человеке\, пытающемся 
+ в Вашем далёком светлом детском возрасте «выудить» из Вас звук «р» быстрым
+ и движениями соски под языком\, а также поражающей воображение способность
+ ю без запинки произносить скороговорки –...
+DTSTART;VALUE=DATE:20171114
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день логопеда
+URL:http://www.calend.ru/holidays/0/0/3267/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8541FPLgU3@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1621/
+DESCRIPTION:По инициативе ряда крупных американских компаний и организаций 
+ (Национального географического общества\, USGS\, Sun Microsystems\, Hewlet
+ t–Packard\, ESRI) было решено ежегодно\, начиная с 1999 года\, отмечать Де
+ нь географических информационных систем —...
+DTSTART;VALUE=DATE:20171115
+RDATE;VALUE=DATE:20091118,20101117,20111116,20121114,20131120,20141119,2015
+ 1118,20161116,20171115
+SUMMARY:День географических информационных систем (День ГИС)
+URL:http://www.calend.ru/holidays/0/0/1621/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8554b9ktxP@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3131/
+DESCRIPTION:Ежегодно 15 ноября в ряде стран отмечается Всемирный день рецик
+ линга\, или Всемирный день вторичной переработки. Главная цель данного пра
+ здника — привлечь внимание властей\, общественности и промышленных структу
+ р к этой теме.\n\nГлавная...
+DTSTART;VALUE=DATE:20171115
+RRULE:FREQ=YEARLY
+SUMMARY:День вторичной переработки
+URL:http://www.calend.ru/holidays/0/0/3131/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-85683r74gs@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1563/
+DESCRIPTION:Ежегодно в третий четверг ноября в ряде западных стран мира отм
+ ечается Международный день отказа от курения (No Smoking Day). Он был уста
+ новлен Американским онкологическим обществом (American Cancer Society) в 1
+ 977 году. \n\nПо данным...
+DTSTART;VALUE=DATE:20171116
+RRULE:FREQ=YEARLY;BYDAY=3TH;BYMONTH=11
+SUMMARY:Международный день отказа от курения
+URL:http://www.calend.ru/holidays/0/0/1563/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8584tufAou@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3045/
+DESCRIPTION:17 ноября в мире отмечается Международный день недоношенных дет
+ ей (World Prematurity Day). Он был учрежден в 2009 году по инициативе Евро
+ пейского фонда по уходу за новорожденными детьми (European Foundation for 
+ the Care of Newborn Infants\, EFCNI)....
+DTSTART;VALUE=DATE:20171117
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день недоношенных детей
+URL:http://www.calend.ru/holidays/0/0/3045/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8595c31FG7@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1545/
+DESCRIPTION:Международный день студентов (International Students' Day) уста
+ новлен 17 ноября 1946 года на Всемирном конгрессе студентов\, состоявшемся
+  в Праге\, в память о чешских студентах-патриотах.\n\nКонечно\, этот празд
+ ник ассоциируется с...
+DTSTART;VALUE=DATE:20171117
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день студентов
+URL:http://www.calend.ru/holidays/0/0/1545/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8609dxVf2v@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3078/
+DESCRIPTION:Ежегодно 19 ноября в мире отмечается Международный мужской день
+  (International Men's Day\, IMD). \n\nВпервые его отпраздновали в 1999 год
+ у жители Республики Тринидад и Тобаго — островного государства в южной час
+ ти Карибского моря\,...
+DTSTART;VALUE=DATE:20171119
+RRULE:FREQ=YEARLY
+SUMMARY:Международный мужской день
+URL:http://www.calend.ru/holidays/0/0/3078/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8620M2i8Sx@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/108/
+DESCRIPTION:Всемирный день приветствий (World Hello Day) отмечается ежегодн
+ о 21 ноября. Его главная цель — обратить внимание широкой общественности н
+ а важность личного общения для сохранения мира. Ведь только посредством до
+ брого общения\, а не применяя силу\,...
+DTSTART;VALUE=DATE:20171121
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день приветствий
+URL:http://www.calend.ru/holidays/0/0/108/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8632dC0XR3@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3268/
+DESCRIPTION:Ежегодно 22 ноября в мире отмечается добрый семейный праздник –
+  День сыновей или День сына.\n\nСегодня практически каждый человек знает и
+ ли\, по крайней мере\, слышал о Дне матери\, который ежегодно отмечается в
+  разных странах по всему миру...
+DTSTART;VALUE=DATE:20171122
+RRULE:FREQ=YEARLY
+SUMMARY:День сыновей
+URL:http://www.calend.ru/holidays/0/0/3268/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8646vrIBow@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3277/
+DESCRIPTION:Ежегодно в первую пятницу после американского Дня Благодарения 
+ (обычно – это последняя неделя ноября) стартует знаменитая Чёрная пятница 
+ (Black Friday) – день\, который совсем не соответствует своему мрачному на
+ званию. Ведь Чёрная пятница – это одна...
+DTSTART;VALUE=DATE:20171124
+RRULE:FREQ=YEARLY;BYDAY=4FR;BYMONTH=11
+SUMMARY:Черная пятница
+URL:http://www.calend.ru/holidays/0/0/3277/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8660UTCLuX@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/111/
+DESCRIPTION:26 ноября отмечается Всемирный день информации (World Informati
+ on Day)\, который проводится ежегодно с 1994 года по инициативе Международ
+ ной академии информатизации (МАИ)\, имеющей генеральный консультативный ст
+ атус в Экономическом и Социальном...
+DTSTART;VALUE=DATE:20171126
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день информации
+URL:http://www.calend.ru/holidays/0/0/111/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8672581E6e@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3278/
+DESCRIPTION:26 ноября отмечается Международный день сапожника – профессиона
+ льный праздник мастеров и ремесленников\, занимающихся дизайном\, изготовл
+ ением и шитьем обуви\, а также работников занятых в данном производстве и 
+ специалистов по ремонту обуви.\n
+DTSTART;VALUE=DATE:20171126
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день сапожника
+URL:http://www.calend.ru/holidays/0/0/3278/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8686zHdVW1@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3279/
+DESCRIPTION:Киберпонедельник (Cyber Monday) – это маркетинговое название по
+ недельника\, который наступает после Чёрной пятницы (дня огромных скидок и
+  распродаж) и является её продолжением\, но уже не в «живых»\, обычных\, м
+ агазинах\, а в сети Интернет. Это время...
+DTSTART;VALUE=DATE:20171127
+RDATE;VALUE=DATE:20151130,20161128,20171127
+SUMMARY:Киберпонедельник
+URL:http://www.calend.ru/holidays/0/0/3279/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8700iaI1LJ@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3219/
+DESCRIPTION:Ежегодно 30 ноября во многих странах отмечается Всемирный день 
+ домашних животных (World Day Pets). Идея об учреждении данного праздника б
+ ыла озвучена на Международном конгрессе сторонников движения в защиту прир
+ оды\, проходившем во Флоренции (Италия)...
+DTSTART;VALUE=DATE:20171130
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день домашних животных
+URL:http://www.calend.ru/holidays/0/0/3219/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8712JBhXst@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1607/
+DESCRIPTION:В 1988 году американская Ассоциация компьютерного оборудования 
+ объявила 30 ноября Международным днем защиты информации (Computer Security
+  Day). Целью Дня является напоминание пользователям о необходимости защиты
+  их компьютеров и всей хранимой в них...
+DTSTART;VALUE=DATE:20171130
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день защиты информации
+URL:http://www.calend.ru/holidays/0/0/1607/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8724up4xuf@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3203/
+DESCRIPTION:Сегодня\, 2 декабря\, отмечают неофициальный профессиональный п
+ раздник дизайнеры двухмерной компьютерной графики. Логично\, что для празд
+ ника была выбрана дата созвучная с названием профессии: 2D — 2 December\, 
+ которая набирает популярность большими...
+DTSTART;VALUE=DATE:20171202
+RRULE:FREQ=YEARLY
+SUMMARY:День 2D-художников
+URL:http://www.calend.ru/holidays/0/0/3203/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8735L4BvZH@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3037/
+DESCRIPTION:В третий день декабря свой праздник (правда\, пока неофициальны
+ й) традиционно отмечают компьютерные графики и дизайнеры всего мира. Идея 
+ его проведения\, выдвинутая в 1998 году\, принадлежит американской компани
+ и Alias. Дата этого праздника была...
+DTSTART;VALUE=DATE:20171203
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день компьютерной графики
+URL:http://www.calend.ru/holidays/0/0/3037/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8748kFS72v@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3133/
+DESCRIPTION:3 декабря население планеты отмечает Международный день борьбы 
+ с пестицидами. Выбору этой даты предшествовали трагические события. 3 дека
+ бря 1984 года на пестицидном заводе в Бхопале (Индия) произошла экологичес
+ кая катастрофа\, в память которой и был...
+DTSTART;VALUE=DATE:20171203
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день борьбы с пестицидами
+URL:http://www.calend.ru/holidays/0/0/3133/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8762ou9fIu@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3280/
+DESCRIPTION:4 декабря отмечается очень интересный и особенный праздник\, по
+ свящённый наступающему Новому году\, – День заказов подарков и написания п
+ исем Деду Морозу. Он посвящён всем\, кто верит в этого зимнего волшебника 
+ и с нетерпением ждёт чудесный праздник –...
+DTSTART;VALUE=DATE:20171204
+RRULE:FREQ=YEARLY
+SUMMARY:День заказов подарков и написания писем Деду Морозу
+URL:http://www.calend.ru/holidays/0/0/3280/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8775mRIpVI@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3338/
+DESCRIPTION:8 декабря отмечается Международный день художника\, который был
+  учреждён в 2007 году Международной Ассоциацией «Искусство народов мира». 
+ \n\nЭто не единственная дата\, связанная с профессией художника. Украина п
+ разднует этот день в...
+DTSTART;VALUE=DATE:20171208
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день художника
+URL:http://www.calend.ru/holidays/0/0/3338/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8786WkSzfd@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/1734/
+DESCRIPTION:Ежегодно 10 декабря в мире пока неформально\, но традиционно от
+ мечается Всемирный день футбола (World Football Day). Таким образом междун
+ ародное сообщество отдает дань этому виду спорта\, который для многих милл
+ ионов не просто игра\, а стиль жизни.
+DTSTART;VALUE=DATE:20171210
+RRULE:FREQ=YEARLY
+SUMMARY:Всемирный день футбола
+URL:http://www.calend.ru/holidays/0/0/1734/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8802N3iNto@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/3186/
+DESCRIPTION:10 декабря во многих странах мира отмечается Международный День
+  акций за принятие Декларации прав животных или Международный день прав жи
+ вотных\, который был учрежден в 1998 году – в 50-ю годовщину подписания Де
+ кларации прав человека. И это не...
+DTSTART;VALUE=DATE:20171210
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день акций за принятие Декларации прав животных (Межд
+ ународный день прав животных)
+URL:http://www.calend.ru/holidays/0/0/3186/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8817FFzJoZ@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2566/
+DESCRIPTION:11 декабря\, в день рождения аргентинского певца и киноактера\,
+  знаменитого «Короля танго» Карлоса Гарделя (Carlos Gardel\, 1887 (или 189
+ 0) — 1935)\, отмечается Международный день танго (International Day of Tan
+ go) — праздник танца\, философия которого...
+DTSTART;VALUE=DATE:20171211
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день танго
+URL:http://www.calend.ru/holidays/0/0/2566/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-88338w1EaO@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2667/
+DESCRIPTION:Ежегодно 15 декабря во всех странах\, удерживающих статус ведущ
+ их мировых производителей чая\, отмечается Международный день чая (Interna
+ tional Tea Day).\n\nЦель сегодняшнего Дня — привлечение внимания правитель
+ ств и граждан к проблемам...
+DTSTART;VALUE=DATE:20171215
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день чая
+URL:http://www.calend.ru/holidays/0/0/2667/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8844Rer6Sg@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2568/
+DESCRIPTION:Ежегодно 17 декабря в разных странах отмечается Международный д
+ ень защиты секс-работников от насилия и жестокости (International Day to E
+ nd Violence Against Sex Workers)\, инициатором проведения которого выступи
+ ла международная организация «Сеть...
+DTSTART;VALUE=DATE:20171217
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день защиты секс-работников от насилия и жестокости
+URL:http://www.calend.ru/holidays/0/0/2568/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8855JRpW0p@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/120/
+DESCRIPTION:Ежегодно 19 декабря мировое сообщество отмечает Международный д
+ ень помощи бедным (англ. International Day to Assist the Poor)\, установле
+ нный ООН в 1995 году. \n\nОрганизация Объединенных Наций рассматривает бед
+ ность как «состояние...
+DTSTART;VALUE=DATE:20171219
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день помощи бедным
+URL:http://www.calend.ru/holidays/0/0/120/
+END:VEVENT
+BEGIN:VEVENT
+UID:20170110T093553CET-8868VhAXNM@calend.ru/wholeworld/
+DTSTAMP:20170110T083553Z
+CATEGORIES:Международные праздники
+COMMENT:http://www.calend.ru/holidays/0/0/2353/
+DESCRIPTION:Международный день кино — это праздник кинематографистов — рабо
+ тников этого удивительного искусства — и его любителей по всему миру.\n\n2
+ 8 декабря 1895 года в Париже в «Гранд-кафе» на бульваре Капуцинок (а не Ка
+ пуцинов\, как многие...
+DTSTART;VALUE=DATE:20171228
+RRULE:FREQ=YEARLY
+SUMMARY:Международный день кино
+URL:http://www.calend.ru/holidays/0/0/2353/
+END:VEVENT
+END:VCALENDAR
