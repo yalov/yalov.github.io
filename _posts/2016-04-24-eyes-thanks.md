@@ -1,10 +1,26 @@
 ---
 layout: post
 title: "Eyes' Thanks"
+
+link_on_sidebar: true
+
 tag:
-  - sidebar
   - qt
   - С++
+
+category: 
+  - tools
+  - soft
+
+sidebar: true
+
+version: 0.99.0
+
+buttons:
+  - name: v!PAGE_VERSION! .7z
+    url: https://github.com/yalov/eyes-thanks/releases/download/!PAGE_VERSION!/EyesThanks_v!PAGE_VERSION!.7z
+
+
 
 
 summary: "<a class=example-image-link-left href='/images/eyesthanks-2monitors.jpg' data-lightbox='EyesThanks' title='fullscreen image at different-size monitors system'><img class='example-image' style= 'width: 10rem;' src='/images/eyesthanks-2monitors-prev.jpg' alt='fullscreen image at different-size monitors system'></a>
@@ -31,11 +47,13 @@ images:
 
 ---
 
+
 It’s the software that protect your eyes: the app frequently alerts you to take rest breaks by showing fullscreen image (random image from the folder).
 
 It supports **multiple monitors system** and wide image for all monitors.
 
-**Eyes' Thanks v0.98.0 for Windows XP–10 (x86, portable, 7z) — [Download](https://bitbucket.org/flart/eyes-thanks/downloads/EyesThanks_v0.98.0.7z)**
+**Download Eyes' Thanks v{{page.version}} for Windows XP–10 (x86, portable) —
+[.7z](https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}.7z)**
 
 For english version just remove *lang_ru.qm* and *setting.ini* at app folder.
 Also you can use `q` and `delete` hotkeys for close and delete active image, respectively.

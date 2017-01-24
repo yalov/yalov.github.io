@@ -80,14 +80,15 @@ a:focus {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1:not(.btn-title), h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
+  margin-top: .5rem;
   font-weight: bold;
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
 }
-h1 {
+h1:not(.btn-title) {
   font-size: 2rem;
 }
 h2 {
@@ -128,7 +129,7 @@ dd {
 }
 
 /* Misc */
-hr {
+hr::not(.post-title-hr) {
   position: relative;
   margin: 1.5rem 0;
   border: 0;

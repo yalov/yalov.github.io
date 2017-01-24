@@ -1,18 +1,23 @@
 <div class="sidebar">
     <div class="container">
         <!--sidebar-sticky-->
+
+
         <div class="sidebar-about">
             <h1>
         <a href="{% if site.baseurl == "" %} /{% endif %} {{site.baseurl}}">
           {{ site.title }}
         </a>
       </h1>
-            <p class="lead">{{ site.description }}</p>
+        <p class="lead">{{ site.description }}</p>
         </div>
 
+{% assign posts = site.posts | where: "link_on_sidebar", "true" %}
+
+
         <nav class="sidebar-nav">
-            <span class="sidebar-nav-item">Posts:</span>
-            {% for p in site.tags.sidebar %}
+            <span class="sidebar-nav-item">Top Posts:</span>
+            {% for p in posts  %}
                 <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a>
             {% endfor %}
         </nav>

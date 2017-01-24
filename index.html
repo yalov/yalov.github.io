@@ -32,11 +32,15 @@ flag: index
     <span class="post-date">{{ post.date | date_to_long_string }}</span>
 
     {% if post.summary %}
-       {{ post.summary }}
-    {% else %}
+      <p> {{ post.summary }} </p>
+     {% else %}
        {{ post.excerpt }}
     {% endif %}
-       <a href="{{ post.url }}">узнать больше...</a>
+
+    <a href="{{ post.url }}" class="find_out_more">Подробнее...</a>
+       <!--<a href="{{ post.url }}">узнать больше...</a>
+       <input type="button" class="button" value="узнать больше..." onclick="location.href={{ post.url }}" />-->
+       
 
 
   </div>
