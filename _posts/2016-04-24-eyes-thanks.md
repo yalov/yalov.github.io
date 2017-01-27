@@ -8,7 +8,7 @@ tag:
   - qt
   - С++
 
-category: 
+category:
   - tools
   - soft
 
