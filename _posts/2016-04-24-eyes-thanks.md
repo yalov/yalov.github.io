@@ -14,9 +14,13 @@ category:
 
 sidebar: true
 
+version: 0.99.0
+
 buttons:
-  - name: v0.98.0.7z
-    url: https://bitbucket.org/flart/eyes-thanks/downloads/EyesThanks_v0.98.0.7z
+  - name: v!PAGE_VERSION! .7z
+    url: https://github.com/yalov/eyes-thanks/releases/download/!PAGE_VERSION!/EyesThanks_v!PAGE_VERSION!.7z
+
+
 
 disqus_comments: true
 disqus_identifier: fde3ee99-1e9a-4781-8568-9d36d1ac76ca
@@ -45,11 +49,13 @@ images:
 
 ---
 
+
 It’s the software that protect your eyes: the app frequently alerts you to take rest breaks by showing fullscreen image (random image from the folder).
 
 It supports **multiple monitors system** and wide image for all monitors.
 
-**Eyes' Thanks v0.98.0 for Windows XP–10 (x86, portable, 7z) — [Download](https://bitbucket.org/flart/eyes-thanks/downloads/EyesThanks_v0.98.0.7z)**
+**Download Eyes' Thanks v{{page.version}} for Windows XP–10 (x86, portable) —
+[.7z](https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}.7z)**
 
 For english version just remove *lang_ru.qm* and *setting.ini* at app folder.
 Also you can use `q` and `delete` hotkeys for close and delete active image, respectively.

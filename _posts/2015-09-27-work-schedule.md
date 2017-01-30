@@ -9,9 +9,15 @@ tag:
   - С++
   - календарь
 
-category: 
+category:
   - tools
   - soft
+
+version: 1.9.4
+
+buttons:
+  - name: v!PAGE_VERSION! .7z
+    url: https://github.com/yalov/work-schedule/releases/download/!PAGE_VERSION!/WorkSchedule_v!PAGE_VERSION!.7z
 
 disqus_comments: true
 disqus_identifier: a987fd82-75c4-49e6-8647-c5f40cf5ad64
@@ -37,13 +43,15 @@ images:
     thumb: workschedule-en-prev.png
     text: English WorkSchedule
 
+
 ---
 
 **Work Schedule** is software for create your own rotating shift calendar.
 
 The app is useful for people with a rotating schedule, like bakery workers, nurses, caretakers, etc. Enter your schedule cycle and the start date of the cycle, and the app will display a calendar with your shifts for the whole year. There are customizable display setting: marking shifts by color, letters or images. It also supports english, belarusian and russian languages. You can easily create your own calendar, save it or print it.
 
-**WorkSchedule 1.9.4 for Windows (x86, portable) — [Download](https://bitbucket.org/flart/work-schedule/downloads/WorkSchedule-1.9.4.7z)**
+**Download WorkSchedule {{page.version}} for Windows (x86, portable) —
+[.7z](https://github.com/yalov/work-schedule/releases/download/{{page.version}}/WorkSchedule_v{{page.version}}.7z)**
 
 Screenshots:
 
