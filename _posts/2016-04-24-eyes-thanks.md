@@ -23,7 +23,7 @@ buttons:
 
 
 
-summary: "<a class=example-image-link-left href='/images/eyesthanks-2monitors.jpg' data-lightbox='EyesThanks' title='fullscreen image at different-size monitors system'><img class='example-image' style= 'width: 10rem;' src='/images/eyesthanks-2monitors-prev.jpg' alt='fullscreen image at different-size monitors system'></a>
+summary: "<a class=lightbox-image-link-left href='/images/eyesthanks-2monitors.jpg' data-lightbox='EyesThanks' title='fullscreen image at different-size monitors system'><img class='lightbox-image' style= 'width: 10rem;' src='/images/eyesthanks-2monitors-prev.jpg' alt='fullscreen image at different-size monitors system'></a>
 The app frequently alerts you to take rest breaks by showing fullscreen image (random image from the folder). It supports multiple monitors system and wide image for all monitors,"
 
 #lightbox2:

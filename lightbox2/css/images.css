@@ -1,10 +1,7 @@
 
-/* -- Examples -- */
-/*@media (min-width: 640px) {
-  .image-row {
-    text-align: left; } }*/
+/* This is for hover blue*/
 
-.example-image-link {
+.lightbox-image-link {
 /*  color: #4ae;
   text-decoration: none;
    outline: 0;*/
@@ -16,21 +13,15 @@
   line-height: 0;
   border-radius: 4px;
   transition: background-color 0.5s ease-out; }
-  .example-image-link:hover {
+  .lightbox-image-link:hover {
     background-color: #4ae;
     transition: none; }
 
-.example-image {
-  border-radius: 4px; }
-.example-imagew {
-  width: 10rem;
-  border-radius: 4px; }
-.example-imageh {
-  height: 10rem;
+.lightbox-image {
   border-radius: 4px; }
 
 
-.example-image-link-left {
+.lightbox-image-link-left {
   display: inline-block;
   padding: 2px;
   margin: 0 0.5rem 0.5rem 0.5rem;
@@ -40,13 +31,13 @@
   transition: background-color 0.5s ease-out;
   float:left;
 }
-.example-image-link-left:hover {
+.lightbox-image-link-left:hover {
   background-color: #4ae;
   transition: none; }
 
 
 
-  .example-image-link-right {
+  .lightbox-image-link-right {
   display: inline-block;
   padding: 2px;
   margin: 0 0.5rem 0.5rem 0.5rem;
@@ -56,6 +47,6 @@
   transition: background-color 0.5s ease-out;
   float:right;
 }
-.example-image-link-right:hover {
+.lightbox-image-link-right:hover {
   background-color: #4ae;
   transition: none; }
