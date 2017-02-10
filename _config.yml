@@ -7,7 +7,7 @@ imgfolder: /images/
 
 author:
   name:           'Yalov Alexander'
-  email:            mailto://alexander.yalov@gmail.com
+  email:           alexander.yalov@gmail.com
 
 permalink: :year/:title
 url:              https://yalov.github.io

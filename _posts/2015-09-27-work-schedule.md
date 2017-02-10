@@ -22,7 +22,7 @@ buttons:
 disqus_comments: true
 disqus_identifier: a987fd82-75c4-49e6-8647-c5f40cf5ad64
 
-summary: "<a class=example-image-link-left href='/images/workschedule-win10-en.png' data-lightbox='workschedule' title=''><img class='example-image' style= 'width: 10rem;' src='/images/workschedule-month-en.jpg' alt='workschedule-month'></a> The app is useful for people with a rotating schedule, like bakery workers, nurses, caretakers, etc. Enter your schedule cycle and the start date of the cycle, and the app will display a calendar with your shifts for the whole year, it supports english, belarusian and russian languages,"
+summary: "<a class=lightbox-image-link-left href='/images/workschedule-win10-en.png' data-lightbox='workschedule' title=''><img class='lightbox-image' style= 'width: 10rem;' src='/images/workschedule-month-en.jpg' alt='workschedule-month'></a> The app is useful for people with a rotating schedule, like bakery workers, nurses, caretakers, etc. Enter your schedule cycle and the start date of the cycle, and the app will display a calendar with your shifts for the whole year, it supports english, belarusian and russian languages,"
 
 #lightbox2:
 imgfolder: /images/

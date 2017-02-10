@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 {% include head.html %}
-
 <body>
-
     {% include sidebar.html %}
-
     <div class="content container">
         {{ content }}
 
@@ -15,9 +11,6 @@
         {% include disqus_comments.html %}
         {% endif %}
     </div>
-
-    <!-- script lightbox, "Include the Javascript at the bottom of your page before the closing </body> tag"  -->
-    <script src="/lightbox2/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>

@@ -46,6 +46,7 @@ html {
  */
 
 .sidebar {
+  overflow-y: auto;
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);

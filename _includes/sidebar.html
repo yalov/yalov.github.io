@@ -1,38 +1,48 @@
 <div class="sidebar">
-    <div class="container">
-        <!--sidebar-sticky-->
-
-
-        <div class="sidebar-about">
-            <h1>
+  <div class="container">
+    <div class="sidebar-about">
+      <h1>
         <a href="{% if site.baseurl == "" %} /{% endif %} {{site.baseurl}}">
           {{ site.title }}
         </a>
       </h1>
         <p class="lead">{{ site.description }}</p>
-        </div>
-
-{% assign posts = site.posts | where: "link_on_sidebar", "true" %}
-
-
-        <nav class="sidebar-nav">
-            <span class="sidebar-nav-item">Top Posts:</span>
-            {% for p in posts  %}
-                <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a>
-            {% endfor %}
-        </nav>
     </div>
-
-
-
-    <div class="container sidebar-sticky">
-        <nav class="sidebar-nav">
-
-            {% for p in site.pages %} {% if p.tag contains "sidebar_bottom" %}
-            <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a> {%endif%} {% endfor %}
-
-            <a class="sidebar-nav-item" href="{{ site.github.owner_url }}">GitHub projects</a>
-        </nav>
-        <p>&copy; {{ site.time | date: '%Y' }}, <a href={{site.author.email}}>{{site.author.name}}</a>, All rights reserved.</p>
-    </div>
+    {% assign posts = site.posts | where: "link_on_sidebar", "true" %}
+    <nav class="sidebar-nav">
+      <span class="sidebar-nav-item">Top Posts:</span>
+      {% for p in posts  %}
+      <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a>
+      {% endfor %}
+    </nav>
+  </div>
+  <div class="container sidebar-sticky">
+    <nav class="sidebar-nav">
+      {% for p in site.pages %} {% if p.tag contains "sidebar_bottom" %}
+        <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a> {%endif%} {% endfor %}
+        <a class="sidebar-nav-item" href="{{ site.github.owner_url }}">GitHub projects</a>
+    </nav>
+    <p>&copy; {{ site.time | date: '%Y' }}, <a href="mailto:{{site.author.email}}">{{site.author.name}}</a>, All rights reserved.</p>
+  </div>
 </div>
+
+
+<script>
+function check() {
+  var top = document.getElementsByClassName('container')[0];
+  var bottom = document.getElementsByClassName('container sidebar-sticky')[0];
+  var sidebar = document.getElementsByClassName('sidebar')[0];
+
+  if (overlaps( top, bottom )) {
+    sidebar.innerHTML = sidebar.innerHTML.replace(new RegExp('</div>\\s+<div class="container sidebar-sticky">','m'),'<br><!--overlaps-->');
+  }
+  else {
+    sidebar.innerHTML = sidebar.innerHTML.replace(new RegExp('<br><!--overlaps-->','g'),'</div>\\n<div class="container sidebar-sticky">');
+  }
+};
+
+check();
+
+$(window).resize(function () {waitForFinalEvent(check, 70, "some unique string");});
+
+</script>
