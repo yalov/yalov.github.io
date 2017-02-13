@@ -14,7 +14,7 @@ category:
 
 sidebar: true
 
-version: 0.99.0
+version: 0.99.2
 
 buttons:
   - name: v!PAGE_VERSION! .7z
@@ -26,7 +26,7 @@ disqus_comments: true
 disqus_identifier: fde3ee99-1e9a-4781-8568-9d36d1ac76ca
 
 summary: "<a class=lightbox-image-link-left href='/images/eyesthanks-2monitors.jpg' data-lightbox='EyesThanks' title='fullscreen image at different-size monitors system'><img class='lightbox-image' style= 'width: 10rem;' src='/images/eyesthanks-2monitors-prev.jpg' alt='fullscreen image at different-size monitors system'></a>
-The app frequently alerts you to take rest breaks by showing fullscreen image (random image from the folder). It supports multiple monitors system and wide image for all monitors,"
+The app frequently alerts you to take rest breaks by showing fullscreen image (random image from the folder). It supports multiple monitors system and wide image for all monitors."
 
 #lightbox2:
 imgfolder: /images/
@@ -54,7 +54,7 @@ It’s the software that protect your eyes: the app frequently alerts you to tak
 
 It supports **multiple monitors system** and wide image for all monitors.
 
-**Download Eyes' Thanks v{{page.version}} for Windows XP–10 (x86, portable) —
+**Download Eyes' Thanks v{{page.version}} for Windows 7–10 (x86, portable) —
 [.7z](https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}.7z)**
 
 For english version just remove *lang_ru.qm* and *setting.ini* at app folder.

@@ -1,12 +1,11 @@
-<!-- meta-tags -->
 {% capture description %}
-	{% if page.summary %}
-	  {{ page.summary | strip_html | strip_newlines | strip }}
-	{% elsif page.excerpt %}
-	  {{ page.excerpt | strip_html | strip_newlines | strip | truncate: 140 }}
-	{% else %}
-	  {{ site.description }}
-	{% endif %}
+{% if page.summary %}
+{{ page.summary | strip_html | strip_newlines }}
+{% elsif page.excerpt %}
+{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 140 }}
+{% else %}
+{{ site.description | strip_html | strip_newlines | strip | truncate: 140 }}
+{% endif %}
 {% endcapture %}
 
 {% capture full_url %}
@@ -15,21 +14,21 @@
 
 {% capture meta_width %}
 {% if page.images.first.width %}
-  <meta property="og:image:width" content="{{ page.images.first.width }}" />
+<meta property="og:image:width" content="{{ page.images.first.width }}" />
 {% else %}
-  <meta property="og:image:width" content="auto" />
+<meta property="og:image:width" content="auto" />
 {% endif %}
 {% endcapture %}
 
 {% capture meta_height %}
 {% if page.images.first.height %}
-  <meta property="og:image:height" content="{{ page.images.first.height }}" />
+<meta property="og:image:height" content="{{ page.images.first.height }}" />
 {% else %}
-  <meta property="og:image:height" content="auto" />
+<meta property="og:image:height" content="auto" />
 {% endif %}
 {% endcapture %}
 
-<meta name="description" content="{{description | strip}}" />
+<meta name="description" content="{{description| strip}}" />
 
 <link rel="canonical" href="{{full_url | strip}}" />
 <link rel="author" href="{{ site.author.name }}" />
@@ -50,7 +49,6 @@
 {{meta_height | strip}}
 {% endif %}
 
-
 <!-- ld-json (google+)-->
 <script type="application/ld+json">
 {
@@ -61,21 +59,18 @@
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "dateModified":  "{{ page.date | date_to_xmlschema }}",
 	{% endif %}
-  "description":   "{% if page.summary %}{{ page.summary | strip_html | strip_newlines }} {% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}",
+  "description":   "{{description | strip}}",
 
   "@id":    "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://'}}",
   "url":    "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' }}",
 
   "mainEntityOfPage": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' }}",
-
 {% if page.category %}
   "genre":     "{{ page.category }}",
 {% endif %}
-
 {% if page.tags %}
   "keywords":  "{{ page.tags | join: ', ' | escape }}",
 {% endif %}
-
 {% if page.images %}
 {% for image in page.images%}
   "image": {
@@ -85,7 +80,6 @@
     "name":        "{{ image.name }}",
     "contentUrl":  "{{ '/images/' | prepend: site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' }}{{ image.name }}",
     "url":         "{{ '/images/' | prepend: site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' }}{{ image.name }}",
-
     {% if image.width %}     "width":       "{{image.width}}",
     {% else %}               "width":       "auto",
     {% endif %}
@@ -95,12 +89,10 @@
   },
   {% endfor %}
 {% endif %}
-
   "author": {
     "@type": "Person",
     "name": "{{ site.author.name }}"
   },
-
   "publisher": {
     "@type":     "Organization",
     "name":      "{{ site.title}}",
@@ -112,7 +104,6 @@
       "height":     16
     }
   },
-
   {% if page.content %}
     "wordCount": "{{ page.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip | number_of_words}}"
   {% endif %}
