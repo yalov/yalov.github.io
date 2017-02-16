@@ -1,6 +1,7 @@
 title:            Yalov
 description:      'Personal page'
 
+# This is for {{site.github.repository_url}} and others working at localhost
 repository: yalov/yalov.github.io
 
 imgfolder: /images/
@@ -14,7 +15,7 @@ url:              https://yalov.github.io
 baseurl:          ""
 highlighter:      rouge
 
-paginate:         5
+paginate:         20
 paginate_path: "/page/:num/"
 
 excerpt_separator: <!--more-->
@@ -60,4 +61,4 @@ gems:
   - jekyll-hist
   - jekyll-feed
   - jekyll-sitemap
-#  - jekyll-redirect-from
+  - jekyll-redirect-from
