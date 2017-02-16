@@ -1,67 +1,152 @@
-<!-- meta-tags-index -->
 {% capture full_url %}
-{{page.url | replace:'/index.html','/' | prepend: site.url | prepend: site.baseurl | replace:'//','/' | replace:'//','/' | replace:'https:/','https://'}}
+{{page.url | replace:'/index.html','/' | prepend: site.url | prepend: site.baseurl | replace:'//','/' | replace:'//','/' | replace:'https:/','https://' | replace:'http:/','http://'}}
 {% endcapture %}
 
-{% capture meta_width %}
-{% if page.images.first.width %}
-  <meta property="og:image:width" content="{{ page.images.first.width }}" />
-{% else %}
-  <meta property="og:image:width" content="auto" />
-{% endif %}
+{% capture post_url %}
+{{post.url | replace:'/index.html','/' | prepend: site.url | prepend: site.baseurl | replace:'//','/' | replace:'//','/' | replace:'https:/','https://' | replace:'http:/','http://'}}
 {% endcapture %}
 
-{% capture meta_height %}
-{% if page.images.first.height %}
-  <meta property="og:image:height" content="{{ page.images.first.height }}" />
-{% else %}
-  <meta property="og:image:height" content="auto" />
-{% endif %}
+{% capture post_first_image %}
+{{ '/images/' | prepend: site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' | replace:'http:/','http://' }}{{ post.images.first.name }}
 {% endcapture %}
 
-<meta name="description" content="{{site.description | strip}}" />
-<link rel="canonical" href="{{full_url | strip}}" />
-<link rel="author" href="{{ site.author.name }}" />
-<link rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url | replace:'//','/' | replace:'//','/' | replace:'https:/','https://' }}">
+{% capture wide_logo %}
+{{'/favicon968x504.png' | prepend: site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' | replace:'http:/','http://' }}
+{% endcapture %}
 
-<meta property="og:type" content="website" />
-<meta property="og:title" content="{{ site.title }}" />
-<meta property="og:site_name" content={{site.title}} />
-<meta property="og:description" content="{{site.description | strip}}" />
-<meta property="og:url" content="{{full_url | strip}}" />
+{% capture site_url %}
+{{ site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' | replace:'http:/','http://' }}
+{% endcapture %}
 
-{% if page.images %}
-<meta property="og:image" content="{{ '/images/' | prepend: site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' }}{{ page.images.first.name }}" />
-{{meta_width | strip}}
-{{meta_height | strip}}
-{% endif %}
+{% comment %} "Get the tag name for every tag on the site and set them to the `site_tags` variable." {% endcomment %}
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
 
 
-<!-- ld-json-index -->
-<!-- Get the tag name for every tag on the site and set them to the `site_tags` variable. -->
-{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+  <!-- Уже было -->
+  <meta name="description" content="{{site.description | strip}}" />
+  <link rel="canonical" href="{{full_url | strip}}" />
+  <link rel="author" href="{{ site.author.name }}" />
+  {% if paginator.previous_page %}
+  <link rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url | replace:'//','/' | replace:'//','/' | replace:'https:/','https://' }}">
+  {% endif %}
+  {% if paginator.next_page %}
+  <link rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url | replace:'//','/' | replace:'//','/' | replace:'https:/','https://' }}">
+  {% endif %}
 
-<script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "WebSite",
-        "name": "{{site.title}}",
-        "headline": "{{site.description}}",
-        "description": "{{site.description}}",
-        "url": "{{site:url}}",
-        "keywords": "{{ site_tags}}",
 
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "{{site:url}}"
-        },
+  <!-- Для Facebook, VK, OK.ru и Google+: -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{site.title}}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{site.description| strip}}">
+  <meta property="og:url" content="{{full_url | strip}}">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:image" content="{{wide_logo | strip}}">
+  <meta property="og:image:width" content="968">
+  <meta property="og:image:height" content="504">
 
-        "author": {
-            "@type": "Person",
-            "name": "{{site.author.name}}",
-            "sameAs": [
-                "{{site.repository}}"
-            ]
-        }
+
+   <!-- Для Twitter и vk: -->
+  <meta name="twitter:card"      content="summary_large_image">
+  <meta name="twitter:title"     content="{{ site.title }}">
+  <meta name="twitter:description" content="{{site.description| strip}}">
+  <meta name="twitter:url"       content="{{full_url | strip}}">
+  <meta name="twitter:domain"    content="{{site_url | strip}}">
+  <meta name="twitter:site"      content="@{{ site.twitter_username }}" />
+  <meta name="twitter:creator"   content="@{{ site.twitter_username }}" />
+  <meta name="twitter:image:src" content="{{wide_logo | strip}}">
+
+
+  <!-- ld-json-index -->
+  <script type="application/ld+json">
+  { "@context": "http://schema.org",
+   "@type": "Blog",
+   "keywords": "{{ site_tags | strip}}",
+   "url": "{{full_url | strip}}",
+   "mainEntityOfPage": "{{full_url | strip}}",
+   "author": {
+      "@type": "Person",
+      "name": "{{site.author.name}}",
+      "sameAs": [
+          "{{site.github.owner_url}}"
+      ]
     }
-</script>
+   }
+  </script>
+
+{% assign items = "" %}
+{% for post in paginator.posts %}
+  {% capture list_item %}
+  {
+    "@type": "ListItem",
+    "position": {{forloop.index}},
+    "item": {
+      "@type": "BlogPosting",
+      "url": "{{full_url | strip}}#{{post.url}}",
+      "headline": "{{ post.title }}",
+      {% if post.images %}
+        "image": {
+          "@type":       "ImageObject",
+          "image":       "{{ post_first_image | strip }}",
+          "description": "{{ post.images.first.text }}",
+          "name":        "{{ post.images.first.name }}",
+          "contentUrl":  "{{ post_first_image | strip }}",
+          "url":         "{{ post_first_image | strip }}",
+          {% if post.images.first.width %}     "width":       "{{post.images.first.width}}",
+          {% else %}               "width":       "auto",
+          {% endif %}
+          {% if post.images.first.height %}    "height":     "{{post.images.first.height}}"
+          {% else %}               "height":     "auto"
+          {% endif %}
+        },
+      {% else %}
+      "image": {
+        "@type":       "ImageObject",
+        "image":       "{{ wide_logo | strip }}",
+        "description": "site logo",
+        "name":        "y-logo",
+        "contentUrl":  "{{ wide_logo | strip}}",
+        "url":         "{{ wide_logo | strip}}",
+        "width":       "968 px",
+        "height":      "504 px"
+      },
+      {% endif %}
+      "author": {
+        "@type": "Person",
+        "name": "{{ site.author.name }}"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.author.name }}",
+        "sameAs": [
+          "{{site.github.owner_url}}"
+        ],
+        "logo": {
+      		"@type": "ImageObject",
+          "contentUrl": "{{ wide_logo | strip}}",
+          "url":        "{{ wide_logo | strip}}",
+          "width":      "968 px",
+          "height":     "504 px"
+        }
+      },
+      "mainEntityOfPage": "{{ post_url | strip}}",
+      "datePublished"   : "{{ post.date | date_to_xmlschema }}",
+      "dateModified"    : "{{ post.date | date_to_xmlschema }}"
+    }
+  }
+  {% endcapture %}
+  {% assign items = items | append: list_item | append: "|||" %}
+{% endfor %}
+
+{% assign items = items | split: "|||" | join: ',' %}
+
+  <!-- ld-json-ItemList -->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {{ items }}
+    ]
+  }
+  </script>

@@ -2,9 +2,9 @@
   vertical-align: middle;
   /*float: right;*/
   margin-left: 2rem;
-  
-  font-size: 1rem; 
-  font-weight:normal;         
+
+  font-size: 1rem;
+  font-weight:normal;
   display: inline-block;
   color: rgba(0, 0, 0, 0.7);
   background-color: rgba(0, 0, 0, 0.08);
@@ -14,12 +14,12 @@
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
 
-.btn-title:link {    text-decoration: none;  } 
-  .btn-title:visited { text-decoration: none; } 
-  .btn-title:active { 
+.btn-title:link {    text-decoration: none;  }
+  .btn-title:visited { text-decoration: none; }
+  .btn-title:active {
     	position:relative;
     	top:1px;
-      text-decoration: none; 
+      text-decoration: none;
 
       }
 
@@ -65,8 +65,3 @@
 .clearboth{
     clear: both;
 }
-
-
-
-
-

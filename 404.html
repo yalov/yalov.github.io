@@ -2,8 +2,11 @@
 layout: default
 title: "HTTP 404"
 permalink: /404.html  # this is for https://yalov.github.io/2016/ (https://stackoverflow.com/questions/20973662)
-
+sitemap: false
 ---
+{% capture site_url %}
+{{ site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' | replace:'http:/','http://' }}
+{% endcapture %}
 
 <script type="text/javascript">
     var totalCount = 7;
@@ -65,8 +68,7 @@ permalink: /404.html  # this is for https://yalov.github.io/2016/ (https://stack
     <form id="contact">
         <h1>HTTP 404: Not Found</h1>
         <p>This page doesn't seem to exist. You might have followed a bad link or mistyped the address.
-           Not to worry. You can <a href="{% if site.baseurl == " " %} /{% endif %} {{ site.baseurl }}">return to the home page</a>, or
-            sit there and procrastinate.</p>
+           Not to worry. You can return to the <a href="{{ site_url }}">home page</a> or sit there and procrastinate.</p>
     </form>
 </div>
 
