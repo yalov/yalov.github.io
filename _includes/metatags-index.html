@@ -2,13 +2,11 @@
 {{page.url | replace:'/index.html','/' | prepend: site.url | prepend: site.baseurl | replace:'//','/' | replace:'//','/' | replace:'https:/','https://' | replace:'http:/','http://'}}
 {% endcapture %}
 
-{% capture post_url %}
-{{post.url | replace:'/index.html','/' | prepend: site.url | prepend: site.baseurl | replace:'//','/' | replace:'//','/' | replace:'https:/','https://' | replace:'http:/','http://'}}
+{% capture post_first_image %}
+{{ '/images/' | prepend: site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' | replace:'http:/','http://' }}
 {% endcapture %}
 
-{% capture post_first_image %}
-{{ '/images/' | prepend: site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' | replace:'http:/','http://' }}{{ post.images.first.name }}
-{% endcapture %}
+{% assign logo_name = '"Y-logo"' %}
 
 {% capture wide_logo %}
 {{'/favicon968x504.png' | prepend: site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' | replace:'http:/','http://' }}
@@ -35,26 +33,26 @@
 
 
   <!-- Для Facebook, VK, OK.ru и Google+: -->
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="{{site.title}}">
-  <meta property="og:title" content="{{ site.title }}">
-  <meta property="og:description" content="{{site.description| strip}}">
-  <meta property="og:url" content="{{full_url | strip}}">
-  <meta property="og:locale" content="ru_RU">
-  <meta property="og:image" content="{{wide_logo | strip}}">
-  <meta property="og:image:width" content="968">
-  <meta property="og:image:height" content="504">
-
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="{{site.title}}"/>
+  <meta property="og:title" content="{{ site.title }}"/>
+  <meta property="og:description" content="{{site.description| strip}}"/>
+  <meta property="og:url" content="{{full_url | strip}}"/>
+  <meta property="og:locale" content="ru_RU"/>
+  <meta property="og:image" content="{{wide_logo | strip}}"/>
+  <meta property="og:image:width" content="968"/>
+  <meta property="og:image:height" content="504"/>
+  <meta property="fb:app_id" content="{{ site.fb_app_id }}"/>
 
    <!-- Для Twitter и vk: -->
-  <meta name="twitter:card"      content="summary_large_image">
-  <meta name="twitter:title"     content="{{ site.title }}">
-  <meta name="twitter:description" content="{{site.description| strip}}">
-  <meta name="twitter:url"       content="{{full_url | strip}}">
-  <meta name="twitter:domain"    content="{{site_url | strip}}">
-  <meta name="twitter:site"      content="@{{ site.twitter_username }}" />
-  <meta name="twitter:creator"   content="@{{ site.twitter_username }}" />
-  <meta name="twitter:image:src" content="{{wide_logo | strip}}">
+  <meta name="twitter:card"      content="summary_large_image"/>
+  <meta name="twitter:title"     content="{{ site.title }}"/>
+  <meta name="twitter:description" content="{{site.description| strip}}"/>
+  <meta name="twitter:url"       content="{{full_url | strip}}"/>
+  <meta name="twitter:domain"    content="{{site_url | strip}}"/>
+  <meta name="twitter:site"      content="@{{ site.twitter_username }}"/>
+  <meta name="twitter:creator"   content="@{{ site.twitter_username }}"/>
+  <meta name="twitter:image:src" content="{{wide_logo | strip}}"/>
 
 
   <!-- ld-json-index -->
@@ -83,15 +81,16 @@
     "item": {
       "@type": "BlogPosting",
       "url": "{{full_url | strip}}#{{post.url}}",
+      "mainEntityOfPage": "{{full_url | strip}}#{{post.url}}",
       "headline": "{{ post.title }}",
       {% if post.images %}
         "image": {
           "@type":       "ImageObject",
-          "image":       "{{ post_first_image | strip }}",
+          "image":       "{{ post_first_image | strip }}{{ post.images.first.name }}",
           "description": "{{ post.images.first.text }}",
           "name":        "{{ post.images.first.name }}",
-          "contentUrl":  "{{ post_first_image | strip }}",
-          "url":         "{{ post_first_image | strip }}",
+          "contentUrl":  "{{ post_first_image | strip }}{{ post.images.first.name }}",
+          "url":         "{{ post_first_image | strip }}{{ post.images.first.name }}",
           {% if post.images.first.width %}     "width":       "{{post.images.first.width}}",
           {% else %}               "width":       "auto",
           {% endif %}
@@ -103,8 +102,8 @@
       "image": {
         "@type":       "ImageObject",
         "image":       "{{ wide_logo | strip }}",
-        "description": "site logo",
-        "name":        "y-logo",
+        "description": "logo of the personal blog",
+        "name":        {{ logo_name }},
         "contentUrl":  "{{ wide_logo | strip}}",
         "url":         "{{ wide_logo | strip}}",
         "width":       "968 px",
@@ -129,7 +128,6 @@
           "height":     "504 px"
         }
       },
-      "mainEntityOfPage": "{{ post_url | strip}}",
       "datePublished"   : "{{ post.date | date_to_xmlschema }}",
       "dateModified"    : "{{ post.date | date_to_xmlschema }}"
     }

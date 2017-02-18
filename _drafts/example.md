@@ -2,9 +2,10 @@
 layout: post
 title: Пример
 
-link_on_sidebar: false
+project: false
+post_on_sidebar: false
 fullwidth: false
-hidden: true
+hidden: false
 
 permalink: example  # if don't want /year/
 

@@ -2,15 +2,14 @@
 layout: post
 title: "Eyes' Thanks"
 
-link_on_sidebar: true
+post_on_sidebar: true
 
 tag:
   - qt
   - С++
 
 category:
-  - tools
-  - soft
+  - projects
 
 sidebar: true
 

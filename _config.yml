@@ -9,6 +9,8 @@ imgfolder: /images/
 author:
   name:           'Yalov Alexander'
 
+fb_app_id:           407579492909554
+
 permalink: :year/:title
 url:              https://yalov.github.io
 baseurl:          ""

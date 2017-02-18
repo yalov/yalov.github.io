@@ -9,6 +9,9 @@ tag:
   - кавычки
   - апостроф
 
+category:
+  - posts
+
   #lightbox2:
 imgfolder: /images/
 images:
