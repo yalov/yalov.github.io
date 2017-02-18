@@ -2,9 +2,10 @@
 layout: post
 title: Что такое Jekyll?
 tag:
-  - sidebar
   - jekyll
 
+category:
+  - posts
 ---
 
 [Jekyll](http://jekyllrb.com) это простой генератор статических сайтов, прекрасно подходящий для использования в качестве быстрой и легкой платформы для ведения блога.<!--more-->

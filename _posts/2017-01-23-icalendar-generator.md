@@ -2,12 +2,15 @@
 layout: post
 title: Календарь праздников
 
-link_on_sidebar: true
+post_on_sidebar: true
 
 tag:
   - праздник
   - календарь
   - iCal
+
+category:
+  - tools
 
 disqus_comments: true
 disqus_identifier: 9da4a7ae-5379-4f2f-a7b3-0a0cc8c19200

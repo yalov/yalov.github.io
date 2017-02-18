@@ -8,19 +8,35 @@
       </h1>
         <p class="lead">{{ site.description }}</p>
     </div>
-    {% assign posts = site.posts | where: "link_on_sidebar", "true" %}
+
+    {% assign projects = site.categories.projects | where: "post_on_sidebar", "true" %}
     <nav class="sidebar-nav">
-      <span class="sidebar-nav-item">Top Posts:</span>
-      {% for p in posts  %}
+      <span class="sidebar-nav-item">Projects:</span>
+      {% for p in projects  %}
       <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a>
       {% endfor %}
     </nav>
+
+    {% assign postsnonprojects =  '' | split: ',' %}
+    {% for p in site.posts %}
+      {% unless p.category contains 'projects' %}
+        {% assign postsnonprojects = postsnonprojects | push: p %}
+      {% endunless %}
+    {% endfor %}
+    {% assign postsnonprojects = postsnonprojects | where: "post_on_sidebar", "true" %}
+    <nav class="sidebar-nav">
+      <span class="sidebar-nav-item">Top Posts:</span>
+      {% for p in postsnonprojects %}
+      <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a>{% endfor %}
+    </nav>
   </div>
+
+  {% assign pages_bottom = site.pages | where: "on_sidebar_bottom", "true" %}
   <div class="container sidebar-sticky">
     <nav class="sidebar-nav">
-      {% for p in site.pages %} {% if p.tag contains "sidebar_bottom" %}
-        <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a> {%endif%} {% endfor %}
-        <a class="sidebar-nav-item" href="{{ site.github.owner_url }}">GitHub projects</a>
+      {% for p in pages_bottom %}
+      <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a>{% endfor %}
+      <a class="sidebar-nav-item" href="{{ site.github.owner_url }}">GitHub projects</a>
     </nav>
     <p>&copy; {{ site.time | date: '%Y' }}, <a href="mailto:{{site.author.email}}">{{site.author.name}}</a>, All rights reserved.</p>
   </div>

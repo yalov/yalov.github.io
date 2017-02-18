@@ -27,7 +27,7 @@
 
 
   <!-- Для Facebook, vk, OK.ru и Google+: -->
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
   <meta property="og:site_name" content="{{site.title}}">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{{description| strip}}">
@@ -44,7 +44,8 @@
   <meta property="og:image:width" content="968">
   <meta property="og:image:height" content="504">
   {% endif %}
-
+  <meta property="fb:app_id" content="{{ site.fb_app_id }}"/>
+  
    <!-- Для Twitter и vk: -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ page.title }}">
@@ -63,7 +64,7 @@
   <meta name="description" content="{{description| strip}}" />
   <link rel="canonical" href="{{full_url | strip}}" />
   <link rel="author" href="{{ site.author.name }}" />
-  <meta property="article:author" content="{{ site.author.name }}" />
+  <meta property="article:author" content="{{ site.author.fb }}" />
   {% if page.date %}
   <meta property="article:published_time" content="{{page.date | date_to_xmlschema}}" />
   {% endif %}

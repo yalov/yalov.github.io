@@ -2,7 +2,7 @@
 layout: post
 title: Work Schedule
 
-link_on_sidebar: true
+post_on_sidebar: true
 
 tag:
   - qt
@@ -10,8 +10,7 @@ tag:
   - календарь
 
 category:
-  - tools
-  - soft
+  - projects
 
 version: 1.9.4
 

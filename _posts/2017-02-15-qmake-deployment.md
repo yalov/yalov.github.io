@@ -2,8 +2,7 @@
 layout: post
 title: QMake Deployment
 
-link_on_sidebar: false
-hidden: false
+post_on_sidebar: false
 
 tag:
   - qt
@@ -11,7 +10,7 @@ tag:
   - deployment
 
 category:
-  - tools
+  - posts
 
 disqus_comments: true
 disqus_identifier: c78163f3-b705-a17e-2fda-1c4f7f3f2e41
