@@ -14,12 +14,7 @@ category:
 
 sidebar: true
 
-version: 0.99.2
-
-buttons:
-  - name: v!PAGE_VERSION! .7z
-    url: https://github.com/yalov/eyes-thanks/releases/download/!PAGE_VERSION!/EyesThanks_v!PAGE_VERSION!.7z
-
+version: 1.0.0
 
 
 disqus_comments: true
@@ -40,11 +35,9 @@ images:
     text:  3 monitors
 
   - name:  eyesthanks-dialog-en.png
-    thumb: eyesthanks-dialog-en-prev.png
     text:  English setting dialog
 
   - name:  eyesthanks-dialog-ru.png
-    thumb: eyesthanks-dialog-ru-prev.png
     text:  Russian setting dialog
 
 ---
@@ -54,11 +47,15 @@ It’s the software that protect your eyes: the app frequently alerts you to tak
 
 It supports **multiple monitors system** and wide image for all monitors.
 
-**Download Eyes' Thanks v{{page.version}} for Windows 7–10 (x86, portable) —
-[.7z](https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}.7z)**
+<br>
 
-For english version just remove *lang_ru.qm* and *setting.ini* at app folder.
-Also you can use `q` and `delete` hotkeys for close and delete active image, respectively.
+### Download Eyes' Thanks v{{page.version}} for Windows 7–10 (x86, portable) — [.7z](https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}.7z)
+
+<br>
+For English version just remove *languages/* and *setting.ini* from app folder.
+Also you can use `q` and `escape` hotkeys for finish your rest break, and `delete` — for delete active image from your images folder.
+
+Middle click to notification area icon — pause timer.
 
 Screenshots:
 
