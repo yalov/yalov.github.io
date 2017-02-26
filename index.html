@@ -6,9 +6,6 @@ flag: index
 ---
 
 
-
-<!-- <span id="debug"></span> -->
-
 <script>
   window.addEventListener('resize', function(){
       document.getElementById('debug').innerHTML = "font-size " + parseFloat($("body").css("font-size")) +" width em "+ $(window).width() / parseFloat($("body").css("font-size"));
@@ -19,10 +16,18 @@ flag: index
     }
 </script>
 
+{% assign all_posts =  '' | split: ',' %}
 
+{% for collection in site.collections %}  <!--{{collection.label}}-->
+  {% for post in collection.docs %}
+    {% assign all_posts = all_posts | push: post %}
+  {% endfor %}
+{% endfor %}
+
+{% assign all_posts = all_posts | sort: 'date' | reverse %}
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for post in all_posts %}
   <div  id="{{post.url}}" class="post">
     <h1 class="post-title">
       <a href="{{ post.url }}">
@@ -44,6 +49,10 @@ flag: index
   <hr><br>
   {% endfor %}
 </div>
+
+
+
+
 
 
 {% if paginator.total_pages > 1 %}

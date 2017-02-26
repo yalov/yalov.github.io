@@ -4,6 +4,8 @@ title: Раскладка клавиатуры ЯРБУР
 
 post_on_sidebar: true
 
+date: 2016-09-17
+
 tag:
   - keyboard layout
   - AltGr
@@ -27,7 +29,7 @@ images:
     width: 1019
     height: 321
 
-permalink: yarbur
+permalink: yarbur/
 ---
 
 {%include lightbox.html %}
@@ -70,7 +72,7 @@ permalink: yarbur
 
 В качестве кавычек рекомендуется использовать «кавычки-ёлочки» ( `AltGr` + `<` и `AltGr` + `>`).
 
-Подробнее про все апострофы, одинарные и двойные кавычки, которые есть на раскладке, можно [**узнать тут**]({% post_url 2016-09-18-quotation-mark %}).
+Подробнее про все апострофы, одинарные и двойные кавычки, которые есть на раскладке, можно [**узнать тут**]({% link _collection/quotation-mark.md %}).
 
 
 ### Про диакритические знаки

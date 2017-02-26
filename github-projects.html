@@ -1,0 +1,50 @@
+---
+layout: page
+title: github-projects
+description: "Versions."
+fullwidth: true
+---
+<!-- https://api.github.com/users/yalov/repos -->
+
+
+
+<table>
+<thead>
+  <tr>
+    <th>repo</th>
+    <th>description</th>
+    <th>Version</th>
+    <th>last push</th>
+    <th>downloads</th>
+    <th>binary</th>
+  </tr>
+</thead>
+<tbody>
+{% for repository in site.github.public_repositories %}{% if repository.fork == false %}
+  <tr>
+    <td> <a href = "{{repository.html_url}}">{{repository.name}}</a> </td>
+    <td> {{repository.description}}</td>
+    <td> <p class = "version-{{repository.name}}"/> </td>
+    <td> <nobr>{{repository.pushed_at | date: "%Y-%m-%d %H:%M:%S"}}</nobr> </td>
+    <td> <p class = "download-count-{{repository.name}}"/> </td>
+    <td>
+      <span class = "release-links-{{repository.name}}"></span>
+      <span class = "update-{{repository.name}}" ></span></td>
+  </tr>
+{% endif %}{% endfor %}
+</tbody>
+</table>
+
+
+
+<script src="{{ site.url }}/scripts/moment.min.js"></script>
+<script src="{{ site.url }}/scripts/GetLatestReleaseInfo.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    {% for repository in site.github.public_repositories %}{% if repository.fork == false %}
+      GetLatestReleaseInfo("https://api.github.com/repos/yalov/{{repository.name}}/releases", "{{repository.name}}");
+    {% endif %}{% endfor %}
+  });
+</script>
+ <!-- https://help.github.com/articles/repository-metadata-on-github-pages/  -->

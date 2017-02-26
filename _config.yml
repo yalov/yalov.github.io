@@ -14,7 +14,7 @@ author:
 fb_app_id:           407579492909554
 yandex-verification: 442075101e0961a9
 
-permalink: :year/:title
+permalink: /:categories/:title
 url:              https://yalov.github.io
 baseurl:          ""
 highlighter:      rouge
@@ -29,6 +29,12 @@ disqus_name: yalov-github
 markdown:         kramdown
 kramdown:
 smart_quotes: ["apos", "apos", "quot", "quot"]
+
+
+collections:
+  collection:
+    output: true
+    permalink: /:categories/:title
 
   # smart_quotes:
   #
