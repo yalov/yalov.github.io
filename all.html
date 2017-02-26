@@ -1,0 +1,128 @@
+---
+layout: page
+title: All Pages
+description: "An archive of posts sorted by tag."
+---
+
+{% for post in all_posts %}
+  <li itemscope>
+    <a href="{{ post.url }}">{% if post.title %} {{ post.title }} {% else %} {{ post.name }} {% endif %} </a>
+    {%if post.date %}<span class = "timeinlist">{{ post.date | date_to_string }}</span>{% endif %}
+  </li>
+{% endfor %}
+{% for post in site.pages %}
+  <li itemscope>
+    <a href="{{ post.url }}">{% if post.title %} {{ post.title }} {% else %} {{ post.name }} {% endif %} </a>
+    {%if post.date %}<span class = "timeinlist">{{ post.date | date_to_string }}</span>{% endif %}
+  </li>
+{% endfor %}
+
+
+{% comment Tags %}
+<!--  Tags
+{% assign tags =  all_posts | map: 'tags' | join: ','  | split: ','  | sort %}
+{% assign uniq_tags =  all_posts | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
+
+<h2> Tags:</h2>
+<div id="tags">
+  <ul class="tag-box inline">
+
+{% assign previousTag = "" %}{% assign counter = 0 %}
+
+{% for currentTag in tags %}
+  {% if previousTag == "" %}
+    {% assign previousTag = currentTag %}
+  {% endif %}
+
+  {% if currentTag == previousTag %}
+    {% assign counter = counter | plus: 1 %}
+  {% else %}
+    <li><a href="#{{ previousTag | cgi_escape }}">{{ previousTag }} <span>{{ counter }}</span></a></li>
+    {% assign counter = 1 %}
+  {% endif %}
+
+  {% if forloop.last %}
+    <li><a href="#{{ currentTag | cgi_escape }}">{{ currentTag }} <span>{{ counter }}</span></a></li>
+  {% endif %}
+
+  {% assign previousTag = currentTag %}
+
+{% endfor %}
+  </ul>
+
+
+  {% for tag in uniq_tags %}
+    <span id="{{ tag | cgi_escape }}">{{ tag }}</span>
+  <ul class="posts">
+    {% for note in all_posts %}
+      {% if note.tags contains tag %}
+    <li itemscope>
+      <span>{{ note.date | date_to_string }}</span>
+      <a href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
+    </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  {% endfor %}
+
+</div>
+-->
+{% endcomment %}
+
+{% comment site.pages %}
+<!-- site.pages
+<h2> Pages:</h2>
+    <ul itemscope>
+{% for post in site.pages %}
+    <li itemscope><a href="{{ post.url }}">{% if post.title %} {{ post.title }} {% else %} {{ post.name }} {% endif %} </a></li>
+{% endfor %}
+    </ul>
+-->
+{% endcomment %}
+
+{% comment Collections %}
+<!--
+<h2> Collections:</h2>
+{% for collection in site.collections %}
+<span>{{collection.label}}</span>
+<ul>
+    {% for file in collection.docs %}
+    <li>
+      <span>{{ file.date | date_to_string }}</span>
+      <a href="{{ site.url }}{{ file.url }}">{{ file.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %}
+-->
+{% endcomment %}
+
+
+
+
+
+{% comment %}
+     <!--
+     {% assign projects = site.collection | where_exp: "item", 'item.category' contains 'projects' | where: "post_on_sidebar", "true" %}
+    <nav class="sidebar-nav">
+      <span class="sidebar-nav-item">Projects:</span>
+      {% for p in projects  %}
+      <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a>
+      {% endfor %}
+    </nav>
+
+    {% assign postsnonprojects =  '' | split: ',' %}
+    {% for p in site.posts %}
+      {% unless p.category contains 'projects' %}
+        {% assign postsnonprojects = postsnonprojects | push: p %}
+      {% endunless %}
+    {% endfor %}
+    {% assign postsnonprojects = postsnonprojects | where: "post_on_sidebar", "true" %}
+    <nav class="sidebar-nav">
+      <span class="sidebar-nav-item">Top Posts:</span>
+      {% for p in postsnonprojects %}
+      <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a>{% endfor %}
+    </nav>
+  </div>
+-->
+{% endcomment %}

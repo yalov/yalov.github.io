@@ -1,0 +1,63 @@
+---
+layout: page
+title: Archive by Category
+description: "An archive of posts sorted by tag."
+---
+<link rel="stylesheet" href="{{ site.baseurl }}/css/tag.min.css">
+
+{% assign all_posts =  '' | split: ',' %}
+{% for collection in site.collections %}  <!--{{collection.label}}-->
+  {% for post in collection.docs %}
+    {% assign all_posts = all_posts | push: post %}
+  {% endfor %}
+{% endfor %}
+
+{% assign all_posts = all_posts| sort "date" | reverse %}
+{% assign categories =  all_posts | map: 'category' | join: ','  | split: ','  | sort %}
+{% assign uniq_categories =  all_posts | map: 'category' | join: ','  | split: ',' | uniq | sort %}
+
+
+{%comment category link to section %}
+<!-- <div id="tags">
+  <ul class="tag-box inline">
+
+{% assign previousCategory = "" %}{% assign counter = 0 %}
+
+{% for currentCategory in categories %}
+  {% if previousCategory == "" %}
+    {% assign previousCategory = currentCategory%}
+  {% endif %}
+
+  {% if currentCategory == previousCategory%}
+    {% assign counter = counter | plus: 1 %}
+  {% else %}
+    <li><a href="#{{ previousCategory | cgi_escape }}">{{ previousCategory }} <span>{{ counter }}</span></a></li>
+    {% assign counter = 1 %}
+  {% endif %}
+
+  {% if forloop.last %}
+    <li><a href="#{{ currentCategory | cgi_escape }}">{{ currentCategory }} <span>{{ counter }}</span></a></li>
+  {% endif %}
+
+  {% assign previousCategory = currentCategory %}
+  {% endfor %}
+  </ul> -->
+  {% endcomment %}
+
+  {% for category in uniq_categories %}{% assign counter = 0 %}
+    {% for category_iter in categories %}
+      {% if category == category_iter %}{% assign counter = counter | plus: 1 %}{% endif %}
+    {% endfor %}
+  <span id="{{ category | cgi_escape }}"> {{ category }} <span class = "timeinlist">{{counter}}</span></span>
+  <ul>
+  {% for note in all_posts %}
+  {% if note.category contains category %}
+    <li itemscope>
+      <a href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
+      {%if note.date %}<span class = "timeinlist">{{ note.date | date_to_string }}</span>{% endif %}
+    </li>
+  {% endif %}
+  {% endfor %}
+  </ul>
+  {% endfor %}
+</div>

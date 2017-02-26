@@ -3,6 +3,7 @@ layout: post
 title: Work Schedule
 
 post_on_sidebar: true
+date: 2015-09-27
 
 tag:
   - qt
