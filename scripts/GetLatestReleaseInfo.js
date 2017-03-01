@@ -4,23 +4,33 @@ function TimeAgo (date1, date2) {
   var dateDiff = date2 - date1
   var timeAgo
   if (dateDiff < oneDay) {
-    timeAgo = (dateDiff / oneHour).toFixed(1) + ' hours ago'
+    hours = dateDiff / oneHour;
+    timeAgo = hours.toFixed(1) + ' hours ago'
   } else {
-    timeAgo = (dateDiff / oneDay).toFixed(1) + ' days ago'
+    days = dateDiff / oneDay;
+    if (days <100){
+      timeAgo = (days).toFixed(1) + ' days ago'
+    }
+    else {
+      timeAgo = (days).toFixed(0) + ' days ago'  
+    }
   }
-
   return timeAgo
 }
 
-function ToNormalString (date) {
-  var str = date.getFullYear()           + "-" +
-  ('0' + (date.getMonth()+1)).slice(-2)  + "-" +
-  ('0' +  date.getDate()).slice(-2)      + " " +
-  ('0' +  date.getHours()).slice(-2)     + ":" +
-  ('0' +  date.getMinutes()).slice(-2)   + ":" +
-  ('0' +  date.getSeconds()).slice(-2)
+function ToLongString (date) {
+  var monthNames = [
+      "January", "February", "March",
+      "April", "May", "June", "July",
+      "August", "September", "October",
+      "November", "December"
+    ];
 
-  return str
+  var day = ('0' +  date.getDate()).slice(-2);
+  var monthIndex = date.getMonth();
+  var year = date.getFullYear();
+
+  return day + ' ' + monthNames[monthIndex] + ' ' + year;
 }
 
 
@@ -28,13 +38,8 @@ function GetRepo (Url, ClassName) {
   $.getJSON(Url).done(function (json) {
     date = new Date(json.pushed_at)
 
-    var timeAgo = '(<nobr>' + TimeAgo (date, new Date()) + '</nobr>)'
-
-    $('.last-push-' + ClassName).html(ToNormalString(date))
+    $('.last-push-' + ClassName).html(ToLongString(date))
     $('.last-push-' + ClassName).fadeIn(0)
-
-    $('.last-push-ago-' + ClassName).html(timeAgo)
-    $('.last-push-ago-' + ClassName).fadeIn(0)
   })
 }
 
@@ -75,34 +80,26 @@ function GetLatestReleaseInfo (Url, ClassName) {
           else if (size >= 10)  { size = size.toFixed(1) }
           else                  { size = size.toFixed(2) }
 
-          downlink += '<nobr><a href = "' + release.assets[i].browser_download_url + '">' + 'Download.' + release.assets[i].name.split('.').pop() + '</a> ' + '(' + size.toLocaleString() + sizeb + ')</nobr><br>'
+          downlink += '<nobr><a href = "' + release.assets[i].browser_download_url + '">' + 'Download.' + release.assets[i].name.split('.').pop() + '</a> ' + '(' + size.toString() + sizeb + ')</nobr><br>'
 
           if (i !== release.assets.length - 1) downlink += '\n'
         }
       }
 
-
-      var publishedAt = ''
-
-      if (downlink){
-        var timeAgo = TimeAgo (new Date(release.published_at), new Date())
-        publishedAt = '<nobr>Released ' + timeAgo + '</nobr>'
-        publishedAt = '(' + publishedAt + ')'
-      }
-
-
       $('.version-' + ClassName).html(release.tag_name)
       $('.version-' + ClassName).fadeIn(0)
 
-      $('.download-count-' + ClassName).html(totalDownloadCount.toLocaleString())
+      $('.download-count-' + ClassName).html(totalDownloadCount.toString())
       $('.download-count-' + ClassName).fadeIn(0)
 
-      $('.release-links-' + ClassName).html(downlink)
-      $('.release-links-' + ClassName).fadeIn(0)
+      if (downlink){
+        $('.release-links-' + ClassName).html(downlink)
+        $('.release-links-' + ClassName).fadeIn(0)
 
-      $('.update-' + ClassName).html(publishedAt)
-      $('.update-' + ClassName).fadeIn(0)
-
+        var timeAgo = TimeAgo (new Date(release.published_at), new Date())
+        $('.release-date-' + ClassName).html('<nobr>(Released ' + timeAgo + ')</nobr>')
+        $('.release-date-' + ClassName).fadeIn(0)
+      }
     }
   })
 }

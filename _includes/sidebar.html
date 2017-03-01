@@ -30,15 +30,14 @@
   </nav>
 </div>
 
-  {% assign pages_bottom = site.pages | where: "on_sidebar_bottom", "true" %}
+  {% assign pages_bottom = site.pages | where: "on_sidebar_bottom", "true" | sort: 'name' %}
   <div class="container sidebar-sticky">
     <nav class="sidebar-nav">
       {% for p in pages_bottom %}
       <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a>{% endfor %}
 
-      <!-- <a class="sidebar-nav-item" href="{{ site.github.owner_url }}">GitHub projects </a> -->
-      <a class="sidebar-nav-item" href="{{site.url}}{{site.baseurl}}/posts-by-category.html">Categories</a>
-      <a class="sidebar-nav-item" href="{{site.url}}{{site.baseurl}}/github-projects.html">GitHub projects </a>
+      <!-- <a class="sidebar-nav-item" href="{{site.url}}{{site.baseurl}}/posts-by-category.html">Categories</a> -->
+      <!-- <a class="sidebar-nav-item" href="{{site.url}}{{site.baseurl}}/github-projects.html">GitHub projects </a> -->
     </nav>
 
     <p>
