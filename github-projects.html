@@ -6,7 +6,7 @@ fullwidth: true
 ---
 <!-- https://api.github.com/users/yalov/repos -->
 
-
+<p> Table is generated <span class="info-updated">{{site.time | date_to_xmlschema |  date: "%Y-%m-%d %H:%M"}}</span></p>
 
 <table>
 <thead>
@@ -21,11 +21,24 @@ fullwidth: true
 </thead>
 <tbody>
 {% for repository in site.github.public_repositories %}{% if repository.fork == false %}
+{% assign secnow = 'now' | date: "%s" %}
+{% assign secpushed = repository.pushed_at | date_to_xmlschema | date: "%s" %}
+{% assign s = secnow | minus: secpushed | divided_by: 60.0 | divided_by: 60.0 %}
+
+{% if s < 24 %}
+  {% assign s = s | round: 1 | append: " hours ago" %}
+{% else %}
+  {% assign s = s | divided_by: 24.0 | round: 1 | append: " days ago"%}
+{% endif %}
+
   <tr>
     <td> <a href = "{{repository.html_url}}">{{repository.name}}</a> </td>
     <td> {{repository.description}}</td>
     <td> <p class = "version-{{repository.name}}"/> </td>
-    <td> <nobr>{{repository.pushed_at | date: "%Y-%m-%d %H:%M:%S"}}</nobr> </td>
+    <td>
+      <nobr class = "last-push-{{repository.name}}">{{repository.pushed_at | date_to_xmlschema |  date: "%Y-%m-%d %H:%M"}}</nobr>
+      <nobr class = "last-push-ago-{{repository.name}}">({{s}})</nobr>
+    </td>
     <td> <p class = "download-count-{{repository.name}}"/> </td>
     <td>
       <span class = "release-links-{{repository.name}}"></span>
@@ -36,15 +49,18 @@ fullwidth: true
 </table>
 
 
-
 <script src="{{ site.url }}/scripts/moment.min.js"></script>
 <script src="{{ site.url }}/scripts/GetLatestReleaseInfo.min.js"></script>
 
 <script type="text/javascript">
   $(document).ready(function () {
     {% for repository in site.github.public_repositories %}{% if repository.fork == false %}
+      GetRepo("https://api.github.com/repos/yalov/{{repository.name}}", "{{repository.name}}");
       GetLatestReleaseInfo("https://api.github.com/repos/yalov/{{repository.name}}/releases", "{{repository.name}}");
     {% endif %}{% endfor %}
+
+    $('.info-updated').html(ToNormalString(new Date()))
+    $('.info-updated').fadeIn(0)
   });
 </script>
  <!-- https://help.github.com/articles/repository-metadata-on-github-pages/  -->

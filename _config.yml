@@ -15,8 +15,9 @@ fb_app_id:           407579492909554
 yandex-verification: 442075101e0961a9
 
 permalink: /:categories/:title
-url:              https://yalov.github.io
-baseurl:          ""
+url:              https://yalov.github.io   # no ending /
+baseurl:          ""                        # no ending /
+
 highlighter:      rouge
 
 paginate:         20
