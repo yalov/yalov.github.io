@@ -1,37 +1,40 @@
 {% capture full_url %}
-{{page.url | replace:'/index.html','/' | prepend: site.url | prepend: site.baseurl | replace:'//','/' | replace:'//','/' | replace:'https:/','https://' | replace:'http:/','http://'}}
+{{page.url | replace:'/index.html','/' | prepend: site.url | prepend: site.baseurl }}
 {% endcapture %}
 
 {% capture post_first_image %}
-{{ '/images/' | prepend: site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' | replace:'http:/','http://' }}
+{{ '/images/' | prepend: site.baseurl | prepend: site.url }}
 {% endcapture %}
 
 {% assign logo_name = '"Y-logo"' %}
 
 {% capture wide_logo %}
-{{'/favicon968x504.png' | prepend: site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' | replace:'http:/','http://' }}
+{{'/favicon968x504.png' | prepend: site.baseurl | prepend: site.url }}
 {% endcapture %}
 
 {% capture site_url %}
-{{ site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' | replace:'http:/','http://' }}
+{{ site.baseurl | prepend: site.url }}
 {% endcapture %}
 
-{% comment %} "Get the tag name for every tag on the site and set them to the `site_tags` variable." {% endcomment %}
-{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
+{% include all_posts.html %}
+
+{% assign site_tags =  all_posts | map: 'tags' | join: ','  | split: ',' | uniq | sort | join: ','  %}
 
   <meta name="yandex-verification" content="{{site.yandex-verification}}" />
 
   <!-- Уже было -->
   <meta name="description" content="{{site.description | strip}}" />
   <link rel="canonical" href="{{full_url | strip}}" />
-  <link rel="author" href="{{ site.author.name }}" />
+  <!-- <link rel="author" href="{{ site.author.name }}" /> -->
+
+  {% comment %}
   {% if paginator.previous_page %}
   <link rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url | replace:'//','/' | replace:'//','/' | replace:'https:/','https://' }}">
   {% endif %}
   {% if paginator.next_page %}
   <link rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url | replace:'//','/' | replace:'//','/' | replace:'https:/','https://' }}">
   {% endif %}
-
+  {% endcomment %}
 
   <!-- Для Facebook, VK, OK.ru и Google+: -->
   <meta property="og:type" content="website"/>
@@ -74,7 +77,7 @@
   </script>
 
 {% assign items = "" %}
-{% for post in paginator.posts %}
+{% for post in all_posts %}
   {% capture list_item %}
   {
     "@type": "ListItem",
