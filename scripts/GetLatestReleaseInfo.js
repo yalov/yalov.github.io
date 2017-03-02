@@ -12,7 +12,7 @@ function TimeAgo (date1, date2) {
       timeAgo = (days).toFixed(1) + ' days ago'
     }
     else {
-      timeAgo = (days).toFixed(0) + ' days ago'  
+      timeAgo = (days).toFixed(0) + ' days ago'
     }
   }
   return timeAgo
@@ -33,7 +33,6 @@ function ToLongString (date) {
   return day + ' ' + monthNames[monthIndex] + ' ' + year;
 }
 
-
 function GetRepo (Url, ClassName) {
   $.getJSON(Url).done(function (json) {
     date = new Date(json.pushed_at)
@@ -43,8 +42,6 @@ function GetRepo (Url, ClassName) {
   })
 }
 
-
-/* global moment, $ */
 function GetLatestReleaseInfo (Url, ClassName) {
   $.getJSON(Url).done(function (json) {
 

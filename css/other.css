@@ -1,0 +1,19 @@
+/*content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);*/
+
+/*a[href^="//"]:after,
+a[href^="http://"]:after,
+a[href^="https://"]:after {
+
+  content: url(/wiki-el.png);
+  margin: 0 0 0 0px;
+}
+
+a[href*="localhost"]:after {
+  content: '';
+  margin: 0;
+}
+
+a[href*="yalov"]:after {
+  content: '';
+  margin: 0;
+}*/

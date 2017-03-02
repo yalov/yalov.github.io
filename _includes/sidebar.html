@@ -9,15 +9,9 @@
         <p class="lead">{{ site.description }}</p>
     </div>
 
-    {% assign all_posts =  '' | split: ',' %}
-    {% for collection in site.collections %}  <!--{{collection.label}}-->
-      {% assign collection_posts = collection.docs | where: "post_on_sidebar", "true" %}
-      {% for post in collection_posts %}
-        {% assign all_posts = all_posts | push: post %}
-      {% endfor %}
-    {% endfor %}
+{% include all_posts.html %}
 
-{% assign all_posts_by_category = all_posts | group_by: "category"  | sort: 'name' %}
+{% assign all_posts_by_category = all_posts | where: "post_on_sidebar", "true" | group_by: "category"  | sort: 'name' %}
     <nav class="sidebar-nav">
     {% for category_posts in all_posts_by_category %}  <!--{{collection.label}}-->
       {% unless category_posts.name == '' %}
