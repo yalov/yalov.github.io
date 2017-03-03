@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Dependency of github-pages gem
-description: "List dependency versions of GitHub Pages gem"
+title: Dependencies of github-pages gem
+description: "Dependencies of github-pages gem"
 ---
 <br>
 

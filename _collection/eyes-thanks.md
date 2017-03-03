@@ -4,7 +4,7 @@ title: "Eyes' Thanks"
 
 post_on_sidebar: true
 
-date: 2016-04-24
+date: 2017-02-16
 tag:
   - qt
   - С++
