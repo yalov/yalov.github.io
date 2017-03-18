@@ -21,17 +21,14 @@
       {% endfor %}
       {% endunless %}
     {% endfor %}
-  </nav>
-</div>
+    </nav>
+  </div>
 
   {% assign pages_bottom = site.pages | where: "on_sidebar_bottom", "true" | sort: 'name' %}
   <div class="container sidebar-sticky">
     <nav class="sidebar-nav">
       {% for p in pages_bottom %}
       <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a>{% endfor %}
-
-      <!-- <a class="sidebar-nav-item" href="{{site.url}}{{site.baseurl}}/posts-by-category.html">Categories</a> -->
-      <!-- <a class="sidebar-nav-item" href="{{site.url}}{{site.baseurl}}/github-projects.html">GitHub projects </a> -->
     </nav>
 
     <p>
@@ -43,24 +40,3 @@
 
   </div>
 </div>
-
-
-<script>
-function check() {
-  var top = document.getElementsByClassName('container')[0];
-  var bottom = document.getElementsByClassName('container sidebar-sticky')[0];
-  var sidebar = document.getElementsByClassName('sidebar')[0];
-
-  if (overlaps( top, bottom )) {
-    sidebar.innerHTML = sidebar.innerHTML.replace(new RegExp('</div>\\s+<div class="container sidebar-sticky">','m'),'<br><!--overlaps-->');
-  }
-  else {
-    sidebar.innerHTML = sidebar.innerHTML.replace(new RegExp('<br><!--overlaps-->','g'),'</div>\\n<div class="container sidebar-sticky">');
-  }
-};
-
-check();
-
-$(window).resize(function () {waitForFinalEvent(check, 70, "some unique string");});
-
-</script>
