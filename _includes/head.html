@@ -51,7 +51,7 @@
 
   {% if jekyll.environment == 'production' %}
   <!-- Google Analitics -->
-  <script src="{{ site.baseurl }}/scripts/analytics-google.min.js"></script>
+  {% include analytics-google.html %}
   {% else %}
   <!-- There is no Analitics, because jekyll.environment != 'production'  -->
   {% endif %}
