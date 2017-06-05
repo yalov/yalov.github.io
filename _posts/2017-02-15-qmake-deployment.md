@@ -92,6 +92,14 @@ QMAKE_POST_LINK += $$RETURN $$QMAKE_COPY $$quote($$OPENSSLFILES) $$quote($$DDIR)
 Ещё можно использовать `?`:
   * `?bin?.*` — файл с любым расширением, содержащий `bin`.
 
+А можно всю папку, но всё равно её нужно сначала создать:
+
+``` qmake
+DIRFROM = $$shell_path($$PWD/shifts)
+DIRTO = $$shell_path($$DESTDIR/shifts)
+QMAKE_POST_LINK += $$RETURN $$sprintf($$QMAKE_MKDIR_CMD, $$DIRTO)
+QMAKE_POST_LINK += $$RETURN $$QMAKE_COPY_DIR $$quote($$DIRFROM) $$quote($$DIRTO)
+```
 
 Не забываем  возможности создавать функции, и потом их вызывать:
 
@@ -132,7 +140,7 @@ project\
 Вот она:
 
 ```
-CONFIG-=debug_and_release
+CONFIG -= debug_and_release
 ```
 
 Аккуратно разложить файлы в `build-Qt_x_y_0_32bit_Debug` и `build-Qt_x_y_0_32bit_Release` можно так:

@@ -4,7 +4,7 @@ title: "Eyes' Thanks"
 
 post_on_sidebar: true
 
-date: 2017-02-16
+date: 2017-06-05
 tag:
   - qt
   - С++
@@ -14,7 +14,7 @@ category:
 
 sidebar: true
 
-version: 1.0.0
+version: 1.1.0
 
 
 disqus_comments: true
@@ -52,10 +52,13 @@ It supports **multiple monitors system** and wide image for all monitors.
 ### Download Eyes' Thanks v{{page.version}} for Windows 7–10 (x86, portable) — [.7z](https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}.7z)
 
 <br>
-For English version just remove *languages/* and *setting.ini* from app folder.
-Also you can use `q` and `escape` hotkeys for finish your rest break, and `delete` — for delete active image from your images folder.
+#### tips:
 
-Middle click to notification area icon — pause timer.
+* You can use `esc` hotkeys for finish your rest break, and `delete` — for delete  displayed image from your images folder.
+* Middle click to notification area icon — pause timer.
+* Use “alternative image folder”, if you have two different-ratio sets of monitors.  
+  *(For example if sometimes you disconnect your FullHD notebook from your FullHD monitor, put 2FHD (3860×1080) pictures to “pictures folder” and FullHD (1920×1080) pictures to “alternative pictures folder”).  
+So, connect laptop to monitor — app use 2FHD folder, laptop by itself — app use FHD folder.*
 
 Screenshots:
 
