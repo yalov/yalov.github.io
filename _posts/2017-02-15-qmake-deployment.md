@@ -36,7 +36,7 @@ RETURN = $$escape_expand(\n\t)
 QMAKE_POST_LINK += $$RETURN command1
 QMAKE_POST_LINK += $$RETURN command2
 QMAKE_POST_LINK += $$RETURN command3
-export(QMAKE_POST_LINK)
+# export(QMAKE_POST_LINK) # if inside function (exports from the local context to the global.
 ```
 <!--more-->
 Команда сборки `windeployqt` в qmake будет выглядеть так (сначала используя содержимое переменной `QT` берём модули, которые точно нужны, потом пишем модули которые окажутся лишними):
