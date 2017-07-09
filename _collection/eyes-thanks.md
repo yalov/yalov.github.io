@@ -4,7 +4,7 @@ title: "Eyes' Thanks"
 
 post_on_sidebar: true
 
-date: 2017-06-05
+date: 2017-07-09
 tag:
   - qt
   - С++
@@ -14,7 +14,7 @@ category:
 
 sidebar: true
 
-version: 1.1.0
+version: 1.2.0
 
 
 disqus_comments: true
@@ -54,11 +54,12 @@ It supports **multiple monitors system** and wide image for all monitors.
 <br>
 #### tips:
 
-* You can use `esc` hotkeys for finish your rest break, and `delete` — for delete  displayed image from your images folder.
+* You can use `delete` key for delete displayed image from your images folder.
 * Middle click to notification area icon — pause timer.
 * Use “alternative image folder”, if you have two different-ratio sets of monitors.  
-  *(For example if sometimes you disconnect your FullHD notebook from your FullHD monitor, put 2FHD (3860×1080) pictures to “pictures folder” and FullHD (1920×1080) pictures to “alternative pictures folder”).  
-So, connect laptop to monitor — app use 2FHD folder, laptop by itself — app use FHD folder.*
+  <small>For example if sometimes you disconnect your FullHD notebook from your FullHD monitor, put 2FHD (3860×1080) pictures to “pictures folder” and FullHD (1920×1080)
+  pictures to “alternative pictures folder”.  
+  So, a laptop is connected to a monitor — the app uses 2FHD folder, a laptop isn’t connected anywhere — the app uses FullHD folder.</small>
 
 Screenshots:
 
