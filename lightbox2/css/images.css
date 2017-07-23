@@ -20,6 +20,21 @@
 .lightbox-image {
   border-radius: 4px; }
 
+.lightbox-image-left {
+  display: inline-block;
+  padding: 2px;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+  border-radius: 4px;
+  float:left;
+}
+
+.lightbox-image-right {
+  display: inline-block;
+  padding: 2px;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+  border-radius: 4px;
+  float:right;
+}
 
 .lightbox-image-link-left {
   display: inline-block;
@@ -35,9 +50,7 @@
   background-color: #4ae;
   transition: none; }
 
-
-
-  .lightbox-image-link-right {
+.lightbox-image-link-right {
   display: inline-block;
   padding: 2px;
   margin: 0 0.5rem 0.5rem 0.5rem;
