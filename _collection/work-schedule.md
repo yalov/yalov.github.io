@@ -51,7 +51,4 @@ Screenshots:
 
 <!-- include lightbox_text.html image="image-1.jpg" -->
 
-
--------
-
 You can play a little with icons (actually little images) in `{Work Schedule}/shifts/` folder. Images `d.png`, `n.png`, `r.png`,`h.png` are used for day, night, rest, holiday respectively.

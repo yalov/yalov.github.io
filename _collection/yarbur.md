@@ -18,7 +18,6 @@ category:
 version: 2.1
 
 
-
 #lightbox2:
 imgfolder: /images/
 images:
