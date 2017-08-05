@@ -16,7 +16,7 @@ sidebar: true
 
 version: 1.3.2
 
-
+comments: true
 disqus_comments: true
 disqus_identifier: fde3ee99-1e9a-4781-8568-9d36d1ac76ca
 

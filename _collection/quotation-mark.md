@@ -27,7 +27,7 @@ images:
     width: 1920
     height: 850
 
-
+comments: true
 disqus_comments: true
 disqus_identifier: 7c2a20c0-7c8c-4705-91df-4db65659ffe9
 

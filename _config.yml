@@ -37,30 +37,6 @@ collections:
     output: true
     permalink: /:categories/:title
 
-  # smart_quotes:
-  #
-  #   first parameter : how an opening apostrophe is transformed
-  #                     or apostrophe like in "I'm"
-  #           default : ' -> ‘ (lsquo)
-  #              apos : ' -> '
-  #
-  #   second parameter : how a closing apostrophe is transformed
-  #           default : ' -> ’ (rsquo)
-  #              apos : ' -> '
-  #
-  #   third parameter : how an opening double quote is transformed
-  #           default : " -> “ (ldquo)
-  #              quot : " -> "
-  #
-  #   fourth parameter : how a closing double quote is transformed
-  #           default : " -> ” (rdquo)
-  #              quot : " -> "
-  #
-  #   Default kramdown config
-  #     smart_quotes: ["rdquo", "rsquo", "ldquo", "rdquo"]
-  #
-  #   Programmer's world compliant config :
-  #    smart_quotes: ["apos", "apos", "quot", "quot"]
 
 
 

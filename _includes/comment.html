@@ -1,0 +1,13 @@
+<article id="comment{{ include.index }}" class="js-comment comment" itemprop="comment" itemscop itemtype="http://schema.org/Comment">
+  <div class="comment__content-wrapper">
+    <span class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        {% if include.index %}<a href="#comment{{ include.index }}" itemprop="url">#</a>{% else %} > {% endif %}
+        <span itemprop="name">{{include.name }}</span><span>,</span>
+        {% if include.date %}
+          <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{include.date | date: "%F %R"}} UTC:</time>
+        {% endif %}
+
+    </span>
+    <div itemprop="text" class="comment__message">{{ include.message | markdownify }}</div>
+  </div>
+</article>

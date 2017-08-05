@@ -14,6 +14,7 @@ tag:
 category:
   - tools
 
+comments: true
 disqus_comments: true
 disqus_identifier: 9da4a7ae-5379-4f2f-a7b3-0a0cc8c19200
 ---
@@ -65,9 +66,9 @@ color=%23333333&amp;ctz=Europe%2FMoscow" style="border-width:0" width="100%" hei
 
 
  Или как вариант:
-[Праздники Беларуси с описанием]({{ site.baseurl }}/files/iCalendar/ical-favorite-out.ics),
-[Праздники России с описанием]({{ site.baseurl }}/files/iCalendar/ical-favorite-out.ics),
-[Необычные праздники с описанием]({{ site.baseurl }}/files/iCalendar/ical-favorite-out.ics),
+[Праздники Беларуси с описанием]({{ site.baseurl }}/files/iCalendar/ical-belarus-out.ics),
+[Праздники России с описанием]({{ site.baseurl }}/files/iCalendar/ical-russtate-out.ics),
+[Необычные праздники с описанием]({{ site.baseurl }}/files/iCalendar/ical-unusual-out.ics),
 [Международные праздники с описанием]({{ site.baseurl }}/files/iCalendar/ical-wholeworld-out.ics).
 
 Теперь можно импортировать файл в, например, Google Calendar.

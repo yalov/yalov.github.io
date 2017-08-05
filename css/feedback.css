@@ -1,7 +1,6 @@
-form {
+#contact {
   line-height: 30px;
   color: #777;
-  background: #4CAF50;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -53,6 +52,7 @@ fieldset {
   background: #FFF;
   margin: 0 0 5px;
   padding: 10px;
+  font: 80% Helvetica, Verdana, Arial, sans-serif;
 }
 
 

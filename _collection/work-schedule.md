@@ -15,6 +15,7 @@ category:
 
 version: 1.9.4
 
+comments: true
 disqus_comments: true
 disqus_identifier: a987fd82-75c4-49e6-8647-c5f40cf5ad64
 
@@ -52,8 +53,5 @@ Screenshots:
 {%include lightbox.html height='7rem'%}
 
 <!-- include lightbox_text.html image="image-1.jpg" -->
-
-
--------
 
 You can play a little with icons (actually little images) in `{Work Schedule}/shifts/` folder. Images `d.png`, `n.png`, `r.png`,`h.png` are used for day, night, rest, holiday respectively.

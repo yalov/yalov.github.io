@@ -1,0 +1,58 @@
+ {% if page.comments == true %}
+ <hr>
+<section class="post__comments">
+
+  <!-- Start static comments -->
+  {% if site.data.comments[page.slug] %}
+  {% assign comments = site.data.comments[page.slug] | sort %}
+  <div id="comments" class="js-comments">
+    <h4 class="tile__header">Comments:</h4>
+    <hr align="left" width="50%">
+
+    {% for comment in comments %}
+      {% assign email = comment[1].email %}
+      {% assign name = comment[1].name %}
+      {% assign date = comment[1].date %}
+      {% assign message = comment[1].message %}
+      {% include comment.html index=forloop.index email=email name=name date=date message=message %}
+      <hr align="left" width="50%">
+    {% endfor %}
+  </div>
+  {% endif %}
+  <!-- End static comments -->
+
+
+
+  <!-- Start new comment form -->
+  <form id="comment-form" class="post__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/yalov/yalov.github.io/master/comments">
+    <ul class="form-style-1">
+      <h4 class="comment-form-title">Leave a Comment:</h4>
+      <li>
+        <input name="options[redirect]" type="hidden" value="{{site.url}}{{ page.url }}">
+      </li>
+      <li>
+        <input type="text" id="comment-form-name" name="fields[name]" class="field-divided" placeholder="*Name" />&nbsp;
+        <input type="text" id="comment-form-email" name="fields[email]" class="field-divided" placeholder="Email (will not be published)" />
+      </li>
+      <li>
+        <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" class="field-long field-textarea" placeholder="*Comment (Markdown is supported)"></textarea>
+      </li>
+      <li class="hidden">
+        <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+        <!-- for folder -->
+        <input type="hidden" name="fields[hidden]" />
+      </li>
+      <!-- Start comment form alert messaging -->
+      <p class="hidden js-notice">
+        <span class="js-notice-text"></span>
+      </p>
+      <!-- End comment form alert messaging -->
+      <li>
+        <input type="submit" id="comment-form-submit" value="Submit" /> <span><small>(appears after a minute)</small></span>
+      </li>
+    </ul>
+  </form>
+  <!-- End new comment form -->
+
+</section>
+{% endif %}

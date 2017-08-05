@@ -8,11 +8,11 @@
     {{ content }}
 
     <!-- Comments -->
-    {% if jekyll.environment == 'production' %}
-    {% if page.comments != false %}
-    {% include disqus_comments.html %}
-    {% endif %}
-    {% endif %}
+     <!-- if jekyll.environment == 'production' %}
+     include comments-disqus.html  %}
+     endif %} -->
+    {% include comments-staticman.html %}
+    <!--  endif  -->
   </div>
 </body>
 
