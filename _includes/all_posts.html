@@ -1,9 +1,9 @@
-{% assign all_posts =  '' | split: ',' %}
+{%- assign all_posts =  '' | split: ',' -%}
 
-{% for collection in site.collections %}  <!--{{collection.label}}-->
-  {% for post in collection.docs %}
-    {% assign all_posts = all_posts | push: post %}
-  {% endfor %}
-{% endfor %}
+{%- for collection in site.collections -%}
+  {%- for post in collection.docs -%}
+    {%- assign all_posts = all_posts | push: post -%}
+  {%- endfor -%}
+{%- endfor -%}
 
-{% assign all_posts = all_posts | sort: 'date' | reverse %}
+{%- assign all_posts = all_posts | sort: 'date' | reverse -%}

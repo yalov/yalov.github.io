@@ -6,14 +6,8 @@ on_sidebar_bottom: true
 ---
 <link rel="stylesheet" href="{{ site.baseurl }}/css/tag.min.css">
 
-{% assign all_posts =  '' | split: ',' %}
-{% for collection in site.collections %}  <!--{{collection.label}}-->
-  {% for post in collection.docs %}
-    {% assign all_posts = all_posts | push: post %}
-  {% endfor %}
-{% endfor %}
+{% include all_posts.html %}
 
-{% assign all_posts = all_posts| sort "date" | reverse %}
 {% assign categories =  all_posts | map: 'category' | join: ','  | split: ','  | sort %}
 {% assign uniq_categories =  all_posts | map: 'category' | join: ','  | split: ',' | uniq | sort %}
 
