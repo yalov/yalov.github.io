@@ -5,69 +5,56 @@ flag: index
 # redirect_from: "/page/1/"
 ---
 
+    <script>
+      window.addEventListener('resize', function(){
+          document.getElementById('debug').innerHTML = "font-size " + parseFloat($("body").css("font-size")) +" width em "+ $(window).width() / parseFloat($("body").css("font-size"));
+      }, true);
+      window.onload = function() {
+        document.getElementById('debug').innerHTML = "font-size " + parseFloat($("body").css("font-size")) +" width em "+ $(window).width() / parseFloat($("body").css("font-size"));
+      }
+    </script>
 
-<script>
-  window.addEventListener('resize', function(){
-      document.getElementById('debug').innerHTML = "font-size " + parseFloat($("body").css("font-size")) +" width em "+ $(window).width() / parseFloat($("body").css("font-size"));
-  }, true);
+    {%- include all_posts.html %}
 
-    window.onload = function() {
-      document.getElementById('debug').innerHTML = "font-size " + parseFloat($("body").css("font-size")) +" width em "+ $(window).width() / parseFloat($("body").css("font-size"));
-    }
-</script>
+    <div class="posts">
+      {%- for post in all_posts %}
+      <div  id="{{post.url}}" class="post">
+        <h1 class="post-title">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h1>
+        <span class="post-date">{{ post.date | date_to_long_string }}</span>
+        {%- if post.summary -%}
+        <p> {{ post.summary }} </p>
+        {%- else -%}
+          {{ post.excerpt | strip }}
+        {%- endif %}
+        <a href="{{ post.url }}" class="find_out_more">Подробнее...</a>
+      </div>
+      <hr><br>
+      {%- endfor %}
+    </div>
 
-{% include all_posts.html %}
+    {%- if paginator.total_pages > 1 -%}
+    <div class="pagination">
+      {%- if paginator.previous_page -%}
+        <a  href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+      {%- else -%}
+        <span >&laquo; Prev</span>
+      {%- endif -%}
 
-<div class="posts">
-  {% for post in all_posts %}
-  <div  id="{{post.url}}" class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_long_string }}</span>
-
-    {% if post.summary %}
-    <p> {{ post.summary }} </p>
-    {% else %}
-      {{ post.excerpt }}
-    {% endif %}
-
-    <a href="{{ post.url }}" class="find_out_more">Подробнее...</a>
-
-  </div>
-  <hr><br>
-  {% endfor %}
-</div>
-
-
-
-
-
-
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a  href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span >&laquo; Prev</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em >{{ page }}</em>
-    {% elsif page == 1 %}
-      <a  href="{{ site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' | replace:'http:/','http://' }}">{{ page }}</a>
-    {% else %}
-      <a  href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-  {% if paginator.next_page %}
-    <a  href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span  >Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
+      {%- for page in (1..paginator.total_pages) -%}
+        {%- if page == paginator.page -%}
+          <em >{{ page }}</em>
+        {%- elsif page == 1 -%}
+          <a  href="{{ site.baseurl | prepend: site.url |replace:'//','/'|replace:'//','/' |replace:'https:/','https://' | replace:'http:/','http://' }}">{{ page }}</a>
+        {%- else -%}
+          <a  href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if paginator.next_page -%}
+        <a  href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+      {%- else -%}
+        <span  >Next &raquo;</span>
+      {%- endif -%}
+    </div>
+    {%- endif -%}

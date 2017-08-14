@@ -7,20 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- metatags -->
-  {%if page.flag == "index"%}
-  {%include metatags-index.html%}
-  {%elsif page.id %}
-  {%include metatags.html%}
-  {% endif %}
+  {%- if page.flag == "index" -%}
+  {%- include metatags-index.html -%}
+  {%- elsif page.id -%}
+  {%- include metatags.html -%}
+  {%-  endif -%}
   <!-- /metatags -->
 
   <!-- title -->
   <title>
-    {% if page.title == "Home" %}
+    {%- if page.title == "Home" -%}
     {{ site.title }} &middot; {{ site.description }}
-    {% else %}
+    {%- else -%}
     {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
+    {%- endif -%}
   </title>
 
   <!-- Icons -->
@@ -31,36 +31,34 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/poole.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/hyde.min.css">
-  {% if page.fullwidth == true %}
+  {%- if page.fullwidth == true -%}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/hyde_wide.min.css">
-  {% endif %}
+  {%- endif -%}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/feedback.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/button-more.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/button-title.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/other.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/staticman.min.css">
 
   <link rel="stylesheet" href="{{ site.baseurl }}/lightbox2/css/lightbox.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/lightbox2/css/images.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/font-awesome/css/font-awesome.min.css">
 
+
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="/lightbox2/js/lightbox.min.js"></script>
 
-
-  <!-- <script src="/scripts/staticman.min.js"></script> -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/staticman.min.css">
-
   <!-- Begin Jekyll Feed -->
   {% feed_meta %}
 
-  {% if jekyll.environment == 'production' %}
+  {% if jekyll.environment == 'production' -%}
   <!-- Google Analitics -->
-  {% include analytics-google.html %}
+  {% include analytics-google.html -%}
   <!-- Yandex Metrika -->
   {% include analytics-yandex-metrika.html %}
-  {% else %}
+  {% else -%}
   <!-- There is no Analitics, because jekyll.environment != 'production'  -->
-  {% endif %}
+  {% endif -%}
 
 </head>

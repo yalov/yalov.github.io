@@ -1,42 +1,36 @@
 <div class="sidebar">
   <div class="container">
     <div class="sidebar-about">
-      <h1>
-        <a href="{% if site.baseurl == "" %} /{% endif %} {{site.baseurl}}">
-          {{ site.title }}
-        </a>
-      </h1>
-        <p class="lead">{{ site.description }}</p>
+      <h1><a href="{% if site.baseurl == "" %}/{% endif %}{{site.baseurl}}">{{ site.title }}</a></h1>
+      <p class="lead">{{ site.description }}</p>
     </div>
 
-{% include all_posts.html %}
-
-{% assign all_posts_by_category = all_posts | where: "post_on_sidebar", "true" | group_by: "category"  | sort: 'name' %}
+    {%- include all_posts.html %}
+    {% assign all_posts_by_category = all_posts | where: "post_on_sidebar", "true" | group_by: "category"  | sort: 'name' %}
     <nav class="sidebar-nav">
-    {% for category_posts in all_posts_by_category %}  <!--{{collection.label}}-->
-      {% unless category_posts.name == '' %}
-          <span class="sidebar-nav-item">{{ category_posts.name | remove: '["' | remove: '"]' | split: '", "' | join: ", " | capitalize }}:</span>
-      {% for p in category_posts.items %}
+    {%- for category_posts in all_posts_by_category -%}
+      {%- unless category_posts.name == '' %}
+      <span class="sidebar-nav-item">{{ category_posts.name | remove: '["' | remove: '"]' | split: '", "' | join: ", " | capitalize }}:</span>
+      {%- for p in category_posts.items %}
       <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{site.url}}{{site.baseurl}}{{ p.url }}">{{p.title}}</a>
-      {% endfor %}
-      {% endunless %}
+      {%- endfor %}
+      {%- endunless -%}
     {% endfor %}
     </nav>
   </div>
 
-  {% assign pages_bottom = site.pages | where: "on_sidebar_bottom", "true" | sort: 'name' %}
+  {% assign pages_bottom = site.pages | where: "on_sidebar_bottom", "true" | sort: 'name' -%}
   <div class="container sidebar-sticky">
     <nav class="sidebar-nav">
-      {% for p in pages_bottom %}
-      <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a>{% endfor %}
+      {%- for p in pages_bottom %}
+      <a class="sidebar-nav-item{% if page.url  == p.url %} active{% endif %}" href="{{ p.url }}">{{p.title}}</a>
+      {%- endfor %}
     </nav>
-
     <p>
       <a href="{{ site.github.owner_url }}"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
       <a href="mailto:{{site.author.email}}"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
     </p>
-    <span style= 'font-size: 0.7em;'>Served by github-pages-gem <a href= "/gem-versions">v{{ site.github.versions.github-pages }}</a></span><br>
+    <small><small>Served by github-pages-gem <a href= "/gem-versions">v{{ site.github.versions.github-pages }}</a></small></small><br>
     <span>&copy; {{ site.time | date: '%Y' }}, {{site.author.name}}.</span>
-
   </div>
 </div>

@@ -1,30 +1,28 @@
-{% capture description %}
-{% if page.summary %}
+{%- capture description -%}
+{%- if page.summary -%}
 {{ page.summary | strip_html | strip_newlines }}
-{% elsif page.excerpt %}
+{%- elsif page.excerpt -%}
 {{ page.excerpt | strip_html | strip_newlines | strip | truncate: 140 }}
-{% else %}
+{%- else -%}
 {{ site.description | strip_html | strip_newlines | strip | truncate: 140 }}
-{% endif %}
-{% endcapture %}
+{%- endif -%}
+{%- endcapture -%}
 
-{% capture full_url %}
+{%- capture full_url -%}
 {{page.url | replace:'/index.html','/' | prepend: site.url | prepend: site.baseurl }}
-{% endcapture %}
+{%- endcapture -%}
 
-{% capture wide_logo %}
+{%- capture wide_logo -%}
 {{'/favicon968x504.png' | prepend: site.baseurl | prepend: site.url }}
-{% endcapture %}
+{%- endcapture -%}
 
-{% capture first_image %}
+{%- capture first_image -%}
 {{ '/images/' | prepend: site.baseurl | prepend: site.url }}{{ page.images.first.name }}
-{% endcapture %}
+{%- endcapture -%}
 
-{% capture site_url %}
+{%- capture site_url -%}
 {{ site.baseurl | prepend: site.url }}
-{% endcapture %}
-
-
+{%- endcapture %}
 
   <!-- Для Facebook, vk, OK.ru и Google+: -->
   <meta property="og:type" content="article">
@@ -33,17 +31,23 @@
   <meta property="og:description" content="{{description| strip}}">
   <meta property="og:url" content="{{full_url | strip}}">
   <meta property="og:locale" content="ru_RU">
-  {% if page.images.first %}
+  {%- if page.images.first %}
   <meta property="og:image" content="{{ first_image | strip }}" />
-  {% if page.images.first.width %}<meta property="og:image:width" content="{{ page.images.first.width }}" />
-  {% else %}<meta property="og:image:width" content="auto" />{% endif %}
-  {% if page.images.first.height %}<meta property="og:image:height" content="{{ page.images.first.height }}" />
-  {% else %}<meta property="og:image:height" content="auto" />{% endif %}
-  {% else %}
+    {%- if page.images.first.width %}
+  <meta property="og:image:width" content="{{ page.images.first.width }}" />
+    {%- else %}
+  <meta property="og:image:width" content="auto" />
+    {%- endif %}
+    {%- if page.images.first.height %}
+  <meta property="og:image:height" content="{{ page.images.first.height }}" />
+    {%- else %}
+  <meta property="og:image:height" content="auto" />
+    {%- endif %}
+  {%- else %}
   <meta property="og:image" content="{{wide_logo | strip}}">
   <meta property="og:image:width" content="968">
   <meta property="og:image:height" content="504">
-  {% endif %}
+  {%- endif %}
   <meta property="fb:app_id" content="{{ site.fb_app_id }}"/>
 
    <!-- Для Twitter и vk: -->
@@ -54,42 +58,39 @@
   <meta name="twitter:domain" content="{{site.url}}">
   <meta name="twitter:site" content="@{{ site.twitter_username }}" />
   <meta name="twitter:creator" content="@{{ site.twitter_username }}" />
-  {% if page.images.first %}
+  {%- if page.images.first %}
   <meta name="twitter:image:src" content="{{ first_image | strip }}">
-  {% else %}
+  {%- else %}
   <meta name="twitter:image:src" content="{{wide_logo | strip}}">
-  {% endif %}
-
-
+  {%- endif %}
   <meta name="description" content="{{description| strip}}" />
   <link rel="canonical" href="{{full_url | strip}}" />
-
   <meta property="article:author" content="{{ site.author.fb }}" />
-  {% if page.date %}
+  {%- if page.date %}
   <meta property="article:published_time" content="{{page.date | date_to_xmlschema}}" />
-  {% endif %}
+  {%- endif %}
 
   <!-- ld-json (google+)-->
   <script type="application/ld+json">
   {
     "@context":      "http://schema.org",
     "@type":         "BlogPosting",
-    "headline":      "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-  	{% if page.date %}
+    "headline":      "{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
+  	{%- if page.date -%}
     "datePublished": "{{ page.date | date_to_xmlschema }}",
     "dateModified":  "{{ page.date | date_to_xmlschema }}",
-  	{% endif %}
+  	{%- endif -%}
     "description":   "{{description | strip}}",
     "@id":    "{{full_url | strip}}",
     "url":    "{{full_url | strip}}",
     "mainEntityOfPage": "{{full_url | strip}}",
-  {% if page.category %}
+  {%- if page.category -%}
     "genre":     "{{ page.categories | join: ', ' | escape}}",
-  {% endif %}
-  {% if page.tags %}
+  {%- endif -%}
+  {%- if page.tags -%}
     "keywords":  "{{ page.tags | join: ', ' | escape }}",
-  {% endif %}
-  {% if page.images %}
+  {%- endif -%}
+  {%- if page.images -%}
     "image": {
       "@type":       "ImageObject",
       "image":       "{{ first_image | strip }}",
@@ -97,12 +98,12 @@
       "name":        "{{ page.images.first.name }}",
       "contentUrl":  "{{ first_image | strip }}",
       "url":         "{{ first_image | strip }}",
-      {% if page.images.first.width %}"width":       "{{page.images.first.width}} px",
-      {% else %}"width":       "auto",{% endif %}
-      {% if page.images.first.height %}"height":     "{{page.images.first.height}} px"
-      {% else %}"height":     "auto"  {% endif %}
+      {%- if page.images.first.width -%}"width":       "{{page.images.first.width}} px",
+      {%- else -%}"width":       "auto",{%- endif -%}
+      {%- if page.images.first.height -%}"height":     "{{page.images.first.height}} px"
+      {%- else -%}"height":     "auto"  {%- endif -%}
     },
-  {% else %}
+  {%- else -%}
     "image": {
       "@type":       "ImageObject",
       "image":       "{{ wide_logo | strip}}",
@@ -113,7 +114,7 @@
       "width":       "968 px",
       "height":     "504 px"
     },
-  {% endif %}
+  {%- endif -%}
 
     "publisher": {
       "@type":     "Organization",
@@ -126,9 +127,9 @@
         "height":     "504 px"
       }
     },
-  {% if page.content %}
+  {%- if page.content %}
     "wordCount": "{{ page.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip | number_of_words}}",
-  {% endif %}
+  {%- endif %}
     "author": {
       "@type": "Person",
       "name": "{{ site.author.name }}",

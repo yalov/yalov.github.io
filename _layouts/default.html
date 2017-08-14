@@ -6,14 +6,13 @@
   {% include sidebar.html %}
   <div class="content container">
     {{ content }}
-
-    <!-- Comments -->
-     <!-- if jekyll.environment == 'production' %}
-     include comments-disqus.html  %}
-     endif %} -->
-    {% include comments-staticman.html %}
-    <!--  endif  -->
+    
+    {%- include comments-staticman.html -%}
+    {%- comment -%}
+      {%- if jekyll.environment == 'production' -%}
+        {%- include comments-disqus.html -%}
+      {%- endif -%}
+    {%- endcomment %}
   </div>
 </body>
-
 </html>

@@ -1,39 +1,37 @@
-{% capture full_url %}
+{%- capture full_url -%}
 {{page.url | replace:'/index.html','/' | prepend: site.url | prepend: site.baseurl }}
-{% endcapture %}
+{%- endcapture -%}
 
-{% capture post_first_image %}
+{%- capture post_first_image -%}
 {{ '/images/' | prepend: site.baseurl | prepend: site.url }}
-{% endcapture %}
+{%- endcapture -%}
 
-{% assign logo_name = '"Y-logo"' %}
+{%- assign logo_name = '"Y-logo"' -%}
 
-{% capture wide_logo %}
+{%- capture wide_logo -%}
 {{'/favicon968x504.png' | prepend: site.baseurl | prepend: site.url }}
-{% endcapture %}
+{%- endcapture -%}
 
-{% capture site_url %}
+{%- capture site_url -%}
 {{ site.baseurl | prepend: site.url }}
-{% endcapture %}
+{%- endcapture -%}
 
-{% include all_posts.html %}
+{%- include all_posts.html -%}
 
-{% assign site_tags =  all_posts | map: 'tags' | join: ','  | split: ',' | uniq | sort | join: ','  %}
+{%- assign site_tags =  all_posts | map: 'tags' | join: ','  | split: ',' | uniq | sort | join: ','  -%}
 
   <meta name="yandex-verification" content="{{site.yandex-verification}}" />
-
   <meta name="description" content="{{site.description | strip}}" />
   <link rel="canonical" href="{{full_url | strip}}" />
-  <!-- <link rel="author" href="{{ site.author.name }}" /> -->
 
   {% comment %}
-  {% if paginator.previous_page %}
+  {%- if paginator.previous_page -%}
   <link rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url | replace:'//','/' | replace:'//','/' | replace:'https:/','https://' }}">
-  {% endif %}
-  {% if paginator.next_page %}
+  {%- endif -%}
+  {%- if paginator.next_page -%}
   <link rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url | replace:'//','/' | replace:'//','/' | replace:'https:/','https://' }}">
-  {% endif %}
-  {% endcomment %}
+  {%- endif -%}
+  {%- endcomment -%}
 
   <!-- Для Facebook, VK, OK.ru и Google+: -->
   <meta property="og:type" content="website"/>
@@ -57,7 +55,6 @@
   <meta name="twitter:creator"   content="@{{ site.twitter_username }}"/>
   <meta name="twitter:image:src" content="{{wide_logo | strip}}"/>
 
-
   <!-- ld-json-index -->
   <script type="application/ld+json">
   { "@context": "http://schema.org",
@@ -75,9 +72,9 @@
    }
   </script>
 
-{% assign items = "" %}
-{% for post in all_posts %}
-  {% capture list_item %}
+{%- assign items = "" -%}
+{%- for post in all_posts -%}
+  {%- capture list_item -%}
   {
     "@type": "ListItem",
     "position": {{forloop.index}},
@@ -86,7 +83,7 @@
       "url": "{{full_url | strip}}#{{post.url}}",
       "mainEntityOfPage": "{{full_url | strip}}#{{post.url}}",
       "headline": "{{ post.title }}",
-      {% if post.images %}
+      {%- if post.images -%}
         "image": {
           "@type":       "ImageObject",
           "image":       "{{ post_first_image | strip }}{{ post.images.first.name }}",
@@ -94,14 +91,14 @@
           "name":        "{{ post.images.first.name }}",
           "contentUrl":  "{{ post_first_image | strip }}{{ post.images.first.name }}",
           "url":         "{{ post_first_image | strip }}{{ post.images.first.name }}",
-          {% if post.images.first.width %}     "width":       "{{post.images.first.width}}",
-          {% else %}               "width":       "auto",
-          {% endif %}
-          {% if post.images.first.height %}    "height":     "{{post.images.first.height}}"
-          {% else %}               "height":     "auto"
-          {% endif %}
+          {%- if post.images.first.width -%}     "width":       "{{post.images.first.width}}",
+          {%- else -%}               "width":       "auto",
+          {%- endif -%}
+          {%- if post.images.first.height -%}    "height":     "{{post.images.first.height}}"
+          {%- else -%}               "height":     "auto"
+          {%- endif -%}
         },
-      {% else %}
+      {%- else -%}
       "image": {
         "@type":       "ImageObject",
         "image":       "{{ wide_logo | strip }}",
@@ -112,7 +109,7 @@
         "width":       "968 px",
         "height":      "504 px"
       },
-      {% endif %}
+      {%- endif -%}
       "author": {
         "@type": "Person",
         "name": "{{ site.author.name }}"
@@ -135,9 +132,9 @@
       "dateModified"    : "{{ post.date | date_to_xmlschema }}"
     }
   }
-  {% endcapture %}
+  {%- endcapture -%}
   {% assign items = items | append: list_item | append: "|||" %}
-{% endfor %}
+{%- endfor -%}
 
 {% assign items = items | split: "|||" | join: ',' %}
 

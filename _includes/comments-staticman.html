@@ -1,27 +1,39 @@
  {% if page.comments == true %}
+ <!-- staticman comments -->
  <hr>
 <section class="post__comments">
-
   <!-- Start static comments -->
-  {% if site.data.comments[page.slug] %}
-  {% assign comments = site.data.comments[page.slug] | sort %}
+  {%- if site.data.comments[page.slug] %}
+  {%- assign comments = site.data.comments[page.slug] | sort %}
   <div id="comments" class="js-comments">
     <h4 class="tile__header">Comments:</h4>
     <hr align="left" width="50%">
 
-    {% for comment in comments %}
-      {% assign email = comment[1].email %}
-      {% assign name = comment[1].name %}
-      {% assign date = comment[1].date %}
-      {% assign message = comment[1].message %}
-      {% include comment.html index=forloop.index email=email name=name date=date message=message %}
+    {%- for comment in comments %}
+      {%- assign email   = comment[1].email %}
+      {%- assign name    = comment[1].name %}
+      {%- assign date    = comment[1].date %}
+      {%- assign message = comment[1].message %}
+      {%- assign index   = forloop.index %}
+
+      <article id="comment{{ index }}" class="js-comment comment" itemprop="comment" itemscop itemtype="http://schema.org/Comment">
+        <div class="comment__content-wrapper">
+          <span class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            {% if index %}<a href="#comment{{ include.index }}" itemprop="url">#</a>{% else %} > {% endif %}
+            <span itemprop="name">{{ name }}</span><span>,</span>
+            {%- if date %}
+            <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ date | date: "%F %R"}} UTC:</time>
+            {%- endif %}
+          </span>
+          <div itemprop="text" class="comment__message">{{ message | markdownify }}</div>
+        </div>
+      </article>
       <hr align="left" width="50%">
-    {% endfor %}
+    {%- endfor %}
   </div>
-  {% endif %}
+  {%- endif %}
+
   <!-- End static comments -->
-
-
 
   <!-- Start new comment form -->
   <form id="comment-form" class="post__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/yalov/yalov.github.io/master/comments">

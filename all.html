@@ -3,6 +3,7 @@ layout: page
 title: All Pages
 description: "An archive of posts sorted by tag."
 ---
+{% include all_posts.html %}
 
 {% for post in all_posts %}
   <li itemscope>
@@ -10,6 +11,7 @@ description: "An archive of posts sorted by tag."
     {%if post.date %}<span class = "timeinlist">{{ post.date | date_to_string }}</span>{% endif %}
   </li>
 {% endfor %}
+
 {% for post in site.pages %}
   <li itemscope>
     <a href="{{ post.url }}">{% if post.title %} {{ post.title }} {% else %} {{ post.name }} {% endif %} </a>
@@ -103,7 +105,7 @@ description: "An archive of posts sorted by tag."
 
 {% comment %}
      <!--
-     {% assign projects = site.collection | where_exp: "item", 'item.category' contains 'projects' | where: "post_on_sidebar", "true" %}
+     {% assign projects = site.collection | where_exp: "item", "item.category contains 'projects'" | where: "post_on_sidebar", "true" %}
     <nav class="sidebar-nav">
       <span class="sidebar-nav-item">Projects:</span>
       {% for p in projects  %}

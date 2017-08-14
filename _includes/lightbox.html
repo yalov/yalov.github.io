@@ -1,24 +1,22 @@
 <div class="image-row">
-{% for image in page.images %}
-{% if include.image == null or include.image == image.name %}
+{%- for image in page.images %}
+{%- if include.image == null or include.image == image.name %}
 <a class="lightbox-image-link" href="{{ page.imgfolder }}{{ image.name }}" data-lightbox="1{{include.group}}" title="{{ image.text }}">
-
 <img class="lightbox-image"
-{% if include.height != null and include.width != null%}
+{%- if include.height != null and include.width != null %}
     style="height: {{include.height}}; width: {{include.width}};"
-{% elsif include.height != null%}
+{%- elsif include.height != null %}
     style="height: {{include.height}};"
-{% elsif include.width != null%}
+{%- elsif include.width != null %}
     style= "width: {{include.width }};"
-{% else %}
 {% endif %}
 
-{% if image.thumb %}
-src="{{ page.imgfolder }}{{ image.thumb }}" alt="{{ image.text }}">
-{% else %}
-src="{{ page.imgfolder }}{{ image.name }}" alt="{{ image.text }}">
-{% endif %}
+{%- if image.thumb %}
+ src="{{ page.imgfolder }}{{ image.thumb }}" alt="{{ image.text }}">
+{%- else %}
+ src="{{ page.imgfolder }}{{ image.name }}" alt="{{ image.text }}">
+{%- endif -%}
 </a>
-{% endif %}
+{%- endif -%}
 {% endfor %}
 </div>
