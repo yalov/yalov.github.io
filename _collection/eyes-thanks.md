@@ -14,11 +14,11 @@ category:
 
 sidebar: true
 
-version: 1.3.2
+version: 1.3.5
 
 comments: true
-disqus_comments: true
-disqus_identifier: fde3ee99-1e9a-4781-8568-9d36d1ac76ca
+# disqus_comments: true
+# disqus_identifier: fde3ee99-1e9a-4781-8568-9d36d1ac76ca
 
 summary: "<a class=lightbox-image-link-left href='/images/eyesthanks-2monitors.jpg' data-lightbox='EyesThanks' title='fullscreen image at different-size monitors system'>
 <img class='lightbox-image' style= 'width: 10rem;' src='/images/eyesthanks-2monitors.jpg' alt='fullscreen image at different-size monitors system'></a>
