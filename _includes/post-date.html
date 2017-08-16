@@ -1,0 +1,34 @@
+{%- if post %}
+  {%- assign date = post.date %}
+  {%- assign language = post.language %}
+{%- elsif page %}
+  {%- assign date = page.date %}
+  {%- assign language = page.language %}
+{%- endif %}
+
+{%- unless language %}
+  {%- assign language = 'en' %}
+{%- endunless %}
+
+<span class="post-date">
+  <i class="fa fa-calendar" aria-hidden="true"></i>
+  <time datetime="{{ date | date_to_xmlschema }}">
+    {{ date | date: "%-d" }}
+    {% assign month = date | date: '%-m' %}
+    {% case month %}
+      {% when '1' %}{{ site.data.ui-text[language].months.January }}
+      {% when '2' %}{{ site.data.ui-text[language].months.February }}
+      {% when '3' %}{{ site.data.ui-text[language].months.March }}
+      {% when '4' %}{{ site.data.ui-text[language].months.April }}
+      {% when '5' %}{{ site.data.ui-text[language].months.May }}
+      {% when '6' %}{{ site.data.ui-text[language].months.June }}
+      {% when '7' %}{{ site.data.ui-text[language].months.July }}
+      {% when '8' %}{{ site.data.ui-text[language].months.August }}
+      {% when '9' %}{{ site.data.ui-text[language].months.September }}
+      {% when '10' %}{{ site.data.ui-text[language].months.October }}
+      {% when '11' %}{{ site.data.ui-text[language].months.November }}
+      {% when '12' %}{{ site.data.ui-text[language].months.December }}
+    {% endcase %}
+    {{ date | date: "%Y" }}
+  </time>
+</span>

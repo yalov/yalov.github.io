@@ -1,0 +1,78 @@
+# User interface text and labels
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  months:
+    January: "January"
+    February: "February"
+    March: "March"
+    April: "April"
+    May: "May"
+    June: "June"
+    July: "July"
+    August: "August"
+    September: "September"
+    October: "October"
+    November: "November"
+    December: "December"
+  minute_read            : "min read"
+  comments_title         : "Comments"
+  comment_form_title     : "Leave a Comment"
+  comment_form_name      : "Name"
+  comment_form_email     : "Email (not required)"
+  comment_form_comment   : "Comment"
+  comment_form_md        : "Markdown is supported"
+  comment_btn_submit     : "Submit Comment"
+  comment_btn_msg        : "Appears after a minute"
+
+  # tags_label                 : "Tags:"
+  # categories_label           : "Categories:"
+  # date_label                 : "Updated:"
+  # more_label                 : "Learn More"
+  # comment_form_info          : "Your email address will not be published. Required fields are marked"
+  # comment_btn_submitted      : "Submitted"
+  # comment_success_msg        : "Thanks for your comment! It will show on the site once it has been approved."
+  # comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+  # loading_label              : "Loading..."
+en-US:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+
+# Russian / Русский
+# -----------------
+ru: &DEFAULT_RU
+  months:
+    January: "января"
+    February: "февраля"
+    March: "марта"
+    April: "апреля"
+    May: "мая"
+    June: "июня"
+    July: "июля"
+    August: "августа"
+    September: "сентября"
+    October: "октября"
+    November: "ноября"
+    December: "декабря"
+  minute_read           : "мин на чтение"
+  comments_title        : "Комментарии"
+  comment_form_title    : "Оставить комментарий"
+  comment_form_name     : "Имя"
+  comment_form_email    : "E-mail (не обязательно)"
+  comment_form_comment  : "Комментарий"
+  comment_form_md       : "поддерживается синтаксис Markdown"
+  comment_btn_submit    : "Оставить комментарий"
+  comment_btn_msg       : "Появится через минуту"
+
+  # comment_btn_submitted      : "Отправлено"
+  # more_label                 : "Читать далее"
+  # comment_form_info          : "Ваш адрес электронной почты не будет опубликован. Обязательные поля помечены"
+  # comment_success_msg        : "Спасибо за Ваш комментарий! Он будет опубликован на сайте после проверки."
+  # comment_error_msg          : "К сожалению, произошла ошибка с отправкой комментария. Пожалуйста, убедитесь, что все обязательные поля заполнены и попытайтесь снова."
+  # loading_label              : "Отправка..."
+  # tags_label                 : "Метки:"
+  # categories_label           : "Разделы:"
+ru-RU:
+  <<: *DEFAULT_RU

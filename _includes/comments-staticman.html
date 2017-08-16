@@ -1,4 +1,8 @@
- {% if page.comments == true %}
+{% if page.comments == true %}
+{%- assign language = page.language %}
+{% unless language %}
+  {%- assign language = 'en' %}
+{%- endunless %}
  <!-- staticman comments -->
  <hr>
 <section class="post__comments">
@@ -6,7 +10,7 @@
   {%- if site.data.comments[page.slug] %}
   {%- assign comments = site.data.comments[page.slug] | sort %}
   <div id="comments" class="js-comments">
-    <h4 class="tile__header">{% if page.language == 'ru' %}Комментарии:{% else %}Comments:{% endif %}</h4>
+    <h4 class="tile__header">{{ site.data.ui-text[language].comments_title }}</h4>
     <hr align="left" width="50%">
 
     {%- for comment in comments %}
@@ -38,16 +42,19 @@
   <!-- Start new comment form -->
   <form id="comment-form" class="post__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/yalov/yalov.github.io/master/comments">
     <ul class="form-style-1">
-      <h4 class="comment-form-title">{% if page.language == 'ru' %}Оставить комментарий:{%else%}Leave a Comment:{% endif%}</h4>
+      {%- unless comments %}
+      <h4 class="comment-form-title">{{ site.data.ui-text[language].comment_form_title }}</h4>
+      {% endunless %}
       <li>
         <input name="options[redirect]" type="hidden" value="{{site.url}}{{ page.url }}">
       </li>
       <li>
-        <input type="text" id="comment-form-name" name="fields[name]" class="field-divided" placeholder={%if page.language == 'ru' %}"Имя"{%else%}"*Name"{% endif%} />&nbsp;
-        <input type="text" id="comment-form-email" name="fields[email]" class="field-divided" placeholder={%if page.language == 'ru' %}"Email (не обязательно)"{%else%}"Email"{% endif%} />
+        <input type="text" id="comment-form-name" name="fields[name]" class="field-divided" placeholder="{{site.data.ui-text[language].comment_form_name}}" />
+        <input type="text" id="comment-form-email" name="fields[email]" class="field-divided" placeholder="{{site.data.ui-text[language].comment_form_email}}" />
       </li>
       <li>
-        <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" class="field-long field-textarea" placeholder={%if page.language == 'ru' %}"Комментарий (поддерживается Markdown-разметка)"{%else%}"*Comment (Markdown is supported)"{% endif%}></textarea>
+        <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" class="field-long field-textarea"
+        placeholder="{{ site.data.ui-text[language].comment_form_comment }} ({{ site.data.ui-text[language].comment_form_md }})"></textarea>
       </li>
       <li class="hidden">
         <input name="options[slug]" type="hidden" value="{{ page.slug }}">
@@ -60,7 +67,8 @@
       </p>
       <!-- End comment form alert messaging -->
       <li>
-        <input type="submit" id="comment-form-submit" value={%if page.language == 'ru' %}"Отправить"{%else%}"Submit"{% endif%} /> <span><small>{%if page.language == 'ru' %}(появится через минуту){%else%}(appears after a minute){% endif%}</small></span>
+        <input type="submit" id="comment-form-submit" value="{{ site.data.ui-text[language].comment_btn_submit }}" />
+        <span><small>({{ site.data.ui-text[language].comment_btn_msg }})</small></span>
       </li>
     </ul>
   </form>

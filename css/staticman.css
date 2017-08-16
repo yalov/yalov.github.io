@@ -3,6 +3,13 @@
  /*It's empty*/
 }
 
+
+
+ul.form-style-1 {
+    padding-left: 0px;
+    margin-top: 3rem;
+}
+
 .form-style-1 li {
     padding: 0;
     display: block;
@@ -48,12 +55,15 @@
 }
 
 .tile__header {
-  margin-top: 3rem;
+
   margin-bottom: 2rem;
 }
 
+.js-comments {
+  margin-top: 3rem;  
+}
+
 .comment-form-title {
-  margin-top: 3rem;
   margin-bottom: 1rem;
 }
 </style>
