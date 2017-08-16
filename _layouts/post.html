@@ -14,7 +14,9 @@ layout: default
     </p>
     {%- endif %}
   </h1>
-  <p class="post-date">{{ page.date | date_to_long_string }}</p>
+  <p class="post-info">
+    {%include post-date.html %}
+  </p>
   <div class="clearboth">
     {{ content }}
   </div>

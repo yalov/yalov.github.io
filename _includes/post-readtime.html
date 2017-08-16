@@ -1,0 +1,25 @@
+{%- if site.readtime %}
+  {%- assign words_per_minute = site.words_per_minute | default: 200 %}
+  {%- assign half_wpm = words_per_minute | divided_by:2 %}
+
+  {%- if post %}
+    {%- assign content = post.content %}
+    {%- assign language = post.language %}
+  {%- elsif page %}
+    {%- assign content = page.content %}
+    {%- assign language = page.language %}
+  {%- endif %}
+
+  {% unless language %}
+    {%- assign language = 'en' %}
+  {%- endunless %}
+
+  {%- assign read_time = content | strip_html | number_of_words | plus: half_wpm | divided_by: words_per_minute %}
+
+  {%- if read_time >= 1 %}
+    <span class="post-readtime">
+      <i class="fa fa-clock-o" aria-hidden="true"></i>
+        {{ read_time }} {{ site.data.ui-text[language].minute_read }}
+    </span>
+  {%- endif %}
+{%- endif %}

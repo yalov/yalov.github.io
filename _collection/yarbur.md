@@ -17,7 +17,7 @@ category:
 
 version: 2.1
 
-
+language: ru
 #lightbox2:
 imgfolder: /images/
 images:

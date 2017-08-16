@@ -22,7 +22,17 @@ flag: index
         <h1 class="post-title">
           <a href="{{ post.url }}">{{ post.title }}</a>
         </h1>
-        <span class="post-date">{{ post.date | date_to_long_string }}</span>
+
+        <p class="post-info">
+          <span class="post-date">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: '%F' }}
+            </time>
+          </span>
+          {% include post-readtime.html %}
+        </p>
+
         {%- if post.summary -%}
         <p> {{ post.summary }} </p>
         {%- else -%}

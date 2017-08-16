@@ -15,7 +15,7 @@ category:
   - posts
 
 
-summary: "Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Hungarian, Italian, Japanese, Portugese, Russian, Spanish, Swedish, Turkish, Urdu."
+summary: "Table with animals sounds in Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Hungarian, Italian, Japanese, Portugese, Russian, Spanish, Swedish, Turkish, Urdu."
 ---
 
 [Google Table](https://docs.google.com/spreadsheets/d/1mhvi_kic2xLEdFE-sJKnJCNJYyRlj1NMjUGVWVhhCYY/edit?usp=sharing)
