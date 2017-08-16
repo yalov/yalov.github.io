@@ -22,7 +22,24 @@ flag: index
         <h1 class="post-title">
           <a href="{{ post.url }}">{{ post.title }}</a>
         </h1>
-        <span class="post-date">{{ post.date | date_to_long_string }}</span>
+        {%- if site.readtime %}
+          {%- if site.wpm %}
+            {%- assign halfwpm = site.wpm | divided_by:2 %}
+            {%- assign readtime = post.content | strip_html | number_of_words | plus:halfwpm | divided_by:site.wpm %}
+          {%- endif %}
+        {%- endif %}
+        <p class="post-info">
+          <span class="post-date">
+            <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_long_string }}
+          </span>
+          {%- if readtime >= 1 %}
+          <span class="post-readtime">
+            <i class="fa fa-clock-o" aria-hidden="true"></i> {{ readtime }} min read
+          </span>
+          {%- endif %}
+        </p>
+
+
         {%- if post.summary -%}
         <p> {{ post.summary }} </p>
         {%- else -%}

@@ -15,8 +15,9 @@ category:
   - tools
 
 comments: true
-disqus_comments: true
-disqus_identifier: 9da4a7ae-5379-4f2f-a7b3-0a0cc8c19200
+#disqus_comments: true
+#disqus_identifier: 9da4a7ae-5379-4f2f-a7b3-0a0cc8c19200
+language: ru
 ---
 
 Многие знают, что стандартные календари праздников, встроенные в google-календарь недостаточно хороши.

@@ -13,9 +13,9 @@ category:
   - posts
 
 comments: true
-disqus_comments: true
-disqus_identifier: c78163f3-b705-a17e-2fda-1c4f7f3f2e41
-
+#disqus_comments: true
+#disqus_identifier: c78163f3-b705-a17e-2fda-1c4f7f3f2e41
+language: ru
 ---
 
 Для автоматической сборки Qt приложений под Windows в папку назначения вместе со всеми нужными библиотеками и

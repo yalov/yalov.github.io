@@ -14,7 +14,11 @@ layout: default
     </p>
     {%- endif %}
   </h1>
-  <p class="post-date">{{ page.date | date_to_long_string }}</p>
+  <p class="post-info">
+    <span class="post-date">
+      <i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date_to_long_string }}
+    </span>
+  </p>
   <div class="clearboth">
     {{ content }}
   </div>
