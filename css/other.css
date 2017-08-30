@@ -12,18 +12,24 @@ input[type=url],
 input[type=email],
 textarea,
 select{
-    /*box-sizing: border-box;*/
-    /*-webkit-box-sizing: border-box;*/
-    /*-moz-box-sizing: border-box;*/
     border:1px solid #CECECE;
+    background: #FFF;
     padding: 7px;
     margin:0px;
+    outline: none;
+    font-family: Helvetica, PT Sans, Arial, sans-serif;
+    font-size: 80%;
+
     -webkit-transition: all 0.10s ease-in-out;
     -moz-transition: all 0.10s ease-in-out;
     -ms-transition: all 0.10s ease-in-out;
     -o-transition: all 0.10s ease-in-out;
-    outline: none;
-    font: 80% Helvetica, Verdana, Arial, sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 input[type=text]:focus,
 input[type=date]:focus,
@@ -37,4 +43,58 @@ textarea:focus,
 select:focus{
 	outline: 0;
   border: 1px solid #9E9E9E;
+}
+
+::placeholder,
+:-moz-placeholder,
+::-moz-placeholder
+:-ms-input-placeholder,
+::-ms-input-placeholder,
+::-webkit-input-placeholder
+{
+  color: #888;
+}
+
+input.text-align-right {
+  text-align: right;
+}
+
+a.find_out_more,
+input[type=submit],
+input[type="button"],
+button {
+  cursor: pointer;
+  border: none;
+  background: #202020;
+  color: #FFF;
+  padding: 10px;
+  font-family: Helvetica, PT Sans, Arial, sans-serif;
+  font-size: 80%;
+}
+
+a.find_out_more:hover,
+input[type=submit]:hover,
+input[type="button"]:hover,
+button:hover {
+  background: #43A047;
+  text-decoration:none;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+a.find_out_more:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+button:active {
+  position:relative;
+  top:1px;
+}
+
+a.find_out_more {
+  float: right;
+	display:inline-block;
+	padding:6px 24px;
+  font-family: Helvetica, PT Sans, Arial, sans-serif;
+  font-size: 100%;
 }

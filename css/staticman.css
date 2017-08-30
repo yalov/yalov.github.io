@@ -1,9 +1,6 @@
-<style type="text/css">
 .form-style-1 {
  /*It's empty*/
 }
-
-
 
 ul.form-style-1 {
     padding-left: 0px;
@@ -25,21 +22,7 @@ ul.form-style-1 {
     width: 79%;
 }
 .form-style-1 input[type=submit], .form-style-1 input[type=button]{
-  background: #202020;
     padding: 8px 15px 8px 15px;
-    cursor:pointer;
-    border: none;
-    color: #fff;
-}
-.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
-  background: #43A047;
-	-webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.form-style-1 input[type=submit]:active, .form-style-1 input[type=button]:active{
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .form-style-1 .required{
@@ -55,15 +38,13 @@ ul.form-style-1 {
 }
 
 .tile__header {
-
   margin-bottom: 2rem;
 }
 
 .js-comments {
-  margin-top: 3rem;  
+  margin-top: 3rem;
 }
 
 .comment-form-title {
   margin-bottom: 1rem;
 }
-</style>
