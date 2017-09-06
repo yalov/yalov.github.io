@@ -14,6 +14,7 @@ category:
 
 summary: Correspondence between time, distance, velocity, and warp factor for “The Original” series and “The Next Gegeration” series.
 ---
+
 Select warp scale:  
 <input type="radio" name="version" value="TOS" > The Original Series (before 2312)  
 <input type="radio" name="version" value="TNG" checked> The Next Gegeration (after 2312)

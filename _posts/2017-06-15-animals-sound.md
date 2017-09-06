@@ -15,8 +15,6 @@ category:
   - posts
 
 comments: true
-#disqus_comments: true
-#disqus_identifier: 54123b4d-d97f-5e60-9ad5-cc5e1e83872b
 
 summary: "Table with animals sounds in Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Hungarian, Italian, Japanese, Portugese, Russian, Spanish, Swedish, Turkish, Urdu."
 ---

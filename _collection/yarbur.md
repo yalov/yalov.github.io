@@ -18,8 +18,6 @@ category:
 version: 2.1
 
 comments: true
-#disqus_comments: true
-#disqus_identifier: 211fa75c-ad38-4bbb-9f6c-785eff9d0bc9
 language: ru
 #lightbox2:
 imgfolder: /images/
