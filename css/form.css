@@ -19,7 +19,7 @@
 
 .container-form form fieldset {
   border: medium none !important;
-  margin: 0 0 10px;
+  margin: 0 0 0.5rem;
   min-width: 100%;
   padding: 0;
   width: 100%;
@@ -34,5 +34,19 @@
 .container-form form input[type="button"],
 .container-form form button {
   width: 100%;
-  margin: 0 0 5px;
+  margin: 0 0 0.25rem;
+}
+
+.container-form form input[type="button"].half_left,
+.container-form form button.half_left {
+  width: 49%;
+  margin: 0 0 0.25rem;
+  float: left;
+}
+
+.container-form form input[type="button"].half_right,
+.container-form form button.half_right {
+  width: 49%;
+  margin: 0 0 0.25rem;
+  float: right;
 }

@@ -25,110 +25,120 @@ summary: Узнайте, сколько вам дней, и когда у вас
     </fieldset>
 
     <fieldset>
-      <input type="button" name="B1" value="Посчитать" onclick="cal()">
+      <input type="button" value="Посчитать" onclick="cal()">
     </fieldset>
 
-    <fieldset name="answerfieldset" hidden="true">
+    <fieldset name="answerfieldset" style="margin-top:1rem; margin-bottom:1rem;" hidden="true">
       <span id="answer"></span>
     </fieldset>
 
+    <fieldset name="addtocalendarfieldset_message" style="margin-top:1rem;" hidden="true">
+    Вы можете добавить в Google-Календарь:
+    </fieldset>
+
     <fieldset name="addtocalendarfieldset" hidden="true">
-      <input type="button" name="addtocalendar" value="Добавить в Google Календарь" onclick="window.open('')">
+      <input type="button" class="half_left" name="addtocalendar" value="Праздник" onclick="window.open('')">
+      <input type="button" class="half_right" name="addremindertocalendar" value="Напоминание" onclick="window.open('')">
     </fieldset>
 
   </form>
 </div>
 
 <script>
+  window.onload = function() {
+    var date = new Date();
 
-    window.onload = function() {
-        var date = new Date();
+    var day = date.getDate();
+    var month = date.getMonth() + 1;
+    var year = date.getFullYear();
+    if (month < 10) month = "0" + month;
+    if (day < 10) day = "0" + day;
+    var today = year + "-" + month + "-" + day;
 
-        var day = date.getDate();
-        var month = date.getMonth() + 1;
-        var year = date.getFullYear();
-        if (month < 10) month = "0" + month;
-        if (day < 10) day = "0" + day;
-        var today = year + "-" + month + "-" + day;
+    document.timerform.date2.value = today;
+  }
 
-        document.timerform.date2.value = today;
-    }
+  function cal() {
+    var date1 = new Date(document.timerform.date1.value);
+    var date2 = new Date(document.timerform.date2.value);
 
-    function cal() {
-        var date1 = new Date(document.timerform.date1.value);
-        var date2 = new Date(document.timerform.date2.value);
+    var t1 = date1.getTime();
+    var t2 = date2.getTime();
 
-        var t1 = date1.getTime();
-        var t2 = date2.getTime();
+    document.timerform.answerfieldset.hidden = false;
 
-        document.timerform.answerfieldset.hidden = false;
+    if (t1 !== t1) {
+      document.getElementById('answer').innerHTML = "<font color='red'>Введите дату рождения</font>";
+    } else {
+      var ms = t2 - t1;
+      if (ms < 0)
+        document.getElementById('answer').innerHTML = "Вы ещё не родились.";
+      else if (ms == 0)
+        document.getElementById('answer').innerHTML = "Вы родились сегодня.";
+      else {
 
-        if (t1 !== t1) {
-            document.getElementById('answer').innerHTML = "<font color='red'>Введите дату рождения</font>";
+        var days = Math.round(ms / 86400000);
+
+        var daysplural;
+        var remainder = Math.floor(days % 100 / 10);
+        if (remainder == 1) daysplural = "дней";
+        else {
+          remainder = days % 10;
+          if (remainder == 1) daysplural = "день";
+          else if (0 < remainder && remainder < 5) daysplural = "дня";
+          else daysplural = "дней";
+        }
+
+        var daysLeftTo1000 = 1000 - days % 1000;
+        var count1000 = Math.floor(days / 1000);
+        var date1000 = new Date(date2.getTime() + daysLeftTo1000 * 24 * 60 * 60 * 1000);
+
+        if (daysLeftTo1000 == 1000) {
+          var daysLeftTo10000 = 10000 - days % 10000;
+          var count10000 = Math.floor(days / 10000);
+          var date10000 = new Date(date2.getTime() + daysLeftTo10000 * 24 * 60 * 60 * 1000);
+
+          document.getElementById('answer').innerHTML = "Вам сегодня ровно <b>" + days + "</b> " + daysplural + "!<br>" +
+            date10000.toLocaleDateString("ru-RU") + "г. вам исполнится <b>" + (count10000 + 1) + "0000</b> дней.";
+
+          document.timerform.addtocalendarfieldset.hidden = true;
+          document.timerform.addtocalendarfieldset_message.hidden = true;
+
         } else {
-          var ms = t2 - t1;
-          if (ms < 0)
-            document.getElementById('answer').innerHTML = "Вы ещё не родились. Будьте аккуратны.";
-          else if (ms == 0)
-            document.getElementById('answer').innerHTML = "Вы родились сегодня. Будьте аккуратны.";
-          else {
+          document.getElementById('answer').innerHTML = "Вам сегодня <b>" + days + "</b> " + daysplural + ".<br>" +
+            date1000.toLocaleDateString("ru-RU") + "г. вам исполнится <b>" + (count1000 + 1) + "000</b> дней.";
 
-            var days = Math.round(ms / 86400000);
+          var date1001 = new Date(date1000.getTime() + 1 * 24 * 60 * 60 * 1000);
+          var date993 = new Date(date1000.getTime() - 7 * 24 * 60 * 60 * 1000);
+          var date994 = new Date(date1000.getTime() - 6 * 24 * 60 * 60 * 1000);
 
-            var daysplural;
-            var remainder = Math.floor(days % 100 / 10);
-            if (remainder == 1) daysplural = "дней";
-            else {
-                remainder = days % 10;
-                if (remainder == 1) daysplural = "день";
-                else if (0 < remainder && remainder < 5  ) daysplural = "дня";
-                else daysplural = "дней";
-            }
+          var title = "Вам исполняется " + (count1000 + 1) + " 000 дней!";
+          var dates = date1000.toISOString().slice(0, 10).replace(/-/g, "") + "/" + date1001.toISOString().slice(0, 10).replace(/-/g, "");
+          var details = "Добавлено при помощи {{site.url}}{{site.baseurl}}, " + date2.toLocaleDateString("ru-RU") + "г.";
 
+          var titlereminder = "Через неделю вам исполнится " + (count1000 + 1) + " 000 дней.";
+          var datesreminder = date993.toISOString().slice(0, 10).replace(/-/g, "") + "/" + date994.toISOString().slice(0, 10).replace(/-/g, "");
+          var detailsreminder = "Добавлено при помощи {{site.url}}{{site.baseurl}}, " + date2.toLocaleDateString("ru-RU") + "г.";
 
-              var daysLeftTo1000 = 1000 - days % 1000 ;
-              var count1000 = Math.floor(days / 1000) ;
-              var date1000 = new Date(date2.getTime());
-              date1000.setDate(date1000.getDate() + daysLeftTo1000);
+          var address = "https://calendar.google.com/calendar/render?action=TEMPLATE" +
+            "&text=" + title +
+            "&dates=" + dates +
+            "&details=" + details;
 
-              if (daysLeftTo1000 == 1000)
-              {
-                var daysLeftTo10000 = 10000 - days % 10000 ;
-                var count10000 = Math.floor(days / 10000) ;
-                var date10000 = new Date(date2.getTime());
-                date10000.setDate(date10000.getDate() + daysLeftTo10000);
+          var addressreminder = "https://calendar.google.com/calendar/render?action=TEMPLATE" +
+            "&text=" + titlereminder +
+            "&dates=" + datesreminder +
+            "&details=" + detailsreminder;
 
-                document.getElementById('answer').innerHTML = "Вам сегодня ровно " + days + " " + daysplural + "!<br>"
-                + date10000.toLocaleDateString() +  "г. вам исполнится " +(count10000 +1)+ "0 000 дней." ;
-
-              }
-
-              else {
-                var date1001 = new Date(date1000.getTime());
-                date1001.setDate(date1001.getDate() + 1);
-
-                document.getElementById('answer').innerHTML = "Вам сегодня " + days + " " + daysplural + ".<br>"
-                + date1000.toLocaleDateString() +  "г. вам исполнится " +(count1000 +1)+ " 000 дней. ";
-
-                var title = "Вам исполняется " +(count1000 +1)+ " 000 дней!" ;
-                var dates = date1000.toISOString().slice(0,10).replace(/-/g,"") + "/" + date1001.toISOString().slice(0,10).replace(/-/g,"");
-                var details = "Добавлено на {{site.url}}{{site.baseurl}}, "+ date2.toLocaleDateString() +  "г.";
-
-                var address = "https://calendar.google.com/calendar/render?action=TEMPLATE" +
-                  "&text=" + title +
-                  "&dates=" + dates +
-                  "&details=" + details;
-
-
-                document.timerform.addtocalendarfieldset.hidden = false;
-                document.timerform.addtocalendar.onclick = function(){ window.open(address); }
-              }
-
-
-          }
-
-
+          document.timerform.addtocalendarfieldset.hidden = false;
+          document.timerform.addtocalendarfieldset_message.hidden = false;
+          document.timerform.addtocalendar.value = "Праздник (" + date1000.toLocaleDateString("ru-RU")+")";
+          document.timerform.addremindertocalendar.value = "Напоминание (" + date993.toLocaleDateString("ru-RU")+")";
+          document.timerform.addtocalendar.onclick         = function() {window.open(address)};
+          document.timerform.addremindertocalendar.onclick = function() {window.open(addressreminder)};
 
         }
+      }
     }
+  }
 </script>
