@@ -1,32 +1,5 @@
-.form-style-1 {
- /*It's empty*/
-}
-
-ul.form-style-1 {
-    padding-left: 0px;
-    margin-top: 3rem;
-}
-
-.form-style-1 li {
-    padding: 0;
-    display: block;
-    list-style: none;
-    margin: 10px 0 0 0;
-}
-
-.form-style-1 .field-divided{
-    width: 39%;
-}
-
-.form-style-1 .field-textarea{
-    width: 79%;
-}
-.form-style-1 input[type=submit], .form-style-1 input[type=button]{
-    padding: 8px 15px 8px 15px;
-}
-
-.form-style-1 .required{
-    color:red;
+.post__comments {
+  width: 80%;
 }
 
 .comment__content-wrapper {
@@ -45,6 +18,41 @@ ul.form-style-1 {
   margin-top: 3rem;
 }
 
-.comment-form-title {
+hr {
+      border-left: none;
+      border-right: none;
+      border-bottom: none;
+}
+
+#comment-form-title {
   margin-bottom: 1rem;
+}
+
+#comment-ul {
+  padding-left: 0px;
+  margin-top: 3rem;
+}
+
+#comment-ul li {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+
+#comment-form-name{
+  width: 49%;
+}
+
+#comment-form-email {
+  float:right;
+  width: 49%;
+}
+
+#comment-form-message {
+  width: 100%;
+}
+
+#comment-form-submit {
+  padding: 8px 15px 8px 15px;
 }
