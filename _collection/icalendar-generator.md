@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Календарь праздников (Обновление 2018)
+title: Календарь праздников - 2018
 
 post_on_sidebar: true
 
