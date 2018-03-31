@@ -14,7 +14,7 @@ category:
 
 sidebar: true
 
-version: 1.3.5
+version: 1.3.8
 
 comments: true
 
@@ -59,29 +59,29 @@ along with an optional message, reminding you to take a break.
 
 <br>
 
-### Download Eyes’ Thanks v{{page.version}} for Windows 7–10 (x86, portable) — [.7z](https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}.7z)
-See [changelog](https://github.com/yalov/eyes-thanks/releases).
+## Eyes’ Thanks v{{page.version}} for Windows (x86, portable, .7z) — [Download](https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}.7z)
+See [github releases page](https://github.com/yalov/eyes-thanks/releases).
 <br>
 
-#### Background images
+### Background images
 While some cool backgrounds can be generated on-the-fly, you can provide a more extensive gallery stored locally.
 One of the images in the user-defined folder will be displayed in full-screen mode for the configured duration,
 but you can cancel the break if you just can’t afford to interrupt your current activity.
-Also you can delete displayed image from folder with `delete` key on the keyboard.
 
-#### Multiple monitors system
+
+### Multiple monitors system
 It supports multiple monitors system, making it possible to display wide pictures across all your monitors.
 
-#### Works with any monitor setup
-If you sometimes switch between two displays (or even two sets of many displays) with different aspect ratios,
-you can set up an alternative pictures folder that the program should use whenever aspect ratios changed.  
-<small><small>For example if sometimes you disconnect your FullHD notebook from your FullHD monitor, put 2FHD (3860×1080) pictures to “pictures folder” and FullHD (1920×1080)
-pictures to “alternative pictures folder”.  
-So, a laptop is connected to a monitor — the app uses 2FHD folder, a laptop isn’t connected anywhere — the app uses FullHD folder.</small></small>
+### Works with any monitor setup
+If you sometimes switch between two displays with different aspect ratios (or even between two workplace with different sets of displays),
+you can set up an alternative pictures folder that the program should use whenever aspect ratios changed.
 
-#### Unobtrusive, portable break reminder
-The application runs in the system tray, and you can pause the timer easily by just middle-clicking the notification area icon.
-It is also worth mentioning that the program does not require installation, and user configurations are only stored in the root folder, making it possible to use the app on the go.
+For example, if sometimes you disconnect your FullHD notebook from your FullHD monitor, put wide (3860×1080) pictures to “pictures folder” and FullHD (1920×1080) pictures to “alternative pictures folder”.
+So, a laptop is connected to a monitor — the app uses wide pictures folder, a laptop isn’t connected anywhere — the app uses FullHD pictures folder.
+
+### Hotkeys
+`delete` — delete the displayed image from folder  
+notification area icon `middle-click` — pause the timer
 
 
 <br>

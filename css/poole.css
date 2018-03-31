@@ -86,11 +86,11 @@ h1:not(.btn-title) {
   font-size: 2rem;
 }
 h2 {
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 1.5rem;
 }
 h3 {
-  margin-top: 1.5rem;
+  margin-top: 1.75rem;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
