@@ -4,7 +4,7 @@ title: "Eyes’ Thanks"
 
 post_on_sidebar: true
 
-date: 2017-07-22
+date: 2018-04-07
 tag:
   - qt
   - С++
@@ -14,7 +14,7 @@ category:
 
 sidebar: true
 
-version: 1.3.9
+version: 1.4.1
 
 comments: true
 
@@ -51,6 +51,24 @@ images:
   #  text:  tray (Russian)
 ---
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script language="javascript" type="text/javascript">
+$(document).ready(function () {
+     GetVersion("https://api.github.com/repos/yalov/eyes-thanks/releases");
+});
+
+function GetVersion(Url) {
+  $.getJSON(Url).done(function(json) {
+    var release = json[0];
+    var downloadURL = release.assets[0].browser_download_url;
+
+    $("#download-url").attr("href", downloadURL);
+    $('#version' ).html(release.tag_name);
+    $('#version' ).fadeIn(0);
+  });
+}
+</script>
+
 Staring at a computer screen for hours is not good for your eyes, so Eyes’ Thanks protect them: the app displays a full-screen image on your desktop at regular intervals,
 along with an optional message, reminding you to take a break.
 
@@ -59,7 +77,8 @@ along with an optional message, reminding you to take a break.
 
 <br>
 
-## Eyes’ Thanks v{{page.version}} for Windows (x86, portable, .7z) — [Download](https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}.7z)
+## Eyes’ Thanks v<span id="version">{{page.version}}</span> for Windows (x86, portable, .7z) — <a id='download-url' href="https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}.7z">Download</a>
+
 See [github releases page](https://github.com/yalov/eyes-thanks/releases).
 <br>
 
@@ -80,8 +99,8 @@ For example, if sometimes you disconnect your FullHD notebook from your FullHD m
 So, a laptop is connected to a monitor — the app uses wide pictures folder, a laptop isn’t connected anywhere — the app uses FullHD pictures folder.
 
 ### Hotkeys
-`delete` — delete the displayed image from folder
-notification area icon `middle-click` — pause the timer
+`delete` — delete the displayed image from folder  
+`middle-click` tray icon — pause the timer
 
 
 <br>

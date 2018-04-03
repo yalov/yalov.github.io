@@ -43,9 +43,7 @@ on_sidebar_bottom: true
     <td> <p class = "version-{{repository.name}}"> </p></td>
     <td> <p style = "white-space: nowrap;" class = "last-push-{{repository.name}}">{{repository.pushed_at  | date_to_long_string }}</p></td>
     <td> <p class = "download-count-{{repository.name}}"> </p> </td>
-    <td>
-      <span class = "release-links-{{repository.name}}"></span>
-      <span class = "release-date-{{repository.name}}" ></span></td>
+    <td> <span class = "release-links-{{repository.name}}"></span> </td>
   </tr>
 {% endif %}{% endfor %}
 </tbody>
