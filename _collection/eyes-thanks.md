@@ -14,7 +14,7 @@ category:
 
 sidebar: true
 
-version: 1.3.8
+version: 1.3.9
 
 comments: true
 
@@ -80,7 +80,7 @@ For example, if sometimes you disconnect your FullHD notebook from your FullHD m
 So, a laptop is connected to a monitor — the app uses wide pictures folder, a laptop isn’t connected anywhere — the app uses FullHD pictures folder.
 
 ### Hotkeys
-`delete` — delete the displayed image from folder  
+`delete` — delete the displayed image from folder
 notification area icon `middle-click` — pause the timer
 
 
