@@ -4,7 +4,7 @@ title: "Eyes’ Thanks"
 
 post_on_sidebar: true
 
-date: 2018-04-07
+date: 2018-04-17
 tag:
   - qt
   - С++
@@ -14,7 +14,7 @@ category:
 
 sidebar: true
 
-version: 1.4.1
+version: 1.4.3
 
 comments: true
 
@@ -60,9 +60,9 @@ $(document).ready(function () {
 function GetVersion(Url) {
   $.getJSON(Url).done(function(json) {
     var release = json[0];
-    var downloadURL = release.assets[0].browser_download_url;
 
-    $("#download-url").attr("href", downloadURL);
+    $("#download-url").attr("href", release.assets[0].browser_download_url);
+    $("#download-url-x64").attr("href", release.assets[1].browser_download_url);
     $('#version' ).html(release.tag_name);
     $('#version' ).fadeIn(0);
   });
@@ -77,7 +77,7 @@ along with an optional message, reminding you to take a break.
 
 <br>
 
-## Eyes’ Thanks v<span id="version">{{page.version}}</span> for Windows (x86, portable, .7z) — <a id='download-url' href="https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}.7z">Download</a>
+## Download v<span id="version">{{page.version}}</span> for Windows (portable) — <a id='download-url' href="https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}.7z">x86</a>, <a id='download-url-x64' href="https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}_x64.7z">x64</a>
 
 See [github releases page](https://github.com/yalov/eyes-thanks/releases).
 <br>
