@@ -10,15 +10,46 @@ on_sidebar_bottom: true
 <script src="{{ site.baseurl }}/scripts/GetLatestReleaseInfo.min.js"></script>
 
 <script type="text/javascript">
+
+$(document).ready(function () {
+  {%- for repository in site.github.public_repositories %}
+  {%- if repository.fork == true %}
+
+    $.getJSON("{{repository.url}}/releases").done(function(json) {
+      if (json.length !== 0) {
+
+         $('.repository-table').append(
+           "<tr>" +
+             "<td> <a href = {{repository.html_url}}>{{repository.name}}</a> </td>"+
+             "<td> {{repository.description}}</td>"+
+             "<td> <p class = version-{{repository.name}}> </p></td>"+
+             "<td> <p style = white-space: nowrap; class = last-push-{{repository.name}}>{{repository.pushed_at  | date_to_long_string }}</p></td>"+
+             "<td> <p class = download-count-{{repository.name}}> </p> </td>"+
+             "<td> <span class = release-links-{{repository.name}}></span> </td>"+
+           "</tr>" );
+
+         GetRepo("{{repository.url}}", "{{repository.name}}");
+         GetLatestReleaseInfo2(json, "{{repository.name}}");
+      }
+    });
+
+  {%- endif %}
+  {%- endfor %}
+
+});
+
   $(document).ready(function () {
-    {% for repository in site.github.public_repositories %}{% if repository.fork == false %}
-      GetRepo("https://api.github.com/repos/yalov/{{repository.name}}", "{{repository.name}}");
-      GetLatestReleaseInfo("https://api.github.com/repos/yalov/{{repository.name}}/releases", "{{repository.name}}");
-    {% endif %}{% endfor %}
+    {%- for repository in site.github.public_repositories %}
+    {%- if repository.fork == false %}
+      GetRepo("{{repository.url}}", "{{repository.name}}");
+      GetLatestReleaseInfo("{{repository.url}}/releases", "{{repository.name}}");
+    {%- endif %}
+    {%- endfor %}
 
      $('.post-date').html(ToLongString(new Date()))
      $('.post-date').fadeIn(0)
   });
+
 </script>
 
 
@@ -31,12 +62,13 @@ on_sidebar_bottom: true
     <th>description</th>
     <th>version</th>
     <th>last push</th>
+    <th>count</th>
     <th>downloads</th>
-    <th>binary</th>
   </tr>
 </thead>
-<tbody>
-{% for repository in site.github.public_repositories %}{% if repository.fork == false %}
+<tbody class = "repository-table">
+{%- for repository in site.github.public_repositories %}
+{%- if repository.fork == false %}
   <tr>
     <td> <a href = "{{repository.html_url}}">{{repository.name}}</a> </td>
     <td> {{repository.description}}</td>
@@ -45,6 +77,7 @@ on_sidebar_bottom: true
     <td> <p class = "download-count-{{repository.name}}"> </p> </td>
     <td> <span class = "release-links-{{repository.name}}"></span> </td>
   </tr>
-{% endif %}{% endfor %}
+{%- endif %}
+{%- endfor %}
 </tbody>
 </table>
