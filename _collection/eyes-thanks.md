@@ -51,22 +51,10 @@ images:
   #  text:  tray (Russian)
 ---
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/scripts/GetLatestReleaseInfo.min.js"></script>
+
 <script language="javascript" type="text/javascript">
-$(document).ready(function () {
-     GetVersion("https://api.github.com/repos/yalov/eyes-thanks/releases");
-});
-
-function GetVersion(Url) {
-  $.getJSON(Url).done(function(json) {
-    var release = json[0];
-
-    $("#download-url").attr("href", release.assets[0].browser_download_url);
-    $("#download-url-x64").attr("href", release.assets[1].browser_download_url);
-    $('#version' ).html(release.tag_name);
-    $('#version' ).fadeIn(0);
-  });
-}
+$(document).ready(GetVersion("https://api.github.com/repos/yalov/eyes-thanks/releases"));
 </script>
 
 Staring at a computer screen for hours is not good for your eyes, so Eyes’ Thanks protect them: the app displays a full-screen image on your desktop at regular intervals,
