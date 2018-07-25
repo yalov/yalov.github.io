@@ -24,7 +24,7 @@ en: &DEFAULT_EN
   comment_form_comment   : "Comment"
   comment_form_md        : "Markdown is supported"
   comment_btn_submit     : "Submit Comment"
-  comment_btn_msg        : "Appears after a minute"
+  comment_btn_msg        : "Appears after approving"
 
   # tags_label                 : "Tags:"
   # categories_label           : "Categories:"
@@ -64,7 +64,7 @@ ru: &DEFAULT_RU
   comment_form_comment  : "Комментарий"
   comment_form_md       : "поддерживается синтаксис Markdown"
   comment_btn_submit    : "Оставить комментарий"
-  comment_btn_msg       : "Появится через минуту"
+  comment_btn_msg       : "Появится после модерирования"
 
   # comment_btn_submitted      : "Отправлено"
   # more_label                 : "Читать далее"

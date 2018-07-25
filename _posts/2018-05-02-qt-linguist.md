@@ -15,7 +15,7 @@ tag:
 category:
   - posts
 
-comments: false
+comments: true
 language: en
 ---
 
