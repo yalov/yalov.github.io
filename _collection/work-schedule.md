@@ -59,6 +59,12 @@ Screenshots:
 
 You can play a little with icons (actually little images) in `{Work Schedule}/shifts/` folder. Images `d.png`, `n.png`, `r.png`,`h.png` are used for day, night, rest, holiday respectively.
 
+Languages:
+ * English
+ * Russian
+ * Belarusian
+
+ Translation to other languages are welcome. [How to.]({% post_url 2018-05-02-qt-linguist %})
 
 <br>
 

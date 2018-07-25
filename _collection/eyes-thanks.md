@@ -86,10 +86,15 @@ you can set up an alternative pictures folder that the program should use whenev
 For example, if sometimes you disconnect your FullHD notebook from your FullHD monitor, put wide (3860×1080) pictures to “pictures folder” and FullHD (1920×1080) pictures to “alternative pictures folder”.
 So, a laptop is connected to a monitor — the app uses wide pictures folder, a laptop isn’t connected anywhere — the app uses FullHD pictures folder.
 
+Languages:
+ * English
+ * Russian
+
+ Translation to other languages are welcome. [How to.]({% post_url 2018-05-02-qt-linguist %})
+
 ### Hotkeys
 `delete` — delete the displayed image from folder  
 `middle-click` tray icon — pause the timer
-
 
 <br>
 
