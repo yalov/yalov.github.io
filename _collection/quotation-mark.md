@@ -27,7 +27,7 @@ images:
     width: 1920
     height: 850
 
-comments: true
+comments: false
 language: ru
 
 permalink: yarbur/:title
