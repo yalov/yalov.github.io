@@ -12,13 +12,16 @@ description: "An archive of posts sorted by tag."
   </li>
 {% endfor %}
 
+{% comment pages %}
+<!--
 {% for post in site.pages %}
   <li itemscope>
     <a href="{{ post.url }}">{% if post.title %} {{ post.title }} {% else %} {{ post.name }} {% endif %} </a>
     {%if post.date %}<span class = "timeinlist">{{ post.date | date_to_string }}</span>{% endif %}
   </li>
 {% endfor %}
-
+-->
+{% endcomment %}
 
 {% comment Tags %}
 <!--  Tags
