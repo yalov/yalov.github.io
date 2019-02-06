@@ -24,7 +24,7 @@ language: ru
 
 
 <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;
-height=600&amp;wkst=2&amp;hl=ru&amp;bgcolor=%23FFFFFF&amp;src=hdh21o7s9es22fhg4i1irgl8hc%40group.calendar.google.com&amp;
+height=600&amp;wkst=2&amp;hl=ru&amp;bgcolor=%23FFFFFF&amp;src=q3ajhjls7c4rov98ko83o757sk%40group.calendar.google.com&amp;
 color=%23333333&amp;ctz=Europe%2FMoscow" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 
 ### Tl;Dr
