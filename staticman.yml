@@ -13,8 +13,8 @@ comments:
   branch: "master"
   # Text to use as the commit message or pull request title. Accepts placeholders.
   commitMessage: "Add Staticman data for {options.slug}"
-  filename: "entry{fields.date}"
-#  filename: "entry{@timestamp}"
+#  filename: "entry{fields.date}" # : - cannot be a filename
+  filename: "entry{@timestamp}"
   format: "yaml"
 
   generatedFields:
