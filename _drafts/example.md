@@ -15,16 +15,6 @@ tag:
 
 category: category1
 
-version: 66.6
-
-# title buttons
-buttons:
-  - name: Download v!PAGE_VERSION! (.7z)
-    url: https://github.com/user/repository/releases/download/!PAGE_VERSION!/AppName_v!PAGE_VERSION!.7z
-  - name: Download v!PAGE_VERSION! (.zip)
-    url: https://github.com/user/repository/releases/download/!PAGE_VERSION!/AppName_v!PAGE_VERSION!.zip
-
-
 
 disqus_comments: true
 disqus_identifier: 5959e11a-f0e8-5b4e-838d-0302cd6aabd3  # unique for post

@@ -80,13 +80,3 @@ function GetLatestReleaseInfo2 (json, ClassName) {
     $('.release-links-' + ClassName).fadeIn(0);
   }
 }
-
-function GetVersion(Url) {
-  $.getJSON(Url).done(function (json) {
-    var release = json[0];
-    $('#download-url').attr('href', release.assets[0].browser_download_url);
-    $('#download-url-x64').attr('href', release.assets[1].browser_download_url);
-    $('#version').html(release.tag_name);
-    $('#version').fadeIn(0);
-  });
-}

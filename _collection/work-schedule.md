@@ -13,8 +13,6 @@ tag:
 category:
   - projects
 
-version: 1.9.4
-
 comments: true
 
 summary: "<a class=lightbox-image-link-left href='/images/workschedule-win10-en.png' data-lightbox='workschedule' title=''><img class='lightbox-image' style= 'width: 10rem;' src='/images/workschedule-month-en.jpg' alt='workschedule-month'></a> The app is useful for people with a rotating schedule, like bakery workers, nurses, caretakers, etc. Enter your schedule cycle and the start date of the cycle, and the app will display a calendar with your shifts for the whole year, it supports english, belarusian and russian languages."
@@ -36,11 +34,6 @@ images:
 
 
 ---
-<script src="{{ site.baseurl }}/scripts/GetLatestReleaseInfo.min.js"></script>
-
-<script language="javascript" type="text/javascript">
-$(document).ready( GetVersion("https://api.github.com/repos/yalov/eyes-thanks/releases"));
-</script>
 
 **Work Schedule** is software for creating your own rotating shift calendar.
 
@@ -48,7 +41,8 @@ The app is useful for people with a rotating schedule, like bakery workers, nurs
 
 <br>
 
-### Download WorkSchedule <span id="version">{{page.version}}</span> for Windows (x86, portable) — <a id='download-url' href="https://github.com/yalov/work-schedule/releases/download/{{page.version}}/WorkSchedule_v{{page.version}}.7z">.7z</a>
+### Download WorkSchedule for Windows (portable)
+See [Github Releases Page](https://github.com/yalov/work-schedule/releases).
 
 <br>
 Screenshots:

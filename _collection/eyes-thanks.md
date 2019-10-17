@@ -14,8 +14,6 @@ category:
 
 sidebar: true
 
-version: 1.4.3
-
 comments: true
 
 summary: "<a class=lightbox-image-link-left href='/images/eyesthanks-2monitors.jpg' data-lightbox='EyesThanks' title='fullscreen image at different-size monitors system'>
@@ -51,12 +49,6 @@ images:
   #  text:  tray (Russian)
 ---
 
-<script src="{{ site.baseurl }}/scripts/GetLatestReleaseInfo.min.js"></script>
-
-<script language="javascript" type="text/javascript">
-$(document).ready(GetVersion("https://api.github.com/repos/yalov/eyes-thanks/releases"));
-</script>
-
 Staring at a computer screen for hours is not good for your eyes, so Eyes’ Thanks protect them: the app displays a full-screen image on your desktop at regular intervals,
 along with an optional message, reminding you to take a break.
 
@@ -65,9 +57,9 @@ along with an optional message, reminding you to take a break.
 
 <br>
 
-## Download v<span id="version">{{page.version}}</span> for Windows (portable) — <a id='download-url' href="https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}.7z">x86</a>, <a id='download-url-x64' href="https://github.com/yalov/eyes-thanks/releases/download/{{page.version}}/EyesThanks_v{{page.version}}_x64.7z">x64</a>
+## Download for Windows (portable)
 
-See [github releases page](https://github.com/yalov/eyes-thanks/releases).
+See [Github Releases Page](https://github.com/yalov/eyes-thanks/releases).
 <br>
 
 ### Background images

@@ -15,8 +15,6 @@ tag:
 category:
   - projects
 
-version: 2.1
-
 comments: true
 language: ru
 #lightbox2:
@@ -42,7 +40,7 @@ permalink: yarbur/
 <!--more-->
 <br>
 
-### Скачать ЯРБУР v{{page.version}} для Windows XP–10 — **[.7z](https://github.com/yalov/yarbur-keyboard-layouts/releases/download/{{page.version}}/Yarbur_v{{page.version}}.7z)** или **[.zip](https://github.com/yalov/yarbur-keyboard-layouts/releases/download/{{page.version}}/Yarbur_v{{page.version}}.zip)**
+### Скачать ЯРБУР для Windows XP–10 c [Github](https://github.com/yalov/yarbur-keyboard-layouts/releases)
 
 <br>
 Символы, доступные через правый Alt (`AltGr`) называют третьим слоем, а через `AltGr` + `Shift` — четвёртым.
