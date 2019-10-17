@@ -15,16 +15,6 @@ tag:
 
 category: category1
 
-version: 66.6
-
-# title buttons
-buttons:
-  - name: Download v!PAGE_VERSION! (.7z)
-    url: https://github.com/user/repository/releases/download/!PAGE_VERSION!/AppName_v!PAGE_VERSION!.7z
-  - name: Download v!PAGE_VERSION! (.zip)
-    url: https://github.com/user/repository/releases/download/!PAGE_VERSION!/AppName_v!PAGE_VERSION!.zip
-
-
 
 
 #lightbox2:

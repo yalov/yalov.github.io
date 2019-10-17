@@ -15,8 +15,6 @@ tag:
 category:
   - projects
 
-version: 2.1
-
 language: ru
 #lightbox2:
 imgfolder: /images/
@@ -41,7 +39,7 @@ permalink: yarbur/
 <!--more-->
 <br>
 
-### Скачать ЯРБУР v{{page.version}} для Windows XP–10 — **[.7z](https://github.com/yalov/yarbur-keyboard-layouts/releases/download/{{page.version}}/Yarbur_v{{page.version}}.7z)** или **[.zip](https://github.com/yalov/yarbur-keyboard-layouts/releases/download/{{page.version}}/Yarbur_v{{page.version}}.zip)**
+### Скачать ЯРБУР для Windows XP–10 c [Github](https://github.com/yalov/yarbur-keyboard-layouts/releases)
 
 <br>
 Символы, доступные через правый Alt (`AltGr`) называют третьим слоем, а через `AltGr` + `Shift` — четвёртым.
@@ -64,8 +62,8 @@ permalink: yarbur/
 ### Как установить?
 
  * Для установки последовательно запустить *Install-Yarbur-En.exe* и *Install-Yarbur-Ru.exe*.  
-Затем в «настройках способов ввода» (*Панель управления/Язык* для Win10) можно удалять стандартные русскую и английскую раскладки. **Перезагрузиться**.
- * Часто стандартные раскладки самоятоятельно востанавливаются после перезагрузки; итого получается четыре вместо двух. Для предотвращения этого необходимо в реестре в `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout` создать переменную `IgnoreRemoteKeyboardLayout` типа `DWORD` равную `1`. ([superuser.com](https://superuser.com/questions/483086/how-do-i-remove-automatically-added-keyboard-layouts))
+Затем в «настройках способов ввода» (*Панель управления/Язык* для Win10) добавьте раскладки ЯРБУР и можно удалять стандартные раскладки. **Перезагрузиться**.
+ * Иногда стандартные раскладки самоятоятельно востанавливаются после перезагрузки. В таком случае отредактируйте реестр, Подробнее [superuser.com](https://superuser.com/questions/957552/how-to-delete-a-keyboard-layout-in-windows-10)
  * Для удаления, сначала убрать из «настроек способов ввода», затем удалить из «установка и удаление программ» (*Панель управления/Программы и компоненты* для Win10).
 
 За основу взята [**Типографская раскладка v3.4**](http://ilyabirman.ru/projects/typography-layout/), на которую были добавлены белорусские и украинские буквы, и прочие полезные символы.

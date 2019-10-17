@@ -4,15 +4,6 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}
-    {%- if page.buttons %}
-    <p class="btns-title">
-      {%- for btn in page.buttons %}
-      <a href="{{btn.url| replace: '!PAGE_VERSION!', page.version}}" class="btn-title">
-        {{btn.name| replace: '!PAGE_VERSION!', page.version}}
-      </a>
-      {%- endfor %}
-    </p>
-    {%- endif %}
   </h1>
   <p class="post-info">
     {%include post-date.html %}
