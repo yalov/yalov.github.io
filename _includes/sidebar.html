@@ -27,9 +27,13 @@
       {%- endfor %}
     </nav>
     <p>
-      <a href="{{ site.github.owner_url }}"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
-      <a href="mailto:{{site.author.email}}"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
+      <a href="{{ site.github.owner_url }}"><i class="fab fa-github fa-lg"></i></a>
+      <a href="mailto:{{site.author.email}}"><i class="far fa-envelope fa-lg"></i></a>  
+      <a href="{{ site.author.patreon }}"><i class="fab fa-patreon fa-lg"></i> Donation</a>
     </p>
+   
+      
+    
     <small><small>Served by github-pages-gem <a href= "/gem-versions">v{{ site.github.versions.github-pages }}</a></small></small><br>
     <span>&copy; {{ site.time | date: '%Y' }}, {{site.author.name}}.</span>
   </div>

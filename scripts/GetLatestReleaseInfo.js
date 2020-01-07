@@ -64,7 +64,7 @@ function GetLatestReleaseInfo2 (json, ClassName) {
           size = size.toFixed(2);
         }
 
-        downlink += '<nobr><a href = "' + release.assets[i].browser_download_url + '">' + 'Download.' + release.assets[i].name.split('.').pop() + '</a> ' + '(' + size.toString() + sizeb + ')</nobr><br>';
+        downlink += '<nobr><a href = "' + release.assets[i].browser_download_url + '">' + '.' + release.assets[i].name.split('.').pop() + '</a> ' + '(' + size.toString() + sizeb + ')</nobr><br>';
 
         if (i !== release.assets.length - 1) downlink += '\n';
       }

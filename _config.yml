@@ -10,6 +10,7 @@ author:
   name:           'Yalov Alexander'
   email:           alexander.yalov@gmail.com
   fb:              a.yalov
+  patreon:         https://www.patreon.com/yalov
 
 fb_app_id:           000000000000000
 yandex-verification: 442075101e0961a9
@@ -40,6 +41,11 @@ collections:
     output: true
     permalink: /:categories/:title
 
+# fixing warning on 'bundle exec jekyll serve'  
+# the warning: 'GitHub Metadata: No GitHub API authentication could be found. 
+# Some fields may be missing or have incorrect data.'
+# but {{site.github.versions}} and other doesn't work
+# github: [metadata]
 
 plugins:
   - jekyll-paginate
