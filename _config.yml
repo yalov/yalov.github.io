@@ -36,6 +36,11 @@ collections:
     output: true
     permalink: /:categories/:title
 
+# fixing warning on 'bundle exec jekyll serve'  
+# the warning: 'GitHub Metadata: No GitHub API authentication could be found. 
+# Some fields may be missing or have incorrect data.'
+# but {{site.github.versions}} and other doesn't work
+# github: [metadata]
 
 plugins:
   - jekyll-paginate
