@@ -61,7 +61,8 @@ python proceed.py path/to/.ics
 <script src="https://gist.github.com/yalov/055e636e6bfc35c7d7b096aa8aa26c0d.js"></script>
 
 
-Готовая версия (на 2020 год):
+
+Готовая версия:
 
  - <del>[Избранные праздники с описанием]({{ site.baseurl }}/files/iCalendar/ical-favorite-out.ics)</del> (на 2019г)
 <!--
@@ -72,7 +73,7 @@ python proceed.py path/to/.ics
 «День работников бытового обслуживания населения и жилищно-коммунального хозяйства Беларуси» и т.п.
 -->
 
- Или как вариант:
+ Или как вариант (на 2020 год):
  * [Международные праздники с описанием]({{ site.baseurl }}/files/iCalendar/ical-wholeworld-out.ics)
  * [Праздники России с описанием]({{ site.baseurl }}/files/iCalendar/ical-russtate-out.ics)
  * [Праздники Беларуси с описанием]({{ site.baseurl }}/files/iCalendar/ical-belarus-out.ics)
