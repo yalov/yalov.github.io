@@ -22,12 +22,12 @@ language: ru
 «Defender of the Fatherland Day», «Labour Day».
 Поэтому я решил интегрировать свой календарь праздников в google-календарь, чтобы заходить в google-календарь и видеть там свои календари. Больше, больше календарей!<!--more-->
 
-
+<!--
 <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;
 height=600&amp;wkst=2&amp;hl=ru&amp;bgcolor=%23FFFFFF&amp;src=q3ajhjls7c4rov98ko83o757sk%40group.calendar.google.com&amp;
 color=%23333333&amp;ctz=Europe%2FMoscow" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 
-<del>
+
 ### Tl;Dr
 
  Cкопировать календарь праздников с помощью кнопки «**+Google** Календарь» в свой Гугл-аккаунт.
@@ -36,8 +36,8 @@ color=%23333333&amp;ctz=Europe%2FMoscow" style="border-width:0" width="100%" hei
 Сохранить [**ical-favorite-out.ics**]({{ site.baseurl }}/files/iCalendar/ical-favorite-out.ics) с полным описанием каждого праздника, в достаточно популярном формате [iCalendar](https://en.wikipedia.org/wiki/ICalendar) (`iCal`), и делать с ним что угодно, например, импортировать файл в Google Calendar.
 Для этого рекомендуется на [calendar.google.com](https://calendar.google.com/) сначала *Cоздать новый календарь* в списке «Мои Календари»,
 а затем *Импортировать* в него скачанный `iCal`.
+-->
 
-</del>
 
 ### Подробно
 
@@ -62,15 +62,15 @@ python proceed.py path/to/.ics
 
 
 Готовая версия (на 2020 год):
-<del>
- - [Избранные праздники с описанием]({{ site.baseurl }}/files/iCalendar/ical-favorite-out.ics)
 
+ - <del>[Избранные праздники с описанием]({{ site.baseurl }}/files/iCalendar/ical-favorite-out.ics)</del> (на 2019г)
+<!--
 Именно эту версию можно было скачать ещё по ссылке в начале. В неё включены международные праздники, праздники России, праздники Беларуси, 
 различные необычные праздники, и дни независимости различных стран. 
 Удалены несколько крайне узких профессиональных праздников сотрудников различных министерств и хозяйств, например удалены 
 «День образования подразделений экономической безопасности в системе МВД России»,
 «День работников бытового обслуживания населения и жилищно-коммунального хозяйства Беларуси» и т.п.
-</del>
+-->
 
  Или как вариант:
  * [Международные праздники с описанием]({{ site.baseurl }}/files/iCalendar/ical-wholeworld-out.ics)
