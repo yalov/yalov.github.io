@@ -74,9 +74,9 @@ python proceed.py path/to/.ics
 -->
 
  Или как вариант (на 2020 год):
- * [Международные праздники с описанием]({{ site.baseurl }}/files/iCalendar/ical-wholeworld-out.ics)
- * [Праздники России с описанием]({{ site.baseurl }}/files/iCalendar/ical-russtate-out.ics)
- * [Праздники Беларуси с описанием]({{ site.baseurl }}/files/iCalendar/ical-belarus-out.ics)
+ * [Международные праздники с описанием]({{ site.baseurl }}/files/iCalendar/ical-world-out.ics)
+ * [Праздники России с описанием]({{ site.baseurl }}/files/iCalendar/ical-rus-out.ics)
+ * [Праздники Беларуси с описанием]({{ site.baseurl }}/files/iCalendar/ical-bel-out.ics)
 
 
 Теперь можно импортировать файл в, например, Google Calendar.
