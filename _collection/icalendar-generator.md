@@ -22,11 +22,14 @@ language: ru
 «Defender of the Fatherland Day», «Labour Day».
 Поэтому я решил интегрировать свой календарь праздников в google-календарь, чтобы заходить в google-календарь и видеть там свои календари. Больше, больше календарей!<!--more-->
 
-<!--
+
 <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;
-height=600&amp;wkst=2&amp;hl=ru&amp;bgcolor=%23FFFFFF&amp;src=q3ajhjls7c4rov98ko83o757sk%40group.calendar.google.com&amp;
+height=600&amp;wkst=2&amp;hl=ru&amp;bgcolor=%23FFFFFF&amp;src=43uk600n9ut4cs2tf4f1cvg418%40group.calendar.google.com&amp;
 color=%23333333&amp;ctz=Europe%2FMoscow" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 
+<!--
+<iframe src="https://calendar.google.com/calendar/embed?src=43uk600n9ut4cs2tf4f1cvg418%40group.calendar.google.com&ctz=Europe%2FMoscow" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+-->
 
 ### Tl;Dr
 
@@ -36,7 +39,7 @@ color=%23333333&amp;ctz=Europe%2FMoscow" style="border-width:0" width="100%" hei
 Сохранить [**ical-favorite-out.ics**]({{ site.baseurl }}/files/iCalendar/ical-favorite-out.ics) с полным описанием каждого праздника, в достаточно популярном формате [iCalendar](https://en.wikipedia.org/wiki/ICalendar) (`iCal`), и делать с ним что угодно, например, импортировать файл в Google Calendar.
 Для этого рекомендуется на [calendar.google.com](https://calendar.google.com/) сначала *Cоздать новый календарь* в списке «Мои Календари»,
 а затем *Импортировать* в него скачанный `iCal`.
--->
+
 
 
 ### Подробно
