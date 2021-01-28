@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Календарь праздников - 2020
+title: Календарь праздников - 2021
 
 post_on_sidebar: true
 
-date: 2020-01-07
+date: 2021-01-07
 
 tag:
   - праздник
@@ -24,12 +24,8 @@ language: ru
 
 
 <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;
-height=600&amp;wkst=2&amp;hl=ru&amp;bgcolor=%23FFFFFF&amp;src=43uk600n9ut4cs2tf4f1cvg418%40group.calendar.google.com&amp;
+height=600&amp;wkst=2&amp;hl=ru&amp;bgcolor=%23FFFFFF&amp;src=cgp0er41q5v0k4rpcpl4jjlt4k%40group.calendar.google.com&amp;
 color=%23333333&amp;ctz=Europe%2FMoscow" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-
-<!--
-<iframe src="https://calendar.google.com/calendar/embed?src=43uk600n9ut4cs2tf4f1cvg418%40group.calendar.google.com&ctz=Europe%2FMoscow" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
--->
 
 ### Tl;Dr
 
@@ -71,15 +67,13 @@ python proceed.py path/to/.ics
 
 Именно эту версию можно было скачать ещё по ссылке в начале. В неё включены международные праздники, праздники России, праздники Беларуси, 
 различные необычные праздники, и дни независимости различных стран. 
-Удалены несколько крайне узких профессиональных праздников сотрудников различных министерств и хозяйств, например удалены 
-«День образования подразделений экономической безопасности в системе МВД России»,
-«День работников бытового обслуживания населения и жилищно-коммунального хозяйства Беларуси» и т.п.
+Удалены несколько узких профессиональных праздников сотрудников различных министерств и хозяйств.
 
 
  Или как вариант:
- * [Международные праздники с описанием]({{ site.baseurl }}/files/iCalendar/ical-world-out.ics)
- * [Праздники России с описанием]({{ site.baseurl }}/files/iCalendar/ical-rus-out.ics)
- * [Праздники Беларуси с описанием]({{ site.baseurl }}/files/iCalendar/ical-bel-out.ics)
+ * [Международные праздники с описанием]({{ site.baseurl }}/files/iCalendar/ical-wholeworld-out.ics)
+ * [Праздники России с описанием]({{ site.baseurl }}/files/iCalendar/ical-russtate-out.ics)
+ * [Праздники Беларуси с описанием]({{ site.baseurl }}/files/iCalendar/ical-belorus-out.ics)
 
 
 Теперь можно импортировать файл в, например, Google Calendar.
