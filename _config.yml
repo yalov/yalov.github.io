@@ -27,6 +27,7 @@ paginate_path: "/page/:num/"
 excerpt_separator: <!--more-->
 
 disqus_name: yalov-github
+comments: false
 
 markdown:         kramdown
 kramdown:

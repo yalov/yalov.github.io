@@ -1,3 +1,4 @@
+{%- if site.comments %}
 {% if page.comments == true %}
 {%- assign language = page.language %}
 {% unless language %}
@@ -71,3 +72,4 @@
 
 </section>
 {% endif %}
+{%- endif %}
