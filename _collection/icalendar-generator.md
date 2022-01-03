@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Календарь праздников - 2021
+title: Календарь праздников - 2022
 
 post_on_sidebar: true
 
-date: 2021-01-07
+date: 2021-02-02
 
 tag:
   - праздник
@@ -18,9 +18,7 @@ comments: true
 language: ru
 ---
 
-Многие знают, что стандартные календари праздников, встроенные в google-календарь недостаточно полны, а иногда вообще написаны по-английски: 
-«Defender of the Fatherland Day», «Labour Day».
-Поэтому я решил интегрировать свой календарь праздников в google-календарь, чтобы заходить в google-календарь и видеть там свои календари. Больше, больше календарей!<!--more-->
+Cтандартные календари праздников, встроенные в google-календарь недостаточно полны, поэтому я решил что мне нужен расширенный календарь праздников.<!--more-->
 
 
 <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;
@@ -53,12 +51,11 @@ color=%23333333&amp;ctz=Europe%2FMoscow" style="border-width:0" width="100%" hei
 
 Скрипт использует [icalendar](http://pypi.python.org/pypi/icalendar) и работает с файлами `iCal` (.ics) через аргумент командной строки.
 ```
-pip install icalendar
+pip install icalendar trafilatura colorama
 python proceed.py path/to/.ics
 ```
 
 <script src="https://gist.github.com/yalov/055e636e6bfc35c7d7b096aa8aa26c0d.js"></script>
-
 
 
 Готовая версия:
