@@ -9,36 +9,8 @@ on_sidebar_bottom: true
 <!-- https://help.github.com/articles/repository-metadata-on-github-pages/  -->
 <script src="{{ site.baseurl }}/scripts/GetLatestReleaseInfo.min.js"></script>
 
+
 <script type="text/javascript">
-
-{% comment %}
-$(document).ready(function () {
-  {%- for repository in site.github.public_repositories %}
-  {%- if repository.fork == true %}
-
-    $.getJSON("{{repository.url}}/releases").done(function(json) {
-      if (json.length !== 0) {
-
-         $('.repository-table').append(
-           "<tr>" +
-             "<td> <a href = {{repository.html_url}}>{{repository.name}}</a> </td>"+
-             "<td> {{repository.description}}</td>"+
-             "<td> <p class = version-{{repository.name}}> </p></td>"+
-             "<td> <p style = white-space: nowrap; class = last-push-{{repository.name}}>{{repository.pushed_at  | date_to_long_string }}</p></td>"+
-             "<td> <p class = download-count-{{repository.name}}> </p> </td>"+
-             "<td> <span class = release-links-{{repository.name}}></span> </td>"+
-           "</tr>" );
-
-         GetRepo("{{repository.url}}", "{{repository.name}}");
-         GetLatestReleaseInfo2(json, "{{repository.name}}");
-      }
-    });
-
-  {%- endif %}
-  {%- endfor %}
-
-});
-{% endcomment %}
 
 $(document).ready(function () {
   {%- for repository in site.github.public_repositories %}
@@ -76,7 +48,9 @@ $(document).ready(function () {
     <td> {{repository.description}}</td>
     <td> <p class = "version-{{repository.name}}"> </p></td>
     <td> <p style = "white-space: nowrap;" class = "last-push-{{repository.name}}">{{repository.pushed_at  | date_to_long_string }}</p></td>
-    <td> <p class = "download-count-{{repository.name}}"> </p> </td>
+    <td> <p class = "download-count-{{repository.name}}">
+
+	</p> </td>
     <td> <span class = "release-links-{{repository.name}}"></span> </td>
   </tr>
 {%- endif %}
