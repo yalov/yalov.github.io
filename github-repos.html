@@ -11,6 +11,7 @@ on_sidebar_bottom: true
 
 <script type="text/javascript">
 
+{% comment %}
 $(document).ready(function () {
   {%- for repository in site.github.public_repositories %}
   {%- if repository.fork == true %}
@@ -37,19 +38,20 @@ $(document).ready(function () {
   {%- endfor %}
 
 });
+{% endcomment %}
 
-  $(document).ready(function () {
-    {%- for repository in site.github.public_repositories %}
-    {%- if repository.fork == false %}
-      GetRepo("{{repository.url}}", "{{repository.name}}");
-      GetLatestReleaseInfo("{{repository.url}}/releases", "{{repository.name}}");
-    {%- endif %}
-    {%- endfor %}
+$(document).ready(function () {
+  {%- for repository in site.github.public_repositories %}
+  {%- if repository.fork == false %}
+    GetRepo("{{repository.url}}", "{{repository.name}}");
+    GetLatestReleaseInfo("{{repository.url}}/releases", "{{repository.name}}");
+  {%- endif %}
+  {%- endfor %}
 
-     $('.post-date').html(ToLongString(new Date()))
-     $('.post-date').fadeIn(0)
-  });
-
+   $('.post-date').html(ToLongString(new Date()))
+   $('.post-date').fadeIn(0)
+});
+  
 </script>
 
 
