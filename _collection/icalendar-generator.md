@@ -4,7 +4,7 @@ title: Календарь праздников - 2022
 
 post_on_sidebar: true
 
-date: 2021-02-02
+date: 2022-05-17
 
 tag:
   - праздник
@@ -22,7 +22,7 @@ Cтандартные календари праздников от Google нед
 
 
 <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;
-height=600&amp;wkst=2&amp;hl=ru&amp;bgcolor=%23FFFFFF&amp;src=cgp0er41q5v0k4rpcpl4jjlt4k%40group.calendar.google.com&amp;
+height=600&amp;wkst=2&amp;hl=ru&amp;bgcolor=%23FFFFFF&amp;src=l5ivl1ndmqa8h387mlllkuv1vs%40group.calendar.google.com&amp;
 color=%23333333&amp;ctz=Europe%2FMoscow" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 
 ### Tl;Dr
@@ -55,7 +55,7 @@ pip install icalendar trafilatura colorama
 python proceed.py path/to/.ics
 ```
 
-<script src="https://gist.github.com/yalov/055e636e6bfc35c7d7b096aa8aa26c0d.js"></script>
+{% gist 055e636e6bfc35c7d7b096aa8aa26c0d %}
 
 
 Готовая версия:

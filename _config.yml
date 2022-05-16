@@ -55,3 +55,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-github-metadata
+  
+  # Liquid tag for displaying GitHub Gists in Jekyll sites: {% gist 1234567 %}.
+  - jekyll-gist
