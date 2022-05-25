@@ -59,7 +59,6 @@ input.text-align-right {
   text-align: right;
 }
 
-a.find_out_more,
 input[type=submit],
 input[type="button"],
 button {
@@ -72,7 +71,6 @@ button {
   font-size: 80%;
 }
 
-a.find_out_more:hover,
 input[type=submit]:hover,
 input[type="button"]:hover,
 button:hover {
@@ -83,7 +81,6 @@ button:hover {
   transition: background-color 0.3s ease-in-out;
 }
 
-a.find_out_more:active,
 input[type="submit"]:active,
 input[type="button"]:active,
 button:active {
@@ -94,7 +91,5 @@ button:active {
 a.find_out_more {
   float: right;
 	display:inline-block;
-	padding:6px 24px;
-  font-family: Helvetica, PT Sans, Arial, sans-serif;
-  font-size: 100%;
+	padding:6px 0;
 }

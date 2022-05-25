@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Star Trek Warp Calculator
+language: en
 post_on_sidebar: true
 math: true
 

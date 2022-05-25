@@ -1,4 +1,12 @@
-# Released under MIT License
+# Hyde theme license
+
+The MIT license below applies to the Hyde theme code used by this site.
+It does not, by itself, license the site's original articles, images, or other
+content. Third-party components retain their respective licenses.
+
+- Hyde: https://github.com/poole/hyde
+
+## MIT License
 
 Copyright (c) 2013 Mark Otto.
 

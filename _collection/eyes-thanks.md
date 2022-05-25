@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Eyes’ Thanks"
+language: en
 
 post_on_sidebar: true
 

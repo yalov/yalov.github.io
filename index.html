@@ -38,7 +38,8 @@ flag: index
         {%- else -%}
           {{ post.excerpt | strip }}
         {%- endif %}
-        <a href="{{ post.url }}" class="find_out_more">Подробнее...</a>
+        {%- assign post_language = post.language | default: 'ru' | slice: 0, 2 %}
+        <a href="{{ post.url }}" class="find_out_more" lang="{{ post_language }}">{% if post_language == 'en' %}Read more{% else %}Читать далее{% endif %} →</a>
       </div>
       <hr><br>
       {%- endfor %}

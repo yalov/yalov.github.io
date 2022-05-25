@@ -1,54 +1,8 @@
 ---
-layout: error
-title: "HTTP 404"
-permalink: /404.html  # this is for https://yalov.github.io/2016/ (https://stackoverflow.com/questions/20973662)
+layout: page
+title: "404: Page not found"
+permalink: /404.html
 sitemap: false
 ---
-<style>
-    .not-found-page {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        min-height: 100svh;
-        background: #f5f5f5 url("{{ site.baseurl }}/images/404/muybridge-race-horse.gif") center / cover no-repeat;
-    }
-
-    .not-found-page .error-page {
-        display: grid;
-        place-items: center;
-        flex: 1;
-        max-width: none;
-        padding: 1.5rem;
-    }
-
-    .not-found {
-        width: 100%;
-        max-width: 36rem;
-        padding: 2rem;
-        text-align: center;
-        background: rgba(255, 255, 255, .92);
-        border: 1px solid #e5e5e5;
-        border-radius: .25rem;
-        box-shadow: 0 .25rem 1.5rem rgba(0, 0, 0, .06);
-    }
-
-    .not-found h1 {
-        margin-top: 0;
-    }
-
-    .not-found p:last-child {
-        margin-bottom: 0;
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-        .not-found-page {
-            background-image: none;
-        }
-    }
-</style>
-
-<section class="not-found" aria-labelledby="not-found-title">
-    <h1 id="not-found-title">HTTP 404: Not Found</h1>
-    <p>This page doesn't seem to exist. You might have followed a bad link or mistyped the address.</p>
-    <p>You can return to the <a href="{{ site.baseurl }}/">home page</a>.</p>
-</section>
+<p>The page you requested could not be found. It may have moved, or the address may be incorrect.</p>
+<p><a href="{{ site.baseurl }}/">Return to the home page</a>.</p>

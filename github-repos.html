@@ -10,6 +10,10 @@ on_sidebar_bottom: true
 <p class="post-date">Updated <time datetime="{{github_repos.updated_at | escape}}">{{github_repos.updated_at | date_to_long_string}}</time></p>
 
 <style>
+  .repository-table-scroll {
+    overflow-x: auto;
+  }
+
   .repository-topics {
     display: flex;
     flex-wrap: wrap;
@@ -26,6 +30,7 @@ on_sidebar_bottom: true
   }
 </style>
 
+<div class="repository-table-scroll" role="region" aria-label="GitHub repositories" tabindex="0">
 <table>
 <thead>
   <tr>
@@ -69,6 +74,7 @@ on_sidebar_bottom: true
 {%- endfor %}
 </tbody>
 </table>
+</div>
 {%- else %}
 <p>Repository data has not been generated yet.</p>
 {%- endif %}

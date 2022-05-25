@@ -4,7 +4,6 @@ title: Qt Linguist
 
 project: false
 post_on_sidebar: false
-fullwidth: true
 hidden: false
 
 tag:

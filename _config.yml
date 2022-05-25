@@ -28,7 +28,7 @@ kramdown:
 smart_quotes: ["apos", "apos", "quot", "quot"]
 
 # Read Time is a calculator to provide post Estimated Reading Time (ERT) based on word count. Usage is recommended.
-readtime:		true
+readtime:		false
 words_per_minute:			180
 
 collections:

@@ -1,207 +1,181 @@
-
-/*
- * Contents
- *
- * Global resets
- * Sidebar
-  * Container
- * Container
- * Reverse layout
- * Themes
- */
-
-
+/* Hyde layout: fixed desktop sidebar, compact phone menu. */
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  scrollbar-gutter: stable;
 }
 
-/*
- * Container
- *
- * Center the page content.
- */
+body {
+  --layout-width: calc(272px + 53rem);
+  max-width: var(--layout-width);
+  margin: 0 auto;
+}
 
 .container {
   max-width: 38rem;
-  padding-left:  1rem;
+  padding-left: 1rem;
   padding-right: 1rem;
-
-  /*margin-left:  auto;*/
-  /*margin-right: auto;*/
 }
-
-.container:not(.sidebar-sticky) {
-  flex: 1 0 auto;
-  padding-bottom: 2rem;
-}
-
-/*
- * Sidebar
- *
- * Flexible banner for housing site name, intro, and "footer" content. Starts
- * out above content in mobile and later moves to the side with wider viewports.
- */
 
 .sidebar {
+  position: fixed;
+  top: 0;
+  left: max(0px, calc((100% - var(--layout-width)) / 2));
+  bottom: 0;
+  z-index: 1000;
   display: flex;
   flex-direction: column;
-  /*justify-content: space-between;*/
-  height: 100%;
-
+  width: 272px;
+  padding: 1.5rem 1.25rem;
   overflow-y: auto;
-  text-align: center;
-  padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
+  color: #666;
+  background: #fff;
+  border-right: 1px solid #e5e5e5;
 }
 
-@media (min-width: 48em) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 11rem;
-    text-align: left;
-    font-size: 0.6em;
-  }
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
-
-@media (min-width: 60em) {
-  .sidebar {
-    width: 12rem;
-    font-size: 0.7em;
-  }
+.sidebar-about h1 {
+  margin: 0;
+  color: #202020;
+  font-family: "Abril Fatface", serif;
+  font-size: 2.5rem;
+  line-height: 1.2;
 }
 
-
-@media (min-width: 70em) {
-  .sidebar {
-    width: 14rem;
-    font-size: 0.8em;
-  }
+.sidebar-about .lead {
+  margin-top: .25rem;
+  font-size: 1.125rem;
 }
 
-@media (min-width: 80em) {
-  .sidebar {
-    width: 16rem;
-    font-size: 0.9em;
-  }
+.sidebar a {
+  color: #333;
 }
 
-@media (min-width: 90em) {
-  .sidebar {
-    width: 18rem;
-    font-size: 1em;
-  }
+.sidebar-phone-menu {
+  display: none;
 }
 
+.sidebar-toggle {
+  cursor: pointer;
+  list-style-position: inside;
+  min-height: 44px;
+  padding: .5rem .75rem;
+  border: 1px solid #ccc;
+  border-radius: .25rem;
+  background: transparent;
+  color: #333;
+  font: inherit;
+}
 
+.sidebar-toggle:hover {
+  background: #f5f5f5;
+}
+
+.sidebar-navigation {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.sidebar-nav {
+  margin-bottom: 1rem;
+}
+
+.sidebar-nav-item {
+  display: block;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+a.sidebar-nav-item {
+  min-height: 44px;
+  padding: .65rem 0;
+}
+
+span.sidebar-nav-item {
+  margin-top: .5rem;
+  font-size: .875rem;
+}
+
+.sidebar-nav-item.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  padding-top: .5rem;
+  font-size: .875rem;
+}
+
+.sidebar-footer p {
+  margin-bottom: .75rem;
+}
+
+.sidebar-footer small {
+  font-size: .75rem;
+}
 
 .lead {
   font-size: 1.5em;
 }
 
-/* About section */
-.sidebar-about h1 {
-  color: #fff;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25em;
-}
-
-
-/* Sidebar links */
-.sidebar a {
-  color: #fff;
-}
-
-
-/* Sidebar nav */
-.sidebar-nav {
-  margin-bottom: 1rem;
-}
-.sidebar-nav-item {
-  display: block;
-  line-height: 1.75;
-}
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
-}
-.sidebar-nav-item.active {
-  font-weight: bold;
-}
-
-/* Sticky sidebar
- *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
- */
-
-@media (min-width: 48em) {
-  .sidebar-sticky {
-    flex: 0 0 auto;
-    /*position: absolute;*/
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
-  }
-}
-
-
-/* Container
- *
- * Align the contents of the site above the proper threshold with some margin-fu
- * with a 25%-wide `.sidebar`.
- */
-
 .content {
+  min-width: 0;
   max-width: 50rem;
-  padding-top:    4rem;
-  padding-bottom: 4rem;
+  margin-left: calc(272px + 1.5rem);
+  margin-right: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-
-@media (min-width: 48em) {
-  .content {
-
-    margin-left: 12.5rem;
-    margin-right: 1.5rem;
-
+@media (max-width: 767px) {
+  .sidebar {
+    position: sticky;
+    left: 0;
+    bottom: auto;
+    width: auto;
+    padding: .75rem 1rem;
+    overflow: visible;
+    border-right: 0;
+    border-bottom: 1px solid #e5e5e5;
   }
-}
 
-
-@media (min-width: 60em) {
-  .content {
-    margin-left: 13.5rem;
-    margin-right: 1.5rem;
-
+  .sidebar-about h1 {
+    font-size: 2rem;
   }
-}
 
-
-@media (min-width: 70em) {
-  .content {
-    margin-left: 16rem;
-    margin-right: 2rem;
-
+  .sidebar-about .lead {
+    display: none;
   }
-}
 
-@media (min-width: 80em) {
-  .content {
-    margin-left: 18rem;
-    margin-right: 3rem;
+  .sidebar-phone-menu {
+    display: block;
   }
-}
 
-@media (min-width: 90em) {
+  .sidebar-desktop-navigation {
+    display: none;
+  }
+
+  .sidebar-phone-menu .sidebar-navigation {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: calc(100dvh - 4.25rem);
+    padding: 1rem;
+    overflow-y: auto;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  }
+
   .content {
-    margin-left: 23rem;
-    margin-right: 4rem;
+    margin: 0;
+    padding-top: 1.5rem;
   }
 }
