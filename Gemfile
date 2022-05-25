@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+# The GitHub Pages commonmarker dependency does not support Ruby 4 yet.
+ruby '< 4.0'
+
+gem 'github-pages', '>= 232', group: :jekyll_plugins
+
+# Liquid expects BigDecimal, which newer Ruby versions do not bundle.
+gem 'bigdecimal'
 
 # listen (serve) requires an extra gem for compatibility with Windows.
 # gem 'wdm', '~> 0.1.0' if Gem.win_platform?

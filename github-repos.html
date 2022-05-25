@@ -1,33 +1,30 @@
 ---
 layout: page
 title: GitHub Repos
-description: "Versions."
+description: "GitHub repositories, topics, and latest releases."
 fullwidth: true
 on_sidebar_bottom: true
 ---
-<!-- https://api.github.com/users/yalov/repos -->
-<!-- https://help.github.com/articles/repository-metadata-on-github-pages/  -->
-<script src="{{ site.baseurl }}/scripts/GetLatestReleaseInfo.min.js"></script>
+{%- assign github_repos = site.data.github_repos %}
+{%- if github_repos %}
+<p class="post-date">Updated <time datetime="{{github_repos.updated_at | escape}}">{{github_repos.updated_at | date_to_long_string}}</time></p>
 
+<style>
+  .repository-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .25rem;
+    margin-top: .4rem;
+  }
 
-<script type="text/javascript">
-
-$(document).ready(function () {
-  {%- for repository in site.github.public_repositories %}
-  {%- if repository.fork == false %}
-    GetRepo("{{repository.url}}", "{{repository.name}}");
-    GetLatestReleaseInfo("{{repository.url}}/releases", "{{repository.name}}");
-  {%- endif %}
-  {%- endfor %}
-
-   $('.post-date').html(ToLongString(new Date()))
-   $('.post-date').fadeIn(0)
-});
-  
-</script>
-
-
-<p class="post-date">{{site.time | date_to_long_string}}</p>
+  .repository-topics a {
+    padding: .1rem .4rem;
+    border-radius: .25rem;
+    background-color: #e6e6e6;
+    font-size: .75rem;
+    overflow-wrap: anywhere;
+  }
+</style>
 
 <table>
 <thead>
@@ -37,23 +34,41 @@ $(document).ready(function () {
     <th>version</th>
     <th>last push</th>
     <th>downloads</th>
-    <th></th>
   </tr>
 </thead>
-<tbody class = "repository-table">
-{%- for repository in site.github.public_repositories %}
-{%- if repository.fork == false %}
-  <tr>
-    <td> <a href = "{{repository.html_url}}">{{repository.name}}</a> </td>
-    <td> {{repository.description}}</td>
-    <td> <p class = "version-{{repository.name}}"> </p></td>
-    <td> <p style = "white-space: nowrap;" class = "last-push-{{repository.name}}">{{repository.pushed_at  | date_to_long_string }}</p></td>
-    <td> <p class = "download-count-{{repository.name}}">
-
-	</p> </td>
-    <td> <span class = "release-links-{{repository.name}}"></span> </td>
+<tbody class="repository-table">
+{%- for repository in github_repos.repositories %}
+  <tr class="repository-row">
+    <td> <a href="{{repository.html_url | escape}}">{{repository.name | escape}}</a> </td>
+    <td>
+      {{repository.description | escape}}
+      {%- if repository.topics.size > 0 %}
+      <div class="repository-topics" aria-label="Repository topics">
+        {%- for topic in repository.topics %}
+        <a href="https://github.com/topics/{{topic | uri_escape}}">{{topic | escape}}</a>
+        {%- endfor %}
+      </div>
+      {%- endif %}
+    </td>
+    <td>
+      {%- if repository.latest_release %}
+      <a href="{{repository.latest_release.html_url | escape}}">{{repository.latest_release.tag_name | escape}}</a>
+      {%- else %}
+      No releases
+      {%- endif %}
+    </td>
+    <td style="white-space: nowrap;">
+      {%- if repository.pushed_at %}
+      {{repository.pushed_at | date_to_long_string}}
+      {%- else %}
+      —
+      {%- endif %}
+    </td>
+    <td>{{repository.download_count}}</td>
   </tr>
-{%- endif %}
 {%- endfor %}
 </tbody>
 </table>
+{%- else %}
+<p>Repository data has not been generated yet.</p>
+{%- endif %}
