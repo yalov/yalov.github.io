@@ -70,8 +70,8 @@ python proceed.py path/to/.ics
 - [Международные праздники с описанием]({{ site.baseurl }}/files/iCalendar/ical-wholeworld-out.ics)
 - [Праздники России с описанием]({{ site.baseurl }}/files/iCalendar/ical-russtate-out.ics)
 - [Праздники Беларуси с описанием]({{ site.baseurl }}/files/iCalendar/ical-belorus-out.ics)
-- [Праздники Украины с описанием](http://www.calend.ru/ical/ical-ukraine-out.ics)
-- [Праздники Еврейские с описанием](http://www.calend.ru/ical/ical-jew-out.ics)
+- [Праздники Украины с описанием]({{ site.baseurl }}/files/iCalendar/ical-ukraine-out.ics)
+- [Праздники Еврейские с описанием]({{ site.baseurl }}/files/iCalendar/ical-jew-out.ics)
 
 Теперь можно импортировать файл в, например, Google Calendar.
 Для этого рекомендуется на [calendar.google.com](https://calendar.google.com/) сначала *Cоздать новый календарь* в списке «Мои Календари»,
